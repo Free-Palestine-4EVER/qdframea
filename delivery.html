@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Delivery Across Europe | Europe-Wide Shipping | QD Frames</title>
+    <meta name="description"
+        content="Free delivery across Europe. Premium Salamander windows, doors, and glass facades shipped directly to your address with full tracking and professional handling.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+    <div class="nav-overlay"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">◆</div>QD Frames
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" data-i18n="nav.home">Home</a>
+                <a href="windows.html" data-i18n="nav.windows">Windows</a>
+                <a href="doors.html" data-i18n="nav.doors">Doors</a>
+                <a href="glass-facades.html" data-i18n="nav.facades">Facades</a>
+                <a href="process.html" data-i18n="nav.process">How It Works</a>
+                <a href="about.html" data-i18n="nav.about">About</a>
+                <a href="delivery.html" class="active" data-i18n="nav.delivery">Delivery</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.quote">Get a Quote</a>
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg></button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                    <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                    <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                    <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                    <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle"
+                aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1600&q=80"
+                alt="Delivery logistics">
+        </div>
+        <div class="container">
+            <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Delivery & Guarantee</span></nav>
+            <div class="subtitle">Delivery</div>
+            <h1>Free Delivery <span class="text-gradient">Across Europe</span></h1>
+            <p>We deliver directly to your address anywhere in Europe — completely free. 28+ countries covered with
+                full tracking and professional handling.</p>
+        </div>
+    </section>
+
+    <!-- 3 Promises -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="card card-shine reveal stagger-1" style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🚚</div>
+                    <h3 style="font-size: 1.25rem;">Free Delivery</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Free shipping anywhere in Europe on
+                        all orders. No delivery charges, no hidden transport fees.</p>
+                </div>
+                <div class="card card-shine reveal stagger-2" style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">⚡</div>
+                    <h3 style="font-size: 1.25rem;">Fast & Reliable</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Our optimized logistics network
+                        ensures
+                        fast transit times across all 28+ European countries with real-time GPS tracking.</p>
+                </div>
+                <div class="card card-shine reveal stagger-3" style="text-align: center;">
+                    <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🛡️</div>
+                    <h3 style="font-size: 1.25rem;">Fully Insured</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Every shipment is fully insured and
+                        professionally handled. Custom A-frame racks protect your products during transit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Map -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="subtitle">Coverage</div>
+                <h2>We Deliver Across <span class="text-gradient">All of Europe</span></h2>
+                <p>Our logistics network covers 28 countries with dedicated transport routes optimized for speed and
+                    safety.</p>
+            </div>
+            <div class="delivery-map reveal">
+                <svg viewBox="0 0 800 600" style="max-width: 600px; width: 100%;">
+                    <!-- Simplified Europe map -->
+                    <defs>
+                        <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#0f766e;stop-opacity:0.15" />
+                            <stop offset="100%" style="stop-color:#0284c7;stop-opacity:0.15" />
+                        </linearGradient>
+                    </defs>
+                    <!-- Countries -->
+                    <path d="M350,120 L380,100 L420,110 L440,140 L430,170 L400,180 L370,160 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M300,180 L350,160 L380,180 L370,220 L330,230 L290,210 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M380,180 L430,170 L460,200 L450,240 L400,250 L370,220 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M250,200 L300,180 L330,230 L310,270 L260,260 L240,230 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M310,270 L370,250 L390,300 L360,340 L310,330 L290,290 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M200,250 L250,230 L280,270 L260,310 L220,300 L200,280 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M440,200 L500,190 L530,230 L510,270 L460,260 L440,230 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M460,260 L510,270 L520,310 L490,340 L450,320 L440,290 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M160,320 L220,290 L260,330 L240,380 L190,390 L150,360 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <path d="M260,330 L310,330 L330,380 L300,420 L260,400 L240,370 Z" fill="url(#mapGrad)"
+                        stroke="#0f766e" stroke-width="1" opacity="0.8" />
+                    <!-- HQ marker -->
+                    <circle cx="420" cy="280" r="8" fill="#0f766e" stroke="#fff" stroke-width="3" />
+                    <circle cx="420" cy="280" r="16" fill="none" stroke="#0f766e" stroke-width="1.5" opacity="0.4" />
+                    <text x="438" y="285" font-family="Inter, sans-serif" font-size="12" font-weight="600"
+                        fill="#0f766e">HQ</text>
+                    <!-- Labels -->
+                    <text x="400" y="520" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8"
+                        text-anchor="middle">28+ countries • Free delivery • Fully tracked</text>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shipping Process -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="subtitle">Process</div>
+                <h2>How We <span class="text-gradient">Ship</span></h2>
+            </div>
+            <div class="grid grid-4">
+                <div class="card reveal stagger-1" style="text-align: center;">
+                    <div
+                        style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
+                        1</div>
+                    <h5>Quality Check</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Every item
+                        inspected and photographed before packaging.</p>
+                </div>
+                <div class="card reveal stagger-2" style="text-align: center;">
+                    <div
+                        style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
+                        2</div>
+                    <h5>Secure Packaging</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Custom
+                        A-frame racks and protective wrapping for damage-free transport.</p>
+                </div>
+                <div class="card reveal stagger-3" style="text-align: center;">
+                    <div
+                        style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
+                        3</div>
+                    <h5>Tracked Transit</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Real-time
+                        GPS tracking with ETA updates sent directly to you.</p>
+                </div>
+                <div class="card reveal stagger-4" style="text-align: center;">
+                    <div
+                        style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
+                        4</div>
+                    <h5>Doorstep Delivery</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Delivered to
+                        your site with careful unloading by trained professionals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee Details -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="grid grid-2" style="gap: var(--space-4xl); align-items: center;">
+                <div class="reveal-left">
+                    <div class="subtitle">Our Promise</div>
+                    <h2>Quality & Reliability <span class="text-gradient">You Can Count On</span></h2>
+                    <p style="margin-top: var(--space-md);">We're committed to making your experience seamless from
+                        order to delivery. Our dedicated logistics team ensures every shipment arrives safely and on
+                        time.</p>
+                    <div style="margin-top: var(--space-xl);">
+                        <div
+                            style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
+                            <span style="color: var(--accent-1);">✓</span>
+                            <span style="color: var(--text-secondary);">Free delivery to 28+ European countries</span>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
+                            <span style="color: var(--accent-1);">✓</span>
+                            <span style="color: var(--text-secondary);">Real-time GPS tracking on every shipment</span>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
+                            <span style="color: var(--accent-1);">✓</span>
+                            <span style="color: var(--text-secondary);">Fully insured against transit damage</span>
+                        </div>
+                        <div
+                            style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
+                            <span style="color: var(--accent-1);">✓</span>
+                            <span style="color: var(--text-secondary);">Professional unloading at your site</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal-right" style="display: flex; justify-content: center;">
+                    <div class="guarantee-badge float" style="transform: scale(1.2);">
+                        <div class="guarantee-amount">28+</div>
+                        <div class="guarantee-text">
+                            <strong>Countries Covered</strong>
+                            <span>Free — fully tracked & insured</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="subtitle">FAQ</div>
+                <h2>Delivery <span class="text-gradient">Questions</span></h2>
+            </div>
+            <div style="max-width: 760px; margin: 0 auto;">
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">What countries do you deliver to?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">We deliver to all 28 EU countries plus Switzerland, Norway,
+                            and the UK. This includes Germany, France, Netherlands, Belgium, Austria, Italy, Spain,
+                            Portugal, Scandinavia, and all Eastern European countries.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">Is delivery really free?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Yes — delivery is completely free on all orders across Europe.
+                            We believe in transparent pricing with no hidden fees or surprises.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">How long does delivery take?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Delivery times vary by destination, but most orders within
+                            Europe arrive within a few business days of shipping. You'll receive a confirmed shipping
+                            date and real-time tracking so you always know where your order is.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">What about customs and import duties?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">For deliveries within the EU, there are no customs duties or
+                            import taxes. For non-EU countries (Switzerland, Norway, UK), we handle all export
+                            documentation. Import duties in the destination country are the customer's responsibility —
+                            but we provide all the paperwork you'll need.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">Can I track my delivery?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Absolutely. Once your products are shipped, you'll receive a
+                            tracking link with real-time GPS updates. You'll get automatic notifications for key
+                            milestones: shipped, in transit, out for delivery, and delivered.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+        <div class="container reveal">
+            <div class="subtitle">Get Started</div>
+            <h2>Ready for Premium Windows at Better Prices?</h2>
+            <p>Request your free, no-obligation quote today. Free delivery across Europe included.</p>
+            <div class="cta-buttons">
+                <a href="contact.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+                <a href="tel:+38762406527" class="btn btn-secondary btn-lg">Call Us: +387 62 406 527</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
+                        <div class="nav-logo-icon">◆</div>QD Frames
+                    </a>
+                    <p>Premium Salamander windows, doors, and glass facades delivered across Europe.</p>
+                </div>
+                <div>
+                    <h5>Products</h5>
+                    <div class="footer-links"><a href="windows.html">Windows</a><a href="doors.html">Doors</a><a
+                            href="glass-facades.html">Glass Facades</a></div>
+                </div>
+                <div>
+                    <h5>Company</h5>
+                    <div class="footer-links"><a href="about.html">About Us</a><a href="process.html">How It Works</a><a
+                            href="delivery.html">Delivery & Guarantee</a><a href="contact.html">Contact</a></div>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    <div class="footer-links"><a href="mailto:info@qdframes.com">info@qdframes.com</a><a
+                            href="tel:+38762406527">+387 62 406 527</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 QD Frames. All rights reserved.</span><span>Premium Salamander
+                    Windows & Doors</span></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/38762406527" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M16 2C8.268 2 2 8.268 2 16c0 2.51.666 4.868 1.83 6.92L2.5 29.5l6.758-1.77C11.196 28.608 13.526 29 16 29c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25c-2.122 0-4.13-.57-5.882-1.57l-.42-.24-3.86 1.01 1.03-3.76-.273-.435C5.7 20.374 5 18.258 5 16c0-6.065 4.935-11 11-11s11 4.935 11 11-4.935 11-11 11zm5.97-8.23c-.328-.164-1.94-1.01-2.24-1.127-.3-.117-.518.067-.738.352-.22.285-.86.99-1.053 1.193-.194.204-.393.228-.72.065-.328-.164-1.383-.51-2.635-1.626-.975-.87-1.633-1.944-1.825-2.272-.192-.328-.02-.505.144-.668.148-.147.328-.383.492-.575.164-.19.218-.327.328-.546.11-.218.055-.41-.028-.574-.082-.164-1.038-1.92-1.42-2.63-.374-.693-.755-.58-.992-.58H8.5c-.237 0-.623.09-1.25.776-.327.36-.92 1.258-.92 3.07 0 1.81 1.32 3.56 2.012 4.492.693.93 2.113 2.58 5.12 3.88 2.067.896 2.87 1.025 3.905 1.025.79-.01 2.373-.77 2.905-2.27.532-1.5.532-2.787.375-3.05-.157-.263-.58-.42-.907-.584z" />
+        </svg>
+    </a>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

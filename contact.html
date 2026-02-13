@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote | Free Consultation & Engineering | QD Frames</title>
+    <meta name="description"
+        content="Request a free, no-obligation quote for premium Salamander windows, doors, and glass facades. Our engineering team responds within 24 hours.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+    <div class="nav-overlay"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon">◆</div>QD Frames
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" data-i18n="nav.home">Home</a>
+                <a href="windows.html" data-i18n="nav.windows">Windows</a>
+                <a href="doors.html" data-i18n="nav.doors">Doors</a>
+                <a href="glass-facades.html" data-i18n="nav.facades">Facades</a>
+                <a href="process.html" data-i18n="nav.process">How It Works</a>
+                <a href="about.html" data-i18n="nav.about">About</a>
+                <a href="delivery.html" data-i18n="nav.delivery">Delivery</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary btn-sm nav-cta active" data-i18n="nav.quote">Get a Quote</a>
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M6 9l6 6 6-6" />
+                    </svg></button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                    <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                    <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                    <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                    <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle"
+                aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80" alt="Contact us">
+        </div>
+        <div class="container">
+            <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Get a Quote</span></nav>
+            <div class="subtitle">Contact</div>
+            <h1>Get Your Free <span class="text-gradient">Quote</span></h1>
+            <p>Tell us about your project and our engineering team will provide a detailed technical proposal with
+                competitive pricing within 24 hours.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="gap: var(--space-4xl);">
+                <!-- Form -->
+                <div class="reveal-left">
+                    <form id="quoteForm">
+                        <h3 style="margin-bottom: var(--space-xl);">Project Details</h3>
+
+                        <div class="grid grid-2">
+                            <div class="form-group">
+                                <label class="form-label" for="firstName">First Name *</label>
+                                <input type="text" class="form-control" id="firstName" name="firstName"
+                                    placeholder="John" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="lastName">Last Name *</label>
+                                <input type="text" class="form-control" id="lastName" name="lastName"
+                                    placeholder="Smith" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-2">
+                            <div class="form-group">
+                                <label class="form-label" for="email">Email *</label>
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="john@example.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label" for="phone">Phone</label>
+                                <input type="tel" class="form-control" id="phone" name="phone"
+                                    placeholder="+49 123 456 7890">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="country">Country *</label>
+                            <select class="form-control" id="country" name="country" required>
+                                <option value="">Select your country</option>
+                                <option value="AT">Austria</option>
+                                <option value="BE">Belgium</option>
+                                <option value="HR">Croatia</option>
+                                <option value="CZ">Czech Republic</option>
+                                <option value="DK">Denmark</option>
+                                <option value="FI">Finland</option>
+                                <option value="FR">France</option>
+                                <option value="DE">Germany</option>
+                                <option value="HU">Hungary</option>
+                                <option value="IE">Ireland</option>
+                                <option value="IT">Italy</option>
+                                <option value="NL">Netherlands</option>
+                                <option value="NO">Norway</option>
+                                <option value="PL">Poland</option>
+                                <option value="PT">Portugal</option>
+                                <option value="RO">Romania</option>
+                                <option value="SK">Slovakia</option>
+                                <option value="SI">Slovenia</option>
+                                <option value="ES">Spain</option>
+                                <option value="SE">Sweden</option>
+                                <option value="CH">Switzerland</option>
+                                <option value="GB">United Kingdom</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="productType">Product Type *</label>
+                            <select class="form-control" id="productType" name="productType" required>
+                                <option value="">What do you need?</option>
+                                <option value="windows">Windows</option>
+                                <option value="doors">Doors</option>
+                                <option value="facades">Glass Facades</option>
+                                <option value="windows-doors">Windows & Doors</option>
+                                <option value="complete">Complete Package (Windows, Doors & Facades)</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="projectType">Project Type</label>
+                            <select class="form-control" id="projectType" name="projectType">
+                                <option value="">Select project type</option>
+                                <option value="new-build">New Construction</option>
+                                <option value="renovation">Renovation / Replacement</option>
+                                <option value="commercial">Commercial Project</option>
+                                <option value="multi-unit">Multi-Unit Residential</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="quantity">Estimated Quantity</label>
+                            <input type="text" class="form-control" id="quantity" name="quantity"
+                                placeholder="e.g. 12 windows, 3 doors">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="message">Project Details *</label>
+                            <textarea class="form-control" id="message" name="message"
+                                placeholder="Tell us about your project — dimensions, requirements, timeline, or any specific questions..."
+                                required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label
+                                style="display: flex; align-items: flex-start; gap: var(--space-sm); cursor: pointer; font-size: 0.8125rem; color: var(--text-muted);">
+                                <input type="checkbox" name="consent" required style="margin-top: 3px;">
+                                I agree to QD Frames processing my data to handle this inquiry. I can withdraw my
+                                consent at any time.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg"
+                            style="width: 100%; justify-content: center;">Submit Quote Request</button>
+
+                        <div id="formSuccess"
+                            style="display: none; margin-top: var(--space-xl); padding: var(--space-lg); background: rgba(5, 150, 105, 0.08); border: 1px solid rgba(5, 150, 105, 0.2); border-radius: var(--radius-md); text-align: center;">
+                            <strong style="color: var(--success);">✓ Quote request submitted!</strong>
+                            <p style="font-size: 0.875rem; margin-top: var(--space-xs);">Our engineering team will
+                                respond within 24 hours.</p>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Info Sidebar -->
+                <div class="reveal-right">
+                    <div class="card" style="position: sticky; top: 120px;">
+                        <h4 style="margin-bottom: var(--space-xl);">Get in Touch</h4>
+
+                        <div style="margin-bottom: var(--space-xl);">
+                            <div
+                                style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
+                                <span style="font-size: 1.25rem;">📧</span>
+                                <div>
+                                    <strong style="font-size: 0.875rem;">Email</strong>
+                                    <p style="font-size: 0.875rem; margin-top: 2px;"><a
+                                            href="mailto:info@qdframes.com">info@qdframes.com</a></p>
+                                </div>
+                            </div>
+                            <div
+                                style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
+                                <span style="font-size: 1.25rem;">📱</span>
+                                <div>
+                                    <strong style="font-size: 0.875rem;">Phone</strong>
+                                    <p style="font-size: 0.875rem; margin-top: 2px;"><a href="tel:+38762406527">+387 62
+                                            406 527</a></p>
+                                </div>
+                            </div>
+                            <div
+                                style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
+                                <span style="font-size: 1.25rem;">💬</span>
+                                <div>
+                                    <strong style="font-size: 0.875rem;">WhatsApp</strong>
+                                    <p style="font-size: 0.875rem; margin-top: 2px;"><a href="https://wa.me/38762406527"
+                                            target="_blank">Chat with us</a></p>
+                                </div>
+                            </div>
+                            <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
+                                <span style="font-size: 1.25rem;">🕐</span>
+                                <div>
+                                    <strong style="font-size: 0.875rem;">Working Hours</strong>
+                                    <p style="font-size: 0.875rem; margin-top: 2px; color: var(--text-muted);">Mon –
+                                        Fri: 8:00 – 17:00 CET<br>Sat: 9:00 – 13:00 CET</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div style="border-top: 1px solid var(--border-subtle); padding-top: var(--space-xl);">
+                            <h5 style="margin-bottom: var(--space-md);">What Happens Next?</h5>
+                            <div style="font-size: 0.8125rem; color: var(--text-muted);">
+                                <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
+                                    <span style="color: var(--accent-1); font-weight: 700;">1.</span>
+                                    <span>We review your requirements (24h)</span>
+                                </div>
+                                <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
+                                    <span style="color: var(--accent-1); font-weight: 700;">2.</span>
+                                    <span>Your engineer calls to discuss details</span>
+                                </div>
+                                <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
+                                    <span style="color: var(--accent-1); font-weight: 700;">3.</span>
+                                    <span>You receive a detailed technical proposal</span>
+                                </div>
+                                <div style="display: flex; gap: var(--space-sm);">
+                                    <span style="color: var(--accent-1); font-weight: 700;">4.</span>
+                                    <span>No obligation — take your time to decide</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" style="background: var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <div class="subtitle">FAQ</div>
+                <h2>Common <span class="text-gradient">Questions</span></h2>
+            </div>
+            <div style="max-width: 760px; margin: 0 auto;">
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">How quickly will you respond to my quote request?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Our engineering team responds within 24 hours on business
+                            days. For urgent projects, call us directly or use WhatsApp for a faster response.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">Do I need to provide exact measurements?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Approximate measurements are fine for the initial quote. Once
+                            we proceed, our engineer will guide you through precise measurement requirements or
+                            recommend a local specialist if needed.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">Is the quote really free and without obligation?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">Absolutely. Our quotes are completely free, and there's no
+                            obligation to proceed. We believe in earning your trust through transparent pricing and
+                            excellent service — not pressure.</div>
+                    </div>
+                </div>
+                <div class="accordion-item reveal">
+                    <button class="accordion-header">What information should I include in my request?<span
+                            class="accordion-icon">+</span></button>
+                    <div class="accordion-body">
+                        <div class="accordion-body-inner">The more detail, the better: number of windows/doors,
+                            approximate dimensions, preferred profile system, color preferences, any special
+                            requirements (security, noise reduction, etc.), and your timeline. But don't worry — we can
+                            work with whatever information you have.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
+                        <div class="nav-logo-icon">◆</div>QD Frames
+                    </a>
+                    <p>Premium Salamander windows, doors, and glass facades delivered across Europe.</p>
+                </div>
+                <div>
+                    <h5>Products</h5>
+                    <div class="footer-links"><a href="windows.html">Windows</a><a href="doors.html">Doors</a><a
+                            href="glass-facades.html">Glass Facades</a></div>
+                </div>
+                <div>
+                    <h5>Company</h5>
+                    <div class="footer-links"><a href="about.html">About Us</a><a href="process.html">How It Works</a><a
+                            href="delivery.html">Delivery & Guarantee</a><a href="contact.html">Contact</a></div>
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    <div class="footer-links"><a href="mailto:info@qdframes.com">info@qdframes.com</a><a
+                            href="tel:+38762406527">+387 62 406 527</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 QD Frames. All rights reserved.</span><span>Premium Salamander
+                    Windows & Doors</span></div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/38762406527" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M16 2C8.268 2 2 8.268 2 16c0 2.51.666 4.868 1.83 6.92L2.5 29.5l6.758-1.77C11.196 28.608 13.526 29 16 29c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25c-2.122 0-4.13-.57-5.882-1.57l-.42-.24-3.86 1.01 1.03-3.76-.273-.435C5.7 20.374 5 18.258 5 16c0-6.065 4.935-11 11-11s11 4.935 11 11-4.935 11-11 11zm5.97-8.23c-.328-.164-1.94-1.01-2.24-1.127-.3-.117-.518.067-.738.352-.22.285-.86.99-1.053 1.193-.194.204-.393.228-.72.065-.328-.164-1.383-.51-2.635-1.626-.975-.87-1.633-1.944-1.825-2.272-.192-.328-.02-.505.144-.668.148-.147.328-.383.492-.575.164-.19.218-.327.328-.546.11-.218.055-.41-.028-.574-.082-.164-1.038-1.92-1.42-2.63-.374-.693-.755-.58-.992-.58H8.5c-.237 0-.623.09-1.25.776-.327.36-.92 1.258-.92 3.07 0 1.81 1.32 3.56 2.012 4.492.693.93 2.113 2.58 5.12 3.88 2.067.896 2.87 1.025 3.905 1.025.79-.01 2.373-.77 2.905-2.27.532-1.5.532-2.787.375-3.05-.157-.263-.58-.42-.907-.584z" />
+        </svg>
+    </a>
+    <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/form.js"></script>
+</body>
+
+</html>
