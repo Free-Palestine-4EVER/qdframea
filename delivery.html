@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Delivery Across Europe | Europe-Wide Shipping | QD Frames</title>
-    <meta name="description"
+    <title data-i18n="delivery.pageTitle">Free Delivery Across Europe | Europe-Wide Shipping | QD Frames</title>
+    <meta name="description" data-i18n="delivery.metaDesc"
         content="Free delivery across Europe. Premium Salamander windows, doors, and glass facades shipped directly to your address with full tracking and professional handling.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
@@ -43,6 +43,7 @@
                     <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
                     <button class="lang-option" data-lang="es">🇪🇸 Español</button>
                     <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                    <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
                 </div>
             </div>
             <button class="nav-toggle" id="navToggle"
@@ -56,10 +57,13 @@
                 alt="Delivery logistics">
         </div>
         <div class="container">
-            <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Delivery & Guarantee</span></nav>
-            <div class="subtitle">Delivery</div>
-            <h1>Free Delivery <span class="text-gradient">Across Europe</span></h1>
-            <p>We deliver directly to your address anywhere in Europe — completely free. 28+ countries covered with
+            <nav class="breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a><span>/</span><span
+                    data-i18n="delivery.hero.breadcrumb">Delivery & Guarantee</span></nav>
+            <div class="subtitle" data-i18n="delivery.hero.subtitle">Delivery</div>
+            <h1><span data-i18n="delivery.hero.title">Free Delivery</span> <span class="text-gradient"
+                    data-i18n="delivery.hero.titleAccent">Across Europe</span></h1>
+            <p data-i18n="delivery.hero.desc">We deliver directly to your address anywhere in Europe — completely free.
+                28+ countries covered with
                 full tracking and professional handling.</p>
         </div>
     </section>
@@ -70,21 +74,24 @@
             <div class="grid grid-3">
                 <div class="card card-shine reveal stagger-1" style="text-align: center;">
                     <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🚚</div>
-                    <h3 style="font-size: 1.25rem;">Free Delivery</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Free shipping anywhere in Europe on
+                    <h3 style="font-size: 1.25rem;" data-i18n="delivery.promise1.title">Free Delivery</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="delivery.promise1.desc">
+                        Free shipping anywhere in Europe on
                         all orders. No delivery charges, no hidden transport fees.</p>
                 </div>
                 <div class="card card-shine reveal stagger-2" style="text-align: center;">
                     <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">⚡</div>
-                    <h3 style="font-size: 1.25rem;">Fast & Reliable</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Our optimized logistics network
+                    <h3 style="font-size: 1.25rem;" data-i18n="delivery.promise2.title">Fast & Reliable</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="delivery.promise2.desc">Our
+                        optimized logistics network
                         ensures
                         fast transit times across all 28+ European countries with real-time GPS tracking.</p>
                 </div>
                 <div class="card card-shine reveal stagger-3" style="text-align: center;">
                     <div style="font-size: 2.5rem; margin-bottom: var(--space-md);">🛡️</div>
-                    <h3 style="font-size: 1.25rem;">Fully Insured</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);">Every shipment is fully insured and
+                    <h3 style="font-size: 1.25rem;" data-i18n="delivery.promise3.title">Fully Insured</h3>
+                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="delivery.promise3.desc">
+                        Every shipment is fully insured and
                         professionally handled. Custom A-frame racks protect your products during transit.</p>
                 </div>
             </div>
@@ -95,9 +102,11 @@
     <section class="section" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header text-center reveal">
-                <div class="subtitle">Coverage</div>
-                <h2>We Deliver Across <span class="text-gradient">All of Europe</span></h2>
-                <p>Our logistics network covers 28 countries with dedicated transport routes optimized for speed and
+                <div class="subtitle" data-i18n="delivery.map.subtitle">Coverage</div>
+                <h2><span data-i18n="delivery.map.title">We Deliver Across</span> <span class="text-gradient"
+                        data-i18n="delivery.map.titleAccent">All of Europe</span></h2>
+                <p data-i18n="delivery.map.desc">Our logistics network covers 28 countries with dedicated transport
+                    routes optimized for speed and
                     safety.</p>
             </div>
             <div class="delivery-map reveal">
@@ -137,7 +146,8 @@
                         fill="#0f766e">HQ</text>
                     <!-- Labels -->
                     <text x="400" y="520" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8"
-                        text-anchor="middle">28+ countries • Free delivery • Fully tracked</text>
+                        text-anchor="middle" data-i18n="delivery.map.label">28+ countries • Free delivery • Fully
+                        tracked</text>
                 </svg>
             </div>
         </div>
@@ -147,40 +157,45 @@
     <section class="section">
         <div class="container">
             <div class="section-header text-center reveal">
-                <div class="subtitle">Process</div>
-                <h2>How We <span class="text-gradient">Ship</span></h2>
+                <div class="subtitle" data-i18n="delivery.process.subtitle">Process</div>
+                <h2><span data-i18n="delivery.process.title">How We</span> <span class="text-gradient"
+                        data-i18n="delivery.process.titleAccent">Ship</span></h2>
             </div>
             <div class="grid grid-4">
                 <div class="card reveal stagger-1" style="text-align: center;">
                     <div
                         style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
                         1</div>
-                    <h5>Quality Check</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Every item
+                    <h5 data-i18n="delivery.proc1.title">Quality Check</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
+                        data-i18n="delivery.proc1.desc">Every item
                         inspected and photographed before packaging.</p>
                 </div>
                 <div class="card reveal stagger-2" style="text-align: center;">
                     <div
                         style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
                         2</div>
-                    <h5>Secure Packaging</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Custom
+                    <h5 data-i18n="delivery.proc2.title">Secure Packaging</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
+                        data-i18n="delivery.proc2.desc">Custom
                         A-frame racks and protective wrapping for damage-free transport.</p>
                 </div>
                 <div class="card reveal stagger-3" style="text-align: center;">
                     <div
                         style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
                         3</div>
-                    <h5>Tracked Transit</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Real-time
+                    <h5 data-i18n="delivery.proc3.title">Tracked Transit</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
+                        data-i18n="delivery.proc3.desc">Real-time
                         GPS tracking with ETA updates sent directly to you.</p>
                 </div>
                 <div class="card reveal stagger-4" style="text-align: center;">
                     <div
                         style="width: 40px; height: 40px; border-radius: 50%; background: var(--accent-glow); border: 1.5px solid var(--border-accent); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); font-weight: 700; color: var(--accent-1); font-size: 0.875rem;">
                         4</div>
-                    <h5>Doorstep Delivery</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);">Delivered to
+                    <h5 data-i18n="delivery.proc4.title">Doorstep Delivery</h5>
+                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
+                        data-i18n="delivery.proc4.desc">Delivered to
                         your site with careful unloading by trained professionals.</p>
                 </div>
             </div>
@@ -192,31 +207,38 @@
         <div class="container">
             <div class="grid grid-2" style="gap: var(--space-4xl); align-items: center;">
                 <div class="reveal-left">
-                    <div class="subtitle">Our Promise</div>
-                    <h2>Quality & Reliability <span class="text-gradient">You Can Count On</span></h2>
-                    <p style="margin-top: var(--space-md);">We're committed to making your experience seamless from
+                    <div class="subtitle" data-i18n="delivery.guarantee.subtitle">Our Promise</div>
+                    <h2><span data-i18n="delivery.guarantee.title">Quality & Reliability</span> <span
+                            class="text-gradient" data-i18n="delivery.guarantee.titleAccent">You Can Count On</span>
+                    </h2>
+                    <p style="margin-top: var(--space-md);" data-i18n="delivery.guarantee.desc">We're committed to
+                        making your experience seamless from
                         order to delivery. Our dedicated logistics team ensures every shipment arrives safely and on
                         time.</p>
                     <div style="margin-top: var(--space-xl);">
                         <div
                             style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
                             <span style="color: var(--accent-1);">✓</span>
-                            <span style="color: var(--text-secondary);">Free delivery to 28+ European countries</span>
+                            <span style="color: var(--text-secondary);" data-i18n="delivery.guarantee.li1">Free delivery
+                                to 28+ European countries</span>
                         </div>
                         <div
                             style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
                             <span style="color: var(--accent-1);">✓</span>
-                            <span style="color: var(--text-secondary);">Real-time GPS tracking on every shipment</span>
+                            <span style="color: var(--text-secondary);" data-i18n="delivery.guarantee.li2">Real-time GPS
+                                tracking on every shipment</span>
                         </div>
                         <div
                             style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
                             <span style="color: var(--accent-1);">✓</span>
-                            <span style="color: var(--text-secondary);">Fully insured against transit damage</span>
+                            <span style="color: var(--text-secondary);" data-i18n="delivery.guarantee.li3">Fully insured
+                                against transit damage</span>
                         </div>
                         <div
                             style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;">
                             <span style="color: var(--accent-1);">✓</span>
-                            <span style="color: var(--text-secondary);">Professional unloading at your site</span>
+                            <span style="color: var(--text-secondary);" data-i18n="delivery.guarantee.li4">Professional
+                                unloading at your site</span>
                         </div>
                     </div>
                 </div>
@@ -224,8 +246,8 @@
                     <div class="guarantee-badge float" style="transform: scale(1.2);">
                         <div class="guarantee-amount">28+</div>
                         <div class="guarantee-text">
-                            <strong>Countries Covered</strong>
-                            <span>Free — fully tracked & insured</span>
+                            <strong data-i18n="delivery.badge.text1">Countries Covered</strong>
+                            <span data-i18n="delivery.badge.text2">Free — fully tracked & insured</span>
                         </div>
                     </div>
                 </div>
@@ -237,51 +259,57 @@
     <section class="section">
         <div class="container">
             <div class="section-header text-center reveal">
-                <div class="subtitle">FAQ</div>
-                <h2>Delivery <span class="text-gradient">Questions</span></h2>
+                <div class="subtitle" data-i18n="delivery.faq.subtitle">FAQ</div>
+                <h2><span data-i18n="delivery.faq.title">Delivery</span> <span class="text-gradient"
+                        data-i18n="delivery.faq.titleAccent">Questions</span></h2>
             </div>
             <div style="max-width: 760px; margin: 0 auto;">
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">What countries do you deliver to?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="delivery.faq1.q">What countries do you deliver
+                            to?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">We deliver to all 28 EU countries plus Switzerland, Norway,
+                        <div class="accordion-body-inner" data-i18n="delivery.faq1.a">We deliver to all 28 EU countries
+                            plus Switzerland, Norway,
                             and the UK. This includes Germany, France, Netherlands, Belgium, Austria, Italy, Spain,
                             Portugal, Scandinavia, and all Eastern European countries.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">Is delivery really free?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="delivery.faq2.q">Is delivery really
+                            free?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Yes — delivery is completely free on all orders across Europe.
+                        <div class="accordion-body-inner" data-i18n="delivery.faq2.a">Yes — delivery is completely free
+                            on all orders across Europe.
                             We believe in transparent pricing with no hidden fees or surprises.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">How long does delivery take?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="delivery.faq3.q">How long does delivery
+                            take?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Delivery times vary by destination, but most orders within
+                        <div class="accordion-body-inner" data-i18n="delivery.faq3.a">Delivery times vary by
+                            destination, but most orders within
                             Europe arrive within a few business days of shipping. You'll receive a confirmed shipping
                             date and real-time tracking so you always know where your order is.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">What about customs and import duties?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="delivery.faq4.q">What about customs and import
+                            duties?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">For deliveries within the EU, there are no customs duties or
+                        <div class="accordion-body-inner" data-i18n="delivery.faq4.a">For deliveries within the EU,
+                            there are no customs duties or
                             import taxes. For non-EU countries (Switzerland, Norway, UK), we handle all export
                             documentation. Import duties in the destination country are the customer's responsibility —
                             but we provide all the paperwork you'll need.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">Can I track my delivery?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="delivery.faq5.q">Can I track my
+                            delivery?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Absolutely. Once your products are shipped, you'll receive a
+                        <div class="accordion-body-inner" data-i18n="delivery.faq5.a">Absolutely. Once your products are
+                            shipped, you'll receive a
                             tracking link with real-time GPS updates. You'll get automatic notifications for key
                             milestones: shipped, in transit, out for delivery, and delivered.</div>
                     </div>
@@ -293,12 +321,15 @@
     <!-- CTA -->
     <section class="cta-section">
         <div class="container reveal">
-            <div class="subtitle">Get Started</div>
-            <h2>Ready for Premium Windows at Better Prices?</h2>
-            <p>Request your free, no-obligation quote today. Free delivery across Europe included.</p>
+            <div class="subtitle" data-i18n="doors.cta.subtitle">Get Started</div>
+            <h2 data-i18n="delivery.cta.title">Ready for Premium Windows at Better Prices?</h2>
+            <p data-i18n="delivery.cta.desc">Request your free, no-obligation quote today. Free delivery across Europe
+                included.</p>
             <div class="cta-buttons">
-                <a href="contact.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
-                <a href="tel:+38762406527" class="btn btn-secondary btn-lg">Call Us: +387 62 406 527</a>
+                <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="delivery.cta.btn1">Request a Free
+                    Quote</a>
+                <a href="tel:+38762406527" class="btn btn-secondary btn-lg" data-i18n="delivery.cta.btn2">Call Us: +387
+                    62 406 527</a>
             </div>
         </div>
     </section>
@@ -309,25 +340,30 @@
                 <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
                         <div class="nav-logo-icon">◆</div>QD Frames
                     </a>
-                    <p>Premium Salamander windows, doors, and glass facades delivered across Europe.</p>
+                    <p data-i18n="footer.desc">Premium Salamander windows, doors, and glass facades delivered across
+                        Europe.</p>
                 </div>
                 <div>
-                    <h5>Products</h5>
-                    <div class="footer-links"><a href="windows.html">Windows</a><a href="doors.html">Doors</a><a
-                            href="glass-facades.html">Glass Facades</a></div>
+                    <h5 data-i18n="footer.products">Products</h5>
+                    <div class="footer-links"><a href="windows.html" data-i18n="nav.windows">Windows</a><a
+                            href="doors.html" data-i18n="nav.doors">Doors</a><a href="glass-facades.html"
+                            data-i18n="nav.facades">Glass Facades</a></div>
                 </div>
                 <div>
-                    <h5>Company</h5>
-                    <div class="footer-links"><a href="about.html">About Us</a><a href="process.html">How It Works</a><a
-                            href="delivery.html">Delivery & Guarantee</a><a href="contact.html">Contact</a></div>
+                    <h5 data-i18n="footer.company">Company</h5>
+                    <div class="footer-links"><a href="about.html" data-i18n="nav.about">About Us</a><a
+                            href="process.html" data-i18n="nav.process">How It Works</a><a href="delivery.html"
+                            data-i18n="nav.delivery">Delivery & Guarantee</a><a href="contact.html"
+                            data-i18n="nav.contact">Contact</a></div>
                 </div>
                 <div>
-                    <h5>Contact</h5>
+                    <h5 data-i18n="footer.contact">Contact</h5>
                     <div class="footer-links"><a href="mailto:info@qdframes.com">info@qdframes.com</a><a
                             href="tel:+38762406527">+387 62 406 527</a></div>
                 </div>
             </div>
-            <div class="footer-bottom"><span>© 2026 QD Frames. All rights reserved.</span><span>Premium Salamander
+            <div class="footer-bottom"><span data-i18n="footer.rights">© 2026 QD Frames. All rights
+                    reserved.</span><span data-i18n="footer.tagline">Premium Salamander
                     Windows & Doors</span></div>
         </div>
     </footer>

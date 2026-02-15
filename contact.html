@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Get a Quote | Free Consultation & Engineering | QD Frames</title>
-    <meta name="description"
+    <title data-i18n="contact.pageTitle">Get a Quote | Free Consultation & Engineering | QD Frames</title>
+    <meta name="description" data-i18n="contact.metaDesc"
         content="Request a free, no-obligation quote for premium Salamander windows, doors, and glass facades. Our engineering team responds within 24 hours.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animations.css">
@@ -43,6 +43,7 @@
                     <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
                     <button class="lang-option" data-lang="es">🇪🇸 Español</button>
                     <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                    <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
                 </div>
             </div>
             <button class="nav-toggle" id="navToggle"
@@ -55,10 +56,13 @@
             <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1600&q=80" alt="Contact us">
         </div>
         <div class="container">
-            <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Get a Quote</span></nav>
-            <div class="subtitle">Contact</div>
-            <h1>Get Your Free <span class="text-gradient">Quote</span></h1>
-            <p>Tell us about your project and our engineering team will provide a detailed technical proposal with
+            <nav class="breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a><span>/</span><span
+                    data-i18n="contact.hero.breadcrumb">Get a Quote</span></nav>
+            <div class="subtitle" data-i18n="contact.hero.subtitle">Contact</div>
+            <h1><span data-i18n="contact.hero.title">Get Your Free</span> <span class="text-gradient"
+                    data-i18n="contact.hero.titleAccent">Quote</span></h1>
+            <p data-i18n="contact.hero.desc">Tell us about your project and our engineering team will provide a detailed
+                technical proposal with
                 competitive pricing within 24 hours.</p>
         </div>
     </section>
@@ -69,16 +73,18 @@
                 <!-- Form -->
                 <div class="reveal-left">
                     <form id="quoteForm">
-                        <h3 style="margin-bottom: var(--space-xl);">Project Details</h3>
+                        <h3 style="margin-bottom: var(--space-xl);" data-i18n="contact.form.title">Project Details</h3>
 
                         <div class="grid grid-2">
                             <div class="form-group">
-                                <label class="form-label" for="firstName">First Name *</label>
+                                <label class="form-label" for="firstName" data-i18n="contact.form.firstName">First Name
+                                    *</label>
                                 <input type="text" class="form-control" id="firstName" name="firstName"
                                     placeholder="John" required>
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="lastName">Last Name *</label>
+                                <label class="form-label" for="lastName" data-i18n="contact.form.lastName">Last Name
+                                    *</label>
                                 <input type="text" class="form-control" id="lastName" name="lastName"
                                     placeholder="Smith" required>
                             </div>
@@ -86,21 +92,21 @@
 
                         <div class="grid grid-2">
                             <div class="form-group">
-                                <label class="form-label" for="email">Email *</label>
+                                <label class="form-label" for="email" data-i18n="contact.form.email">Email *</label>
                                 <input type="email" class="form-control" id="email" name="email"
                                     placeholder="john@example.com" required>
                             </div>
                             <div class="form-group">
-                                <label class="form-label" for="phone">Phone</label>
+                                <label class="form-label" for="phone" data-i18n="contact.form.phone">Phone</label>
                                 <input type="tel" class="form-control" id="phone" name="phone"
                                     placeholder="+49 123 456 7890">
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="country">Country *</label>
+                            <label class="form-label" for="country" data-i18n="contact.form.country">Country *</label>
                             <select class="form-control" id="country" name="country" required>
-                                <option value="">Select your country</option>
+                                <option value="" data-i18n="contact.form.ph.country">Select your country</option>
                                 <option value="AT">Austria</option>
                                 <option value="BE">Belgium</option>
                                 <option value="HR">Croatia</option>
@@ -128,57 +134,71 @@
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="productType">Product Type *</label>
+                            <label class="form-label" for="productType" data-i18n="contact.form.productType">Product
+                                Type *</label>
                             <select class="form-control" id="productType" name="productType" required>
-                                <option value="">What do you need?</option>
-                                <option value="windows">Windows</option>
-                                <option value="doors">Doors</option>
-                                <option value="facades">Glass Facades</option>
-                                <option value="windows-doors">Windows & Doors</option>
-                                <option value="complete">Complete Package (Windows, Doors & Facades)</option>
+                                <option value="" data-i18n="contact.form.ph.productType">What do you need?</option>
+                                <option value="windows" data-i18n="contact.form.opt.prod.windows">Windows</option>
+                                <option value="doors" data-i18n="contact.form.opt.prod.doors">Doors</option>
+                                <option value="facades" data-i18n="contact.form.opt.prod.facades">Glass Facades</option>
+                                <option value="windows-doors" data-i18n="contact.form.opt.prod.windowsDoors">Windows &
+                                    Doors</option>
+                                <option value="complete" data-i18n="contact.form.opt.prod.complete">Complete Package
+                                    (Windows, Doors & Facades)</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="projectType">Project Type</label>
+                            <label class="form-label" for="projectType" data-i18n="contact.form.projectType">Project
+                                Type</label>
                             <select class="form-control" id="projectType" name="projectType">
-                                <option value="">Select project type</option>
-                                <option value="new-build">New Construction</option>
-                                <option value="renovation">Renovation / Replacement</option>
-                                <option value="commercial">Commercial Project</option>
-                                <option value="multi-unit">Multi-Unit Residential</option>
+                                <option value="" data-i18n="contact.form.ph.projectType">Select project type</option>
+                                <option value="new-build" data-i18n="contact.form.opt.proj.newBuild">New Construction
+                                </option>
+                                <option value="renovation" data-i18n="contact.form.opt.proj.renovation">Renovation /
+                                    Replacement</option>
+                                <option value="commercial" data-i18n="contact.form.opt.proj.commercial">Commercial
+                                    Project</option>
+                                <option value="multi-unit" data-i18n="contact.form.opt.proj.multiUnit">Multi-Unit
+                                    Residential</option>
                             </select>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="quantity">Estimated Quantity</label>
+                            <label class="form-label" for="quantity" data-i18n="contact.form.quantity">Estimated
+                                Quantity</label>
                             <input type="text" class="form-control" id="quantity" name="quantity"
-                                placeholder="e.g. 12 windows, 3 doors">
+                                placeholder="e.g. 12 windows, 3 doors" data-i18n="contact.form.ph.quantity">
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="message">Project Details *</label>
+                            <label class="form-label" for="message" data-i18n="contact.form.message">Project Details
+                                *</label>
                             <textarea class="form-control" id="message" name="message"
                                 placeholder="Tell us about your project — dimensions, requirements, timeline, or any specific questions..."
-                                required></textarea>
+                                required data-i18n="contact.form.ph.message"></textarea>
                         </div>
 
                         <div class="form-group">
                             <label
                                 style="display: flex; align-items: flex-start; gap: var(--space-sm); cursor: pointer; font-size: 0.8125rem; color: var(--text-muted);">
                                 <input type="checkbox" name="consent" required style="margin-top: 3px;">
-                                I agree to QD Frames processing my data to handle this inquiry. I can withdraw my
-                                consent at any time.
+                                <span data-i18n="contact.form.consent">I agree to QD Frames processing my data to handle
+                                    this inquiry. I can withdraw my
+                                    consent at any time.</span>
                             </label>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-lg"
-                            style="width: 100%; justify-content: center;">Submit Quote Request</button>
+                            style="width: 100%; justify-content: center;" data-i18n="contact.form.submit">Submit Quote
+                            Request</button>
 
                         <div id="formSuccess"
                             style="display: none; margin-top: var(--space-xl); padding: var(--space-lg); background: rgba(5, 150, 105, 0.08); border: 1px solid rgba(5, 150, 105, 0.2); border-radius: var(--radius-md); text-align: center;">
-                            <strong style="color: var(--success);">✓ Quote request submitted!</strong>
-                            <p style="font-size: 0.875rem; margin-top: var(--space-xs);">Our engineering team will
+                            <strong style="color: var(--success);" data-i18n="contact.form.success.title">✓ Quote
+                                request submitted!</strong>
+                            <p style="font-size: 0.875rem; margin-top: var(--space-xs);"
+                                data-i18n="contact.form.success.desc">Our engineering team will
                                 respond within 24 hours.</p>
                         </div>
                     </form>
@@ -187,14 +207,15 @@
                 <!-- Contact Info Sidebar -->
                 <div class="reveal-right">
                     <div class="card" style="position: sticky; top: 120px;">
-                        <h4 style="margin-bottom: var(--space-xl);">Get in Touch</h4>
+                        <h4 style="margin-bottom: var(--space-xl);" data-i18n="contact.sidebar.title">Get in Touch</h4>
 
                         <div style="margin-bottom: var(--space-xl);">
                             <div
                                 style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
                                 <span style="font-size: 1.25rem;">📧</span>
                                 <div>
-                                    <strong style="font-size: 0.875rem;">Email</strong>
+                                    <strong style="font-size: 0.875rem;"
+                                        data-i18n="contact.sidebar.email">Email</strong>
                                     <p style="font-size: 0.875rem; margin-top: 2px;"><a
                                             href="mailto:info@qdframes.com">info@qdframes.com</a></p>
                                 </div>
@@ -203,7 +224,8 @@
                                 style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
                                 <span style="font-size: 1.25rem;">📱</span>
                                 <div>
-                                    <strong style="font-size: 0.875rem;">Phone</strong>
+                                    <strong style="font-size: 0.875rem;"
+                                        data-i18n="contact.sidebar.phone">Phone</strong>
                                     <p style="font-size: 0.875rem; margin-top: 2px;"><a href="tel:+38762406527">+387 62
                                             406 527</a></p>
                                 </div>
@@ -212,39 +234,44 @@
                                 style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
                                 <span style="font-size: 1.25rem;">💬</span>
                                 <div>
-                                    <strong style="font-size: 0.875rem;">WhatsApp</strong>
+                                    <strong style="font-size: 0.875rem;"
+                                        data-i18n="contact.sidebar.whatsapp">WhatsApp</strong>
                                     <p style="font-size: 0.875rem; margin-top: 2px;"><a href="https://wa.me/38762406527"
-                                            target="_blank">Chat with us</a></p>
+                                            target="_blank" data-i18n="contact.sidebar.chat">Chat with us</a></p>
                                 </div>
                             </div>
                             <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
                                 <span style="font-size: 1.25rem;">🕐</span>
                                 <div>
-                                    <strong style="font-size: 0.875rem;">Working Hours</strong>
-                                    <p style="font-size: 0.875rem; margin-top: 2px; color: var(--text-muted);">Mon –
+                                    <strong style="font-size: 0.875rem;" data-i18n="contact.sidebar.hours">Working
+                                        Hours</strong>
+                                    <p style="font-size: 0.875rem; margin-top: 2px; color: var(--text-muted);"
+                                        data-i18n="contact.sidebar.hoursVal">Mon –
                                         Fri: 8:00 – 17:00 CET<br>Sat: 9:00 – 13:00 CET</p>
                                 </div>
                             </div>
                         </div>
 
                         <div style="border-top: 1px solid var(--border-subtle); padding-top: var(--space-xl);">
-                            <h5 style="margin-bottom: var(--space-md);">What Happens Next?</h5>
+                            <h5 style="margin-bottom: var(--space-md);" data-i18n="contact.next.title">What Happens
+                                Next?</h5>
                             <div style="font-size: 0.8125rem; color: var(--text-muted);">
                                 <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
                                     <span style="color: var(--accent-1); font-weight: 700;">1.</span>
-                                    <span>We review your requirements (24h)</span>
+                                    <span data-i18n="contact.next.step1">We review your requirements (24h)</span>
                                 </div>
                                 <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
                                     <span style="color: var(--accent-1); font-weight: 700;">2.</span>
-                                    <span>Your engineer calls to discuss details</span>
+                                    <span data-i18n="contact.next.step2">Your engineer calls to discuss details</span>
                                 </div>
                                 <div style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-sm);">
                                     <span style="color: var(--accent-1); font-weight: 700;">3.</span>
-                                    <span>You receive a detailed technical proposal</span>
+                                    <span data-i18n="contact.next.step3">You receive a detailed technical
+                                        proposal</span>
                                 </div>
                                 <div style="display: flex; gap: var(--space-sm);">
                                     <span style="color: var(--accent-1); font-weight: 700;">4.</span>
-                                    <span>No obligation — take your time to decide</span>
+                                    <span data-i18n="contact.next.step4">No obligation — take your time to decide</span>
                                 </div>
                             </div>
                         </div>
@@ -258,41 +285,46 @@
     <section class="section" style="background: var(--bg-secondary);">
         <div class="container">
             <div class="section-header text-center reveal">
-                <div class="subtitle">FAQ</div>
-                <h2>Common <span class="text-gradient">Questions</span></h2>
+                <div class="subtitle" data-i18n="contact.faq.subtitle">FAQ</div>
+                <h2><span data-i18n="contact.faq.title">Common</span> <span class="text-gradient"
+                        data-i18n="contact.faq.titleAccent">Questions</span></h2>
             </div>
             <div style="max-width: 760px; margin: 0 auto;">
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">How quickly will you respond to my quote request?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="contact.faq1.q">How quickly will you respond to my
+                            quote request?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Our engineering team responds within 24 hours on business
+                        <div class="accordion-body-inner" data-i18n="contact.faq1.a">Our engineering team responds
+                            within 24 hours on business
                             days. For urgent projects, call us directly or use WhatsApp for a faster response.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">Do I need to provide exact measurements?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="contact.faq2.q">Do I need to provide exact
+                            measurements?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Approximate measurements are fine for the initial quote. Once
+                        <div class="accordion-body-inner" data-i18n="contact.faq2.a">Approximate measurements are fine
+                            for the initial quote. Once
                             we proceed, our engineer will guide you through precise measurement requirements or
                             recommend a local specialist if needed.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">Is the quote really free and without obligation?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="contact.faq3.q">Is the quote really free and
+                            without obligation?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">Absolutely. Our quotes are completely free, and there's no
+                        <div class="accordion-body-inner" data-i18n="contact.faq3.a">Absolutely. Our quotes are
+                            completely free, and there's no
                             obligation to proceed. We believe in earning your trust through transparent pricing and
                             excellent service — not pressure.</div>
                     </div>
                 </div>
                 <div class="accordion-item reveal">
-                    <button class="accordion-header">What information should I include in my request?<span
-                            class="accordion-icon">+</span></button>
+                    <button class="accordion-header"><span data-i18n="contact.faq4.q">What information should I include
+                            in my request?</span><span class="accordion-icon">+</span></button>
                     <div class="accordion-body">
-                        <div class="accordion-body-inner">The more detail, the better: number of windows/doors,
+                        <div class="accordion-body-inner" data-i18n="contact.faq4.a">The more detail, the better: number
+                            of windows/doors,
                             approximate dimensions, preferred profile system, color preferences, any special
                             requirements (security, noise reduction, etc.), and your timeline. But don't worry — we can
                             work with whatever information you have.</div>
@@ -308,25 +340,30 @@
                 <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
                         <div class="nav-logo-icon">◆</div>QD Frames
                     </a>
-                    <p>Premium Salamander windows, doors, and glass facades delivered across Europe.</p>
+                    <p data-i18n="footer.desc">Premium Salamander windows, doors, and glass facades delivered across
+                        Europe.</p>
                 </div>
                 <div>
-                    <h5>Products</h5>
-                    <div class="footer-links"><a href="windows.html">Windows</a><a href="doors.html">Doors</a><a
-                            href="glass-facades.html">Glass Facades</a></div>
+                    <h5 data-i18n="footer.products">Products</h5>
+                    <div class="footer-links"><a href="windows.html" data-i18n="nav.windows">Windows</a><a
+                            href="doors.html" data-i18n="nav.doors">Doors</a><a href="glass-facades.html"
+                            data-i18n="nav.facades">Glass Facades</a></div>
                 </div>
                 <div>
-                    <h5>Company</h5>
-                    <div class="footer-links"><a href="about.html">About Us</a><a href="process.html">How It Works</a><a
-                            href="delivery.html">Delivery & Guarantee</a><a href="contact.html">Contact</a></div>
+                    <h5 data-i18n="footer.company">Company</h5>
+                    <div class="footer-links"><a href="about.html" data-i18n="nav.about">About Us</a><a
+                            href="process.html" data-i18n="nav.process">How It Works</a><a href="delivery.html"
+                            data-i18n="nav.delivery">Delivery & Guarantee</a><a href="contact.html"
+                            data-i18n="nav.contact">Contact</a></div>
                 </div>
                 <div>
-                    <h5>Contact</h5>
+                    <h5 data-i18n="footer.contact">Contact</h5>
                     <div class="footer-links"><a href="mailto:info@qdframes.com">info@qdframes.com</a><a
                             href="tel:+38762406527">+387 62 406 527</a></div>
                 </div>
             </div>
-            <div class="footer-bottom"><span>© 2026 QD Frames. All rights reserved.</span><span>Premium Salamander
+            <div class="footer-bottom"><span data-i18n="footer.rights">© 2026 QD Frames. All rights
+                    reserved.</span><span data-i18n="footer.tagline">Premium Salamander
                     Windows & Doors</span></div>
         </div>
     </footer>
