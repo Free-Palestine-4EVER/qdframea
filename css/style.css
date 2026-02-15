@@ -1514,7 +1514,7 @@ select.form-control {
   padding: var(--space-xs);
 }
 
-.lang-dropdown.open {
+.lang-switcher.active .lang-dropdown {
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
@@ -1546,71 +1546,73 @@ select.form-control {
   color: var(--accent-1);
   background: var(--accent-glow);
   font-weight: 600;
-}/* --- Floating WhatsApp Button --- */
+}
+
+/* --- Floating WhatsApp Button --- */
 .floating-whatsapp {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
-    background-color: #25d366;
-    color: #fff;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    z-index: 9999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    text-decoration: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
 .floating-whatsapp:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
-    background-color: #20bd5a;
-    color: #fff;
+  transform: scale(1.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+  background-color: #20bd5a;
+  color: #fff;
 }
 
 .floating-whatsapp svg {
-    width: 35px;
-    height: 35px;
-    fill: currentColor;
+  width: 35px;
+  height: 35px;
+  fill: currentColor;
 }
 
 /* --- Section Backgrounds with Overlay --- */
 .section-with-bg {
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
 }
 
 .section-with-bg::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(10, 22, 40, 0.85);
-    /* Dark overlay */
-    z-index: 1;
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 22, 40, 0.85);
+  /* Dark overlay */
+  z-index: 1;
 }
 
 .section-with-bg .container {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
 .section-with-bg h2,
 .section-with-bg p,
 .section-with-bg .subtitle {
-    color: #fff;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .section-with-bg .subtitle {
-    color: #00d4aa;
-    /* Keep accent color but ensure visibility */
+  color: #00d4aa;
+  /* Keep accent color but ensure visibility */
 }
