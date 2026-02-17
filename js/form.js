@@ -1,5 +1,5 @@
 /* ============================================
-   EuroVista — Form Validation
+   QD Frames — Form Validation
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {

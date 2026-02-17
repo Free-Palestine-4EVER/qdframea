@@ -1,5 +1,5 @@
 /* ============================================
-   EuroVista Windows & Doors — Design System
+   QD Frames — Design System
    White / Light Premium Theme
    ============================================ */
 
@@ -1724,3 +1724,53 @@ body {
 .section-with-bg .subtitle {
   color: #d4a017;
 }
+
+/* --- Testimonials --- */
+.testimonial-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-2xl) var(--space-xl);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+
+.testimonial-card:hover {
+  border-color: rgba(13, 107, 97, 0.15);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.06);
+  transform: translateY(-2px);
+}
+
+.testimonial-stars {
+  color: #d4a017;
+  font-size: 1.125rem;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-md);
+}
+
+.testimonial-text {
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+  font-style: italic;
+  margin-bottom: var(--space-xl);
+}
+
+.testimonial-author {
+  border-top: 1px solid var(--border-subtle);
+  padding-top: var(--space-md);
+}
+
+.testimonial-name {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+}
+
+.testimonial-location {
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+

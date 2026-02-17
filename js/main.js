@@ -1,5 +1,5 @@
 /* ============================================
-   EuroVista — Main JavaScript
+   QD Frames — Main JavaScript
    ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
