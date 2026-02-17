@@ -8,24 +8,24 @@
 
 /* --- CSS Custom Properties --- */
 :root {
-  /* Colors — Light Theme */
+  /* Colors — Luxury Dark-Accent Theme */
   --bg-primary: #ffffff;
-  --bg-secondary: #f7f8fa;
-  --bg-tertiary: #eef0f4;
+  --bg-secondary: #f8f9fb;
+  --bg-tertiary: #f0f1f5;
   --bg-card: #ffffff;
-  --bg-glass: rgba(255, 255, 255, 0.7);
-  --bg-glass-hover: rgba(255, 255, 255, 0.9);
+  --bg-glass: rgba(255, 255, 255, 0.8);
+  --bg-glass-hover: rgba(255, 255, 255, 0.95);
 
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --text-muted: #94a3b8;
+  --text-primary: #0c111d;
+  --text-secondary: #3d4654;
+  --text-muted: #7c8594;
 
-  --accent-1: #0f766e;
-  --accent-2: #0284c7;
-  --accent-3: #6d28d9;
-  --accent-gradient: linear-gradient(135deg, #0f766e, #0284c7);
-  --accent-gradient-2: linear-gradient(135deg, #0284c7, #6d28d9);
-  --accent-glow: rgba(15, 118, 110, 0.08);
+  --accent-1: #0d6b61;
+  --accent-2: #0077b6;
+  --accent-3: #b8860b;
+  --accent-gradient: linear-gradient(135deg, #0d6b61, #0a8f7f);
+  --accent-gradient-2: linear-gradient(135deg, #b8860b, #d4a017);
+  --accent-glow: rgba(13, 107, 97, 0.06);
 
   --border-subtle: rgba(0, 0, 0, 0.08);
   --border-accent: rgba(15, 118, 110, 0.25);
@@ -497,7 +497,7 @@ p {
   position: relative;
   overflow: hidden;
   padding-top: 80px;
-  background: #0a1628;
+  background: #070d18;
 }
 
 .hero-bg {
@@ -510,17 +510,18 @@ p {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.55;
+  opacity: 0.45;
+  filter: brightness(0.9) contrast(1.05);
 }
 
 .hero-bg::after {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg,
-      rgba(10, 22, 40, 0.85) 0%,
-      rgba(10, 22, 40, 0.5) 40%,
-      rgba(10, 22, 40, 0.7) 100%);
+  background: linear-gradient(160deg,
+      rgba(7, 13, 24, 0.92) 0%,
+      rgba(7, 13, 24, 0.55) 45%,
+      rgba(7, 13, 24, 0.75) 100%);
 }
 
 .hero-content {
@@ -543,7 +544,7 @@ p {
 }
 
 .hero .hero-title .text-gradient {
-  background: linear-gradient(135deg, #00d4aa, #00b4d8);
+  background: linear-gradient(135deg, #d4a017, #f0c850, #d4a017);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -586,7 +587,7 @@ p {
   font-family: var(--font-heading);
   font-size: 2.25rem;
   font-weight: 800;
-  color: #00d4aa;
+  color: #d4a017;
   line-height: 1;
 }
 
@@ -649,7 +650,7 @@ p {
 
 .page-hero .subtitle {
   margin-bottom: var(--space-sm);
-  color: #00d4aa;
+  color: #d4a017;
 }
 
 .page-hero h1 {
@@ -658,7 +659,7 @@ p {
 }
 
 .page-hero h1 .text-gradient {
-  background: linear-gradient(135deg, #00d4aa, #00b4d8);
+  background: linear-gradient(135deg, #d4a017, #f0c850, #d4a017);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -716,7 +717,7 @@ p {
   margin-right: auto;
 }
 
-/* --- Feature Grid --- */
+/* --- Feature Grid (legacy) --- */
 .feature-icon {
   width: 56px;
   height: 56px;
@@ -744,6 +745,59 @@ p {
   font-size: 0.9375rem;
   color: var(--text-secondary);
   line-height: 1.7;
+}
+
+/* --- USP Cards — Apple Style --- */
+.usp-card {
+  text-align: center;
+  padding: var(--space-3xl) var(--space-xl);
+  border-radius: var(--radius-xl);
+  background: var(--bg-primary);
+  border: 1px solid transparent;
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  position: relative;
+}
+
+.usp-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--border-subtle);
+  transform: translateY(-2px);
+}
+
+.usp-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--bg-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto var(--space-xl);
+  color: var(--accent-1);
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.usp-card:hover .usp-icon {
+  background: var(--accent-1);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.usp-title {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.01em;
+}
+
+.usp-desc {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
 /* --- Product Cards --- */
@@ -1421,6 +1475,61 @@ select.form-control {
   pointer-events: all;
 }
 
+/* --- Luxury Enhancements --- */
+.hero-badge {
+  letter-spacing: 0.05em;
+}
+
+.hero-title {
+  letter-spacing: -0.035em;
+}
+
+.card {
+  backdrop-filter: blur(4px);
+}
+
+.card:hover {
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08), 0 0 0 1px rgba(13, 107, 97, 0.12);
+}
+
+.product-card {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.product-card:hover {
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+}
+
+.section-header h2 {
+  letter-spacing: -0.025em;
+}
+
+/* Gold accent for CTA sections */
+.cta-section h2 .text-gradient,
+.usp-banner h2 .text-gradient {
+  background: linear-gradient(135deg, #d4a017, #f0c850);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Luxury divider */
+.section + .section {
+  border-top: none;
+}
+
+/* Better image treatment */
+.product-card-img img,
+.gallery-item img {
+  filter: brightness(0.98) contrast(1.02);
+}
+
+/* Smooth page load */
+body {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
 /* --- Utility --- */
 .mb-0 {
   margin-bottom: 0;
@@ -1613,6 +1722,5 @@ select.form-control {
 }
 
 .section-with-bg .subtitle {
-  color: #00d4aa;
-  /* Keep accent color but ensure visibility */
+  color: #d4a017;
 }

@@ -47,10 +47,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const successDiv = document.createElement('div');
         successDiv.className = 'form-success reveal visible';
         successDiv.innerHTML = `
-      <div style="text-align: center; padding: 3rem; background: rgba(0, 212, 170, 0.05); border: 1px solid rgba(0, 212, 170, 0.3); border-radius: 16px; margin-top: 1rem;">
+      <div style="text-align: center; padding: 3rem; background: rgba(13, 107, 97, 0.05); border: 1px solid rgba(13, 107, 97, 0.2); border-radius: 16px; margin-top: 1rem;">
         <div style="font-size: 3rem; margin-bottom: 1rem;">✓</div>
-        <h3 style="margin-bottom: 0.5rem; color: #00d4aa;">Request Submitted!</h3>
-        <p style="color: #a0a8c4;">Our engineering team will contact you within 24 hours to discuss your project requirements.</p>
+        <h3 style="margin-bottom: 0.5rem; color: var(--accent-1, #0d6b61);">Request Submitted!</h3>
+        <p style="color: var(--text-muted, #7c8594);">Our engineering team will contact you within 24 hours to discuss your project requirements.</p>
       </div>
     `;
         form.style.display = 'none';
