@@ -6,15 +6,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Sticky Navbar ---
   const navbar = document.querySelector('.navbar');
+  const backToTop = document.getElementById('backToTop');
   const handleScroll = () => {
     if (window.scrollY > 50) {
       navbar.classList.add('scrolled');
     } else {
       navbar.classList.remove('scrolled');
     }
+    // Back to top visibility
+    if (backToTop) {
+      if (window.scrollY > 500) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    }
   };
   window.addEventListener('scroll', handleScroll, { passive: true });
   handleScroll();
+
+  // --- Back to Top ---
+  if (backToTop) {
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
 
   // --- Mobile Nav Toggle ---
   const navToggle = document.querySelector('.nav-toggle');
