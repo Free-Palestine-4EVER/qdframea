@@ -298,6 +298,10 @@ const translations = {
     "testimonials.name3": { en: "Koen Willems", nl: "Koen Willems", de: "Koen Willems", fr: "Koen Willems", es: "Koen Willems", it: "Koen Willems", pl: "Koen Willems" },
     "testimonials.loc3": { en: "Antwerp, Belgium", nl: "Antwerpen, België", de: "Antwerpen, Belgien", fr: "Anvers, Belgique", es: "Amberes, Bélgica", it: "Anversa, Belgio", pl: "Antwerpia, Belgia" },
 
+    // --- Cookie Notice ---
+    "cookie.text": { en: "We use cookies to improve your experience. By continuing to browse, you agree to our use of cookies.", nl: "Wij gebruiken cookies om uw ervaring te verbeteren. Door verder te browsen, gaat u akkoord met ons gebruik van cookies.", de: "Wir verwenden Cookies, um Ihre Erfahrung zu verbessern. Durch weiteres Surfen stimmen Sie der Verwendung von Cookies zu.", fr: "Nous utilisons des cookies pour améliorer votre expérience. En continuant à naviguer, vous acceptez notre utilisation des cookies.", es: "Usamos cookies para mejorar su experiencia. Al continuar navegando, acepta nuestro uso de cookies.", it: "Utilizziamo i cookie per migliorare la tua esperienza. Continuando a navigare, accetti il nostro utilizzo dei cookie.", pl: "Używamy plików cookie, aby poprawić Twoje doświadczenia. Kontynuując przeglądanie, zgadzasz się na nasze użycie plików cookie." },
+    "cookie.accept": { en: "Accept", nl: "Accepteren", de: "Akzeptieren", fr: "Accepter", es: "Aceptar", it: "Accetta", pl: "Akceptuj" },
+
     // --- Footer ---
     "footer.products": { en: "Products", nl: "Producten", de: "Produkte", fr: "Produits", es: "Productos", it: "Prodotti", pl: "Produkty" },
     "footer.company": { en: "Company", nl: "Bedrijf", de: "Unternehmen", fr: "Entreprise", es: "Empresa", it: "Azienda", pl: "Firma" },

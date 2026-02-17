@@ -513,10 +513,12 @@ p {
 
 .hero-bg img {
   width: 100%;
-  height: 100%;
+  height: 120%;
   object-fit: cover;
   opacity: 0.45;
   filter: brightness(0.9) contrast(1.05);
+  will-change: transform;
+  transition: transform 0.1s linear;
 }
 
 .hero-bg::after {
@@ -536,9 +538,9 @@ p {
 }
 
 .hero .hero-badge {
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: rgba(255, 255, 255, 0.9);
+  background: rgba(212, 160, 23, 0.12);
+  border: 1px solid rgba(212, 160, 23, 0.3);
+  color: #f0c850;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -1553,6 +1555,43 @@ select.form-control {
   font-weight: 500;
   font-size: 0.75rem;
   opacity: 0.8;
+}
+
+/* --- Cookie Notice --- */
+.cookie-notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-subtle);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.06);
+  padding: var(--space-lg) var(--space-xl);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+  flex-wrap: wrap;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.cookie-notice.visible {
+  transform: translateY(0);
+}
+
+.cookie-notice p {
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+  margin: 0;
+  max-width: 600px;
+}
+
+.cookie-notice .btn {
+  white-space: nowrap;
+  font-size: 0.8125rem;
+  padding: 0.5rem 1.25rem;
 }
 
 /* --- Back to Top --- */
