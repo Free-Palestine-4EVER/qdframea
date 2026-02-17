@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title data-i18n="contact.pageTitle">Get a Quote | Free Consultation & Engineering | QD Frames</title>
     <meta name="description" data-i18n="contact.metaDesc"
         content="Request a free, no-obligation quote for premium Salamander windows, doors, and glass facades. Our engineering team responds within 24 hours.">
@@ -54,7 +57,7 @@
 
     <section class="page-hero">
         <div class="hero-bg">
-            <img src="https://images.unsplash.com/photo-1600596542815-611c58d37d63?w=1600&q=80" alt="Contact us">
+            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=1600&q=80" alt="Contact us">
         </div>
         <div class="container">
             <nav class="breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a><span>/</span><span
@@ -73,7 +76,11 @@
             <div class="grid grid-2" style="gap: var(--space-4xl);">
                 <!-- Form -->
                 <div class="reveal-left">
-                    <form id="quoteForm">
+                    <form id="quoteForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Quote Request — QD Frames">
+                        <input type="hidden" name="from_name" value="QD Frames Website">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
                         <h3 style="margin-bottom: var(--space-xl);" data-i18n="contact.form.title">Project Details</h3>
 
                         <div class="grid grid-2">
