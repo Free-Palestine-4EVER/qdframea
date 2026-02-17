@@ -284,6 +284,16 @@ const translations = {
     "cta.btn1": { en: "Request a Free Quote", nl: "Gratis Offerte Aanvragen", de: "Kostenloses Angebot", fr: "Demander un Devis", es: "Solicitar Presupuesto", it: "Richiedi Preventivo", pl: "Zamów Darmową Wycenę" },
     "cta.btn2": { en: "Call Us: +31 6 40837919", nl: "Bel Ons: +31 6 40837919", de: "Rufen Sie an: +31 6 40837919", fr: "Appelez: +31 6 40837919", es: "Llámenos: +31 6 40837919", it: "Chiamaci: +31 6 40837919", pl: "Zadzwoń: +31 6 40837919" },
 
+    // --- Project Gallery ---
+    "gallery.subtitle": { en: "Our Work", nl: "Ons Werk", de: "Unsere Arbeit", fr: "Nos Réalisations", es: "Nuestro Trabajo", it: "I Nostri Lavori", pl: "Nasze Realizacje" },
+    "gallery.title": { en: "Recent", nl: "Recente", de: "Aktuelle", fr: "Projets", es: "Proyectos", it: "Progetti", pl: "Ostatnie" },
+    "gallery.titleAccent": { en: "Projects", nl: "Projecten", de: "Projekte", fr: "Récents", es: "Recientes", it: "Recenti", pl: "Projekty" },
+    "gallery.desc": { en: "A selection of completed projects across Europe — from private residences to commercial developments.", nl: "Een selectie van voltooide projecten in heel Europa — van particuliere woningen tot commerciële ontwikkelingen.", de: "Eine Auswahl abgeschlossener Projekte in ganz Europa — von Privathäusern bis zu Gewerbebauten.", fr: "Une sélection de projets réalisés à travers l'Europe — des résidences privées aux développements commerciaux.", es: "Una selección de proyectos completados en toda Europa — desde residencias privadas hasta desarrollos comerciales.", it: "Una selezione di progetti completati in tutta Europa — dalle residenze private agli sviluppi commerciali.", pl: "Wybór zrealizowanych projektów w całej Europie — od domów prywatnych po obiekty komercyjne." },
+    "gallery.item1": { en: "Private Villa — Netherlands", nl: "Privé Villa — Nederland", de: "Privatvilla — Niederlande", fr: "Villa Privée — Pays-Bas", es: "Villa Privada — Países Bajos", it: "Villa Privata — Paesi Bassi", pl: "Prywatna Willa — Holandia" },
+    "gallery.item2": { en: "Office Building — Germany", nl: "Kantoorgebouw — Duitsland", de: "Bürogebäude — Deutschland", fr: "Immeuble de Bureaux — Allemagne", es: "Edificio de Oficinas — Alemania", it: "Edificio per Uffici — Germania", pl: "Biurowiec — Niemcy" },
+    "gallery.item3": { en: "Residential — Belgium", nl: "Residentieel — België", de: "Wohngebäude — Belgien", fr: "Résidentiel — Belgique", es: "Residencial — Bélgica", it: "Residenziale — Belgio", pl: "Mieszkalny — Belgia" },
+    "gallery.item4": { en: "Renovation — France", nl: "Renovatie — Frankrijk", de: "Renovierung — Frankreich", fr: "Rénovation — France", es: "Renovación — Francia", it: "Ristrutturazione — Francia", pl: "Renowacja — Francja" },
+
     // --- Testimonials ---
     "testimonials.subtitle": { en: "Customer Reviews", nl: "Klantbeoordelingen", de: "Kundenbewertungen", fr: "Avis Clients", es: "Opiniones de Clientes", it: "Recensioni Clienti", pl: "Opinie Klientów" },
     "testimonials.title": { en: "Trusted by Homeowners", nl: "Vertrouwd door Huiseigenaren", de: "Vertrauen von Hausbesitzern", fr: "La Confiance des Propriétaires", es: "Confianza de Propietarios", it: "La Fiducia dei Proprietari", pl: "Zaufanie Właścicieli Domów" },
