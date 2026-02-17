@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Window Configurator | Build Your Custom Quote | QD Frames</title>
+    <meta name="description" content="Configure your perfect windows and doors. Choose profile, glazing, color, and dimensions — get an instant quote from QD Frames.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◆</text></svg>">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body>
+
+    <div class="nav-overlay"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="index.html" class="nav-logo">
+                <div class="nav-logo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1"></rect><line x1="12" y1="3" x2="12" y2="21"></line><line x1="3" y1="12" x2="21" y2="12"></line></svg></div>QD Frames
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html" data-i18n="nav.home">Home</a>
+                <a href="windows.html" data-i18n="nav.windows">Windows</a>
+                <a href="doors.html" data-i18n="nav.doors">Doors</a>
+                <a href="glass-facades.html" data-i18n="nav.facades">Facades</a>
+                <a href="process.html" data-i18n="nav.process">How It Works</a>
+                <a href="about.html" data-i18n="nav.about">About</a>
+                <a href="delivery.html" data-i18n="nav.delivery">Delivery</a>
+            </div>
+            <a href="contact.html" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.quote">Get a Quote</a>
+            <div class="lang-switcher" id="langSwitcher">
+                <button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg></button>
+                <div class="lang-dropdown" id="langDropdown">
+                    <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+                    <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+                    <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+                    <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+                    <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+                    <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+                    <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+                </div>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="page-hero" style="min-height: auto; padding: 120px 0 60px;">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=1600&q=80" alt="Window configurator">
+        </div>
+        <div class="container">
+            <nav class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Configurator</span></nav>
+            <div class="subtitle">Build Your Quote</div>
+            <h1><span>Window</span> <span class="text-gradient">Configurator</span></h1>
+            <p>Configure your windows step by step. Choose your profile, glazing, color, and dimensions — then submit for a personalized quote.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div style="max-width: 720px; margin: 0 auto;">
+
+                <!-- Progress Bar -->
+                <div class="config-progress reveal">
+                    <div class="config-step active" data-step="1"><span class="config-step-num">1</span><span class="config-step-label">Product</span></div>
+                    <div class="config-step" data-step="2"><span class="config-step-num">2</span><span class="config-step-label">Profile</span></div>
+                    <div class="config-step" data-step="3"><span class="config-step-num">3</span><span class="config-step-label">Glazing</span></div>
+                    <div class="config-step" data-step="4"><span class="config-step-num">4</span><span class="config-step-label">Details</span></div>
+                    <div class="config-step" data-step="5"><span class="config-step-num">5</span><span class="config-step-label">Contact</span></div>
+                </div>
+
+                <!-- Step 1: Product Type -->
+                <div class="config-panel active" id="step1">
+                    <h3>What do you need?</h3>
+                    <div class="config-options">
+                        <label class="config-option">
+                            <input type="radio" name="productType" value="windows" checked>
+                            <div class="config-option-card">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="1"></rect><line x1="12" y1="3" x2="12" y2="21"></line><line x1="3" y1="12" x2="21" y2="12"></line></svg>
+                                <strong>Windows</strong>
+                                <span>Tilt-turn, casement, fixed, sliding</span>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="productType" value="doors">
+                            <div class="config-option-card">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 21V3h12l4 4v14H3z"></path><line x1="9" y1="13" x2="9" y2="13.01"></line></svg>
+                                <strong>Doors</strong>
+                                <span>Entry, lift &amp; slide, French, bi-fold</span>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="productType" value="facades">
+                            <div class="config-option-card">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="1"></rect><line x1="8" y1="2" x2="8" y2="22"></line><line x1="16" y1="2" x2="16" y2="22"></line><line x1="2" y1="8" x2="22" y2="8"></line><line x1="2" y1="16" x2="22" y2="16"></line></svg>
+                                <strong>Glass Facades</strong>
+                                <span>Curtain walls, structural, shopfronts</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="config-nav">
+                        <div></div>
+                        <button class="btn btn-primary config-next" data-next="2">Next: Choose Profile →</button>
+                    </div>
+                </div>
+
+                <!-- Step 2: Profile -->
+                <div class="config-panel" id="step2">
+                    <h3>Select your profile system</h3>
+                    <div class="config-options">
+                        <label class="config-option">
+                            <input type="radio" name="profile" value="essential-76" checked>
+                            <div class="config-option-card">
+                                <strong>QD Essential 76</strong>
+                                <span>5-chamber • Uf 1.3 W/m²K • Up to 40mm glazing</span>
+                                <small style="color: var(--accent-1); font-weight: 600;">Best value</small>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="profile" value="performance-82">
+                            <div class="config-option-card" style="border-color: var(--accent-1);">
+                                <strong>QD Performance 82 <span style="background: var(--accent-1); color: #fff; font-size: 0.6875rem; padding: 2px 8px; border-radius: 99px; margin-left: 4px;">Popular</span></strong>
+                                <span>6-chamber • Uf 1.0 W/m²K • Up to 48mm glazing</span>
+                                <small style="color: var(--accent-1); font-weight: 600;">Best balance</small>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="profile" value="prestige-88">
+                            <div class="config-option-card">
+                                <strong>QD Prestige 88</strong>
+                                <span>7-chamber • Uf 0.95 W/m²K • Up to 52mm glazing</span>
+                                <small style="color: var(--accent-3); font-weight: 600;">Premium</small>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="config-nav">
+                        <button class="btn btn-secondary config-prev" data-prev="1">← Back</button>
+                        <button class="btn btn-primary config-next" data-next="3">Next: Glazing →</button>
+                    </div>
+                </div>
+
+                <!-- Step 3: Glazing -->
+                <div class="config-panel" id="step3">
+                    <h3>Choose your glazing</h3>
+                    <div class="config-options">
+                        <label class="config-option">
+                            <input type="radio" name="glazing" value="double" checked>
+                            <div class="config-option-card">
+                                <strong>Double Glazing</strong>
+                                <span>Ug 1.0 W/m²K • Standard thermal performance</span>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="glazing" value="triple">
+                            <div class="config-option-card">
+                                <strong>Triple Glazing</strong>
+                                <span>Ug 0.5 W/m²K • Superior insulation</span>
+                            </div>
+                        </label>
+                        <label class="config-option">
+                            <input type="radio" name="glazing" value="triple-acoustic">
+                            <div class="config-option-card">
+                                <strong>Triple Acoustic</strong>
+                                <span>Ug 0.5 W/m²K + 47 dB sound reduction</span>
+                            </div>
+                        </label>
+                    </div>
+                    <div class="config-nav">
+                        <button class="btn btn-secondary config-prev" data-prev="2">← Back</button>
+                        <button class="btn btn-primary config-next" data-next="4">Next: Details →</button>
+                    </div>
+                </div>
+
+                <!-- Step 4: Dimensions & Details -->
+                <div class="config-panel" id="step4">
+                    <h3>Project details</h3>
+                    <div class="form-group">
+                        <label class="form-label">Quantity</label>
+                        <input type="number" class="form-control" name="quantity" placeholder="e.g. 12" min="1">
+                    </div>
+                    <div class="grid grid-2">
+                        <div class="form-group">
+                            <label class="form-label">Approx. Width (mm)</label>
+                            <input type="number" class="form-control" name="width" placeholder="e.g. 1200">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Approx. Height (mm)</label>
+                            <input type="number" class="form-control" name="height" placeholder="e.g. 1400">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Color Preference</label>
+                        <select class="form-control" name="color">
+                            <option value="white">White (Standard)</option>
+                            <option value="anthracite">Anthracite Grey (RAL 7016)</option>
+                            <option value="brown">Dark Brown</option>
+                            <option value="cream">Cream White</option>
+                            <option value="golden-oak">Golden Oak (Woodgrain)</option>
+                            <option value="walnut">Walnut (Woodgrain)</option>
+                            <option value="custom">Custom RAL Color</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Additional Notes</label>
+                        <textarea class="form-control" name="notes" rows="3" placeholder="Any special requirements, security rating, opening type preferences..."></textarea>
+                    </div>
+                    <div class="config-nav">
+                        <button class="btn btn-secondary config-prev" data-prev="3">← Back</button>
+                        <button class="btn btn-primary config-next" data-next="5">Next: Get Quote →</button>
+                    </div>
+                </div>
+
+                <!-- Step 5: Contact -->
+                <div class="config-panel" id="step5">
+                    <h3>Almost there — where should we send your quote?</h3>
+                    <div class="grid grid-2">
+                        <div class="form-group">
+                            <label class="form-label">First Name *</label>
+                            <input type="text" class="form-control" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Last Name *</label>
+                            <input type="text" class="form-control" name="lastName" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Email *</label>
+                        <input type="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input type="tel" class="form-control" name="phone" placeholder="+31 6 ...">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Country *</label>
+                        <select class="form-control" name="country" required>
+                            <option value="">Select country</option>
+                            <option value="NL">Netherlands</option>
+                            <option value="DE">Germany</option>
+                            <option value="BE">Belgium</option>
+                            <option value="FR">France</option>
+                            <option value="AT">Austria</option>
+                            <option value="PL">Poland</option>
+                            <option value="IT">Italy</option>
+                            <option value="ES">Spain</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="other">Other EU Country</option>
+                        </select>
+                    </div>
+                    <div class="config-nav">
+                        <button class="btn btn-secondary config-prev" data-prev="4">← Back</button>
+                        <button class="btn btn-primary btn-lg" id="configSubmit" style="width: 100%; justify-content: center;">Submit Configuration & Get Quote</button>
+                    </div>
+                </div>
+
+                <!-- Success -->
+                <div class="config-panel" id="stepDone" style="text-align: center; padding: var(--space-3xl);">
+                    <div style="font-size: 3rem; margin-bottom: var(--space-lg);">✓</div>
+                    <h3 style="color: var(--accent-1);">Configuration Submitted!</h3>
+                    <p style="color: var(--text-muted); margin-top: var(--space-md);">Our engineering team will review your configuration and send a detailed quote within 24 hours.</p>
+                    <a href="index.html" class="btn btn-secondary" style="margin-top: var(--space-xl);">← Back to Home</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
+                        <div class="nav-logo-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="1"></rect><line x1="12" y1="3" x2="12" y2="21"></line><line x1="3" y1="12" x2="21" y2="12"></line></svg></div>QD Frames
+                    </a>
+                    <p data-i18n="footer.desc">Premium Salamander windows, doors, and glass facades delivered free across Europe.</p>
+                </div>
+                <div>
+                    <h5 data-i18n="footer.products">Products</h5>
+                    <div class="footer-links"><a href="windows.html" data-i18n="nav.windows">Windows</a><a href="doors.html" data-i18n="nav.doors">Doors</a><a href="glass-facades.html" data-i18n="nav.facades">Glass Facades</a></div>
+                </div>
+                <div>
+                    <h5 data-i18n="footer.company">Company</h5>
+                    <div class="footer-links"><a href="about.html" data-i18n="nav.about">About Us</a><a href="process.html" data-i18n="nav.process">How It Works</a><a href="delivery.html" data-i18n="nav.delivery">Delivery & Guarantee</a><a href="contact.html" data-i18n="footer.contact">Contact</a></div>
+                </div>
+                <div>
+                    <h5 data-i18n="footer.contact">Contact</h5>
+                    <div class="footer-links"><a href="mailto:info@qdframes.nl">info@qdframes.nl</a><a href="tel:+31640837919">+31 6 40837919</a></div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© 2026 QD Frames. <span data-i18n="footer.rights">All rights reserved.</span></span>
+                <span data-i18n="footer.tagline">Premium Salamander Windows & Doors</span>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/31640837919" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><path d="M16 2C8.268 2 2 8.268 2 16c0 2.51.666 4.868 1.83 6.92L2.5 29.5l6.758-1.77C11.196 28.608 13.526 29 16 29c7.732 0 14-6.268 14-14S23.732 2 16 2zm0 25c-2.122 0-4.13-.57-5.882-1.57l-.42-.24-3.86 1.01 1.03-3.76-.273-.435C5.7 20.374 5 18.258 5 16c0-6.065 4.935-11 11-11s11 4.935 11 11-4.935 11-11 11zm5.97-8.23c-.328-.164-1.94-1.01-2.24-1.127-.3-.117-.518.067-.738.352-.22.285-.86.99-1.053 1.193-.194.204-.393.228-.72.065-.328-.164-1.383-.51-2.635-1.626-.975-.87-1.633-1.944-1.825-2.272-.192-.328-.02-.505.144-.668.148-.147.328-.383.492-.575.164-.19.218-.327.328-.546.11-.218.055-.41-.028-.574-.082-.164-1.038-1.92-1.42-2.63-.374-.693-.755-.58-.992-.58H8.5c-.237 0-.623.09-1.25.776-.327.36-.92 1.258-.92 3.07 0 1.81 1.32 3.56 2.012 4.492.693.93 2.113 2.58 5.12 3.88 2.067.896 2.87 1.025 3.905 1.025.79-.01 2.373-.77 2.905-2.27.532-1.5.532-2.787.375-3.05-.157-.263-.58-.42-.907-.584z" /></svg>
+    </a>
+    <div class="cookie-notice" id="cookieNotice">
+        <p data-i18n="cookie.text">We use cookies to improve your experience. By continuing to browse, you agree to our use of cookies.</p>
+        <button class="btn btn-primary" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
+    </div>
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    // Configurator logic
+    document.addEventListener('DOMContentLoaded', () => {
+        const panels = document.querySelectorAll('.config-panel');
+        const steps = document.querySelectorAll('.config-step');
+
+        function goToStep(n) {
+            panels.forEach(p => p.classList.remove('active'));
+            steps.forEach(s => {
+                s.classList.remove('active');
+                if (parseInt(s.dataset.step) <= n) s.classList.add('active');
+            });
+            const target = document.getElementById('step' + n) || document.getElementById('stepDone');
+            if (target) target.classList.add('active');
+            window.scrollTo({ top: 300, behavior: 'smooth' });
+        }
+
+        document.querySelectorAll('.config-next').forEach(btn => {
+            btn.addEventListener('click', () => goToStep(parseInt(btn.dataset.next)));
+        });
+        document.querySelectorAll('.config-prev').forEach(btn => {
+            btn.addEventListener('click', () => goToStep(parseInt(btn.dataset.prev)));
+        });
+
+        const submitBtn = document.getElementById('configSubmit');
+        if (submitBtn) {
+            submitBtn.addEventListener('click', () => {
+                const email = document.querySelector('#step5 input[name="email"]');
+                const firstName = document.querySelector('#step5 input[name="firstName"]');
+                if (!email.value || !firstName.value) {
+                    alert('Please fill in at least your name and email.');
+                    return;
+                }
+                goToStep(6); // triggers stepDone
+            });
+        }
+    });
+    </script>
+</body>
+</html>

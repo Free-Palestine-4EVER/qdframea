@@ -186,10 +186,10 @@ const translations = {
         en: "Tilt-and-turn, casement, fixed, and sliding systems in 76mm, 82mm, and 88mm Salamander profiles.",
         nl: "Draai-kiep, uitzet, vast en schuifsystemen in 76mm, 82mm en 88mm Salamander profielen.",
         de: "Dreh-Kipp-, Flügel-, Fest- und Schiebesysteme in 76mm, 82mm und 88mm Salamander-Profilen.",
-        fr: "Oscillo-battants, battants, fixes et coulissants en profilés Salamander 76mm, 82mm et 88mm.",
+        fr: "Oscillo-battants, battants, fixes et coulissants en profilés QD Essential 76, 82mm et 88mm.",
         es: "Oscilobatientes, practicables, fijos y correderas en perfiles Salamander de 76mm, 82mm y 88mm.",
         it: "Ribalta, battente, fissi e scorrevoli in profili Salamander da 76mm, 82mm e 88mm.",
-        pl: "Rozwierno-uchylne, stałe i przesuwne systemy w profilach Salamander 76mm, 82mm i 88mm."
+        pl: "Rozwierno-uchylne, stałe i przesuwne systemy w profilach QD Essential 76, 82mm i 88mm."
     },
     "products.card1.link": { en: "Explore Windows", nl: "Bekijk Ramen", de: "Fenster entdecken", fr: "Voir les Fenêtres", es: "Ver Ventanas", it: "Scopri Finestre", pl: "Zobacz Okna" },
 
@@ -382,7 +382,7 @@ const translations = {
         pl: "Każdy system oferuje inny poziom głębokości i wydajności. Wszystkie standardowo posiadają wielokomorową konstrukcję, stalowe wzmocnienia i uszczelki EPDM."
     },
     "windows.card1.badge": { en: "Entry Level", nl: "Instapmodel", de: "Einstiegsmodell", fr: "Entrée de Gamme", es: "Nivel de Entrada", it: "Livello Base", pl: "Model Podstawowy" },
-    "windows.card1.title": { en: "Salamander 76mm", nl: "Salamander 76mm", de: "Salamander 76mm", fr: "Salamander 76mm", es: "Salamander 76mm", it: "Salamander 76mm", pl: "Salamander 76mm" },
+    "windows.card1.title": { en: "QD Essential 76", nl: "QD Essential 76", de: "QD Essential 76", fr: "QD Essential 76", es: "QD Essential 76", it: "QD Essential 76", pl: "QD Essential 76" },
     "windows.card1.desc": {
         en: "5-chamber profile system with center seal gasket. Excellent value for residential projects requiring reliable thermal and acoustic performance.",
         nl: "5-kamer profielsysteem met middendichting. Uitstekende waarde voor woonprojecten die betrouwbare thermische en akoestische prestaties vereisen.",
@@ -393,7 +393,7 @@ const translations = {
         pl: "5-komorowy system profili z uszczelnieniem środkowym. Doskonała wartość dla projektów mieszkaniowych wymagających niezawodnej izolacji termicznej i akustycznej."
     },
     "windows.card2.badge": { en: "Most Popular", nl: "Meest Populair", de: "Beliebtestes", fr: "Le Plus Populaire", es: "Más Popular", it: "Più Popolare", pl: "Najpopularniejszy" },
-    "windows.card2.title": { en: "Salamander 82mm", nl: "Salamander 82mm", de: "Salamander 82mm", fr: "Salamander 82mm", es: "Salamander 82mm", it: "Salamander 82mm", pl: "Salamander 82mm" },
+    "windows.card2.title": { en: "QD Performance 82", nl: "QD Performance 82", de: "QD Performance 82", fr: "QD Performance 82", es: "QD Performance 82", it: "QD Performance 82", pl: "QD Performance 82" },
     "windows.card2.desc": {
         en: "6-chamber profile with double-seal gasket system. The ideal balance of performance and value for energy-efficient homes and commercial projects.",
         nl: "6-kamer profiel met dubbel afdichtingssysteem. De ideale balans tussen prestaties en waarde voor energiezuinige woningen en commerciële projecten.",
@@ -404,7 +404,7 @@ const translations = {
         pl: "6-komorowy profil z systemem podwójnego uszczelnienia. Idealny balans wydajności i ceny dla energooszczędnych domów i projektów komercyjnych."
     },
     "windows.card3.badge": { en: "Premium", nl: "Premium", de: "Premium", fr: "Premium", es: "Premium", it: "Premium", pl: "Premium" },
-    "windows.card3.title": { en: "Salamander 88mm", nl: "Salamander 88mm", de: "Salamander 88mm", fr: "Salamander 88mm", es: "Salamander 88mm", it: "Salamander 88mm", pl: "Salamander 88mm" },
+    "windows.card3.title": { en: "QD Prestige 88", nl: "QD Prestige 88", de: "QD Prestige 88", fr: "QD Prestige 88", es: "QD Prestige 88", it: "QD Prestige 88", pl: "QD Prestige 88" },
     "windows.card3.desc": {
         en: "7-chamber profile with triple-seal gasket and maximum insulation. Engineered for passive house standards and the most demanding energy requirements.",
         nl: "7-kamer profiel met driedubbele afdichting en maximale isolatie. Ontworpen voor passiefhuisstandaarden en de meest veeleisende energie-eisen.",
