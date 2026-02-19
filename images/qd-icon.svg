@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Outer hexagon - dark navy -->
+  <polygon points="100,8 185,54 185,146 100,192 15,146 15,54" fill="#2B4C7E" stroke="#1E3A5F" stroke-width="3"/>
+  
+  <!-- Middle hexagon outline - light blue/silver -->
+  <polygon points="100,28 168,65 168,135 100,172 32,135 32,65" fill="none" stroke="#8FAEC7" stroke-width="4"/>
+  
+  <!-- Inner hexagon - medium blue -->
+  <polygon points="100,42 155,72 155,128 100,158 45,128 45,72" fill="#3B6BA5"/>
+  
+  <!-- Door shape -->
+  <rect x="72" y="72" width="36" height="58" rx="2" fill="#2B4C7E"/>
+  
+  <!-- Door frame highlight -->
+  <rect x="75" y="75" width="30" height="52" rx="1" fill="none" stroke="#8FAEC7" stroke-width="1.5"/>
+  
+  <!-- Window panes on door (2x2 grid) -->
+  <rect x="80" y="80" width="10" height="10" rx="1" fill="#C8DAE8"/>
+  <rect x="93" y="80" width="10" height="10" rx="1" fill="#C8DAE8"/>
+  <rect x="80" y="93" width="10" height="10" rx="1" fill="#C8DAE8"/>
+  <rect x="93" y="93" width="10" height="10" rx="1" fill="#C8DAE8"/>
+  
+  <!-- Door handle -->
+  <circle cx="99" cy="118" r="3" fill="#C8DAE8"/>
+  
+  <!-- Small decorative circle top-left of hexagon -->
+  <circle cx="38" cy="62" r="5" fill="#8FAEC7"/>
+</svg>
