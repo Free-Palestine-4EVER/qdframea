@@ -1994,7 +1994,7 @@ body {
   visibility: hidden;
   transform: translateY(-4px);
   transition: all var(--transition-fast);
-  z-index: 1001;
+  z-index: 10002;
   padding: var(--space-xs);
 }
 
