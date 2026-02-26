@@ -1230,6 +1230,546 @@ const translations = {
     "meta.desc": { en: "Premium REHAU, Schüco & FEAL windows, doors, facades and more at 30-40% lower prices. Fast delivery across Europe.", nl: "Premium REHAU, Schüco & FEAL ramen, deuren, gevels en meer tegen 30-40% lagere prijzen. Snelle levering in heel Europa.", de: "Premium REHAU, Schüco & FEAL Fenster, Türen, Fassaden und mehr zu 30-40% niedrigeren Preisen. Schnelle Lieferung in ganz Europa.", fr: "Fenêtres, portes, façades REHAU, Schüco & FEAL premium et plus à des prix 30-40% inférieurs. Livraison rapide en Europe.", es: "Ventanas, puertas, fachadas REHAU, Schüco & FEAL premium y más a precios 30-40% más bajos. Entrega rápida en Europa.", it: "Finestre, porte, facciate REHAU, Schüco & FEAL premium e altro a prezzi inferiori del 30-40%. Consegna rapida in Europa.", pl: "Okna, drzwi, fasady REHAU, Schüco & FEAL premium i więcej w cenach niższych o 30-40%. Szybka dostawa w Europie." },
     "nav.contact": { en: "Contact", nl: "Contact", de: "Kontakt", fr: "Contact", es: "Contacto", it: "Contatto", pl: "Kontakt" },
 
+    // --- Glass Facades Page ---
+    "facades.hero.desc": {
+        en: "Structural and continuous curtain wall systems for commercial buildings, office complexes, and premium residential projects. Engineered for performance and aesthetics.",
+        nl: "Structurele en doorlopende vliesgevelsystemen voor commerciële gebouwen, kantorencomplexen en premium woningbouwprojecten. Ontworpen voor prestatie en esthetiek.",
+        de: "Strukturelle und durchgehende Vorhangfassadensysteme für Geschäftsgebäude, Bürokomplexe und Premium-Wohnprojekte. Entwickelt für Leistung und Ästhetik.",
+        fr: "Systèmes de murs-rideaux structurels et continus pour bâtiments commerciaux, complexes de bureaux et projets résidentiels haut de gamme. Conçus pour la performance et l'esthétique.",
+        es: "Sistemas de muros cortina estructurales y continuos para edificios comerciales, complejos de oficinas y proyectos residenciales premium. Diseñados para rendimiento y estética.",
+        it: "Sistemi di facciate continue strutturali e continue per edifici commerciali, complessi di uffici e progetti residenziali premium. Progettati per prestazioni ed estetica.",
+        pl: "Strukturalne i ciągłe systemy fasad osłonowych dla budynków komercyjnych, kompleksów biurowych i projektów mieszkaniowych premium. Zaprojektowane z myślą o wydajności i estetyce."
+    },
+    "facades.intro.desc": {
+        en: "Our glass facade systems combine thermally insulated aluminium profiles with cutting-edge engineering. From fully glazed structural facades to self-supporting curtain walls, we deliver solutions that meet the highest architectural and energy standards.",
+        nl: "Onze glasgevelsystemen combineren thermisch geïsoleerde aluminiumprofielen met geavanceerde techniek. Van volledig beglaasde structurele gevels tot zelfdragende vliesgevels, wij leveren oplossingen die voldoen aan de hoogste architectonische en energienormen.",
+        de: "Unsere Glasfassadensysteme kombinieren thermisch isolierte Aluminiumprofile mit modernster Technik. Von vollverglasten Strukturfassaden bis hin zu selbsttragenden Vorhangfassaden liefern wir Lösungen, die höchsten architektonischen und energetischen Standards entsprechen.",
+        fr: "Nos systèmes de façades vitrées combinent des profilés en aluminium à isolation thermique avec une ingénierie de pointe. Des façades structurelles entièrement vitrées aux murs-rideaux autoportants, nous offrons des solutions répondant aux normes architecturales et énergétiques les plus élevées.",
+        es: "Nuestros sistemas de fachadas de vidrio combinan perfiles de aluminio con aislamiento térmico e ingeniería de vanguardia. Desde fachadas estructurales totalmente acristaladas hasta muros cortina autoportantes, ofrecemos soluciones que cumplen los más altos estándares arquitectónicos y energéticos.",
+        it: "I nostri sistemi di facciate in vetro combinano profili in alluminio a taglio termico con ingegneria all'avanguardia. Dalle facciate strutturali completamente vetrate alle facciate continue autoportanti, offriamo soluzioni che soddisfano i più elevati standard architettonici ed energetici.",
+        pl: "Nasze systemy fasad szklanych łączą profile aluminiowe z izolacją termiczną z najnowocześniejszą inżynierią. Od w pełni przeszklonych fasad strukturalnych po samonośne ściany osłonowe — dostarczamy rozwiązania spełniające najwyższe standardy architektoniczne i energetyczne."
+    },
+    "facades.intro.feat1": {
+        en: "U-values from 0.70 W/m²K", nl: "U-waarden vanaf 0,70 W/m²K", de: "U-Werte ab 0,70 W/m²K", fr: "Valeurs U dès 0,70 W/m²K", es: "Valores U desde 0,70 W/m²K", it: "Valori U da 0,70 W/m²K", pl: "Współczynniki U od 0,70 W/m²K"
+    },
+    "facades.intro.feat2": {
+        en: "Sound protection up to 43 dB", nl: "Geluidsbescherming tot 43 dB", de: "Schallschutz bis zu 43 dB", fr: "Protection acoustique jusqu'à 43 dB", es: "Protección acústica hasta 43 dB", it: "Protezione acustica fino a 43 dB", pl: "Ochrona akustyczna do 43 dB"
+    },
+    "facades.intro.feat3": {
+        en: "Glass weights up to 1,080 kg supported", nl: "Glasgewichten tot 1.080 kg ondersteund", de: "Glasgewichte bis zu 1.080 kg unterstützt", fr: "Poids de verre jusqu'à 1 080 kg supportés", es: "Pesos de vidrio hasta 1.080 kg soportados", it: "Pesi vetro fino a 1.080 kg supportati", pl: "Obsługa szyb o wadze do 1080 kg"
+    },
+    "facades.intro.feat4": {
+        en: "Wind resistance up to 3.0 kN/m²", nl: "Windbestendigheid tot 3,0 kN/m²", de: "Windbeständigkeit bis zu 3,0 kN/m²", fr: "Résistance au vent jusqu'à 3,0 kN/m²", es: "Resistencia al viento hasta 3,0 kN/m²", it: "Resistenza al vento fino a 3,0 kN/m²", pl: "Odporność na wiatr do 3,0 kN/m²"
+    },
+    "facades.feal50.title": {
+        en: "Fasada 50 FK", nl: "Fasada 50 FK", de: "Fasada 50 FK", fr: "Fasada 50 FK", es: "Fasada 50 FK", it: "Fasada 50 FK", pl: "Fasada 50 FK"
+    },
+    "facades.feal50.desc": {
+        en: "High-quality system for continuous, structural, and self-supporting fully glazed facades. Thermally insulated aluminium profiles deliver excellent energy efficiency.",
+        nl: "Hoogwaardig systeem voor doorlopende, structurele en zelfdragende volledig beglaasde gevels. Thermisch geïsoleerde aluminium profielen bieden uitstekende energie-efficiëntie.",
+        de: "Hochwertiges System für durchgehende, strukturelle und selbsttragende Vollglasfassaden. Thermisch isolierte Aluminiumprofile bieten hervorragende Energieeffizienz.",
+        fr: "Système de haute qualité pour façades continues, structurelles et autoportantes entièrement vitrées. Les profilés en aluminium à isolation thermique offrent une excellente efficacité énergétique.",
+        es: "Sistema de alta calidad para fachadas continuas, estructurales y autoportantes totalmente acristaladas. Los perfiles de aluminio con aislamiento térmico ofrecen una excelente eficiencia energética.",
+        it: "Sistema di alta qualità per facciate continue, strutturali e autoportanti completamente vetrate. I profili in alluminio a taglio termico offrono un'eccellente efficienza energetica.",
+        pl: "Wysokiej jakości system do ciągłych, strukturalnych i samonośnych w pełni przeszklonych fasad. Termicznie izolowane profile aluminiowe zapewniają doskonałą efektywność energetyczną."
+    },
+    "facades.feal50.sound": {
+        en: "Up to 43 dB", nl: "Tot 43 dB", de: "Bis zu 43 dB", fr: "Jusqu'à 43 dB", es: "Hasta 43 dB", it: "Fino a 43 dB", pl: "Do 43 dB"
+    },
+    "facades.feal50.type": {
+        en: "Structural", nl: "Structureel", de: "Strukturell", fr: "Structurel", es: "Estructural", it: "Strutturale", pl: "Strukturalna"
+    },
+    "facades.feal60.title": {
+        en: "Fasada 60 K", nl: "Fasada 60 K", de: "Fasada 60 K", fr: "Fasada 60 K", es: "Fasada 60 K", it: "Fasada 60 K", pl: "Fasada 60 K"
+    },
+    "facades.feal60.desc": {
+        en: "Modern system for self-supporting facade constructions. Excellent energy efficiency, durability, and aesthetic adaptability for contemporary architecture.",
+        nl: "Modern systeem voor zelfdragende gevelconstructies. Uitstekende energie-efficiëntie, duurzaamheid en esthetische flexibiliteit voor hedendaagse architectuur.",
+        de: "Modernes System für selbsttragende Fassadenkonstruktionen. Hervorragende Energieeffizienz, Langlebigkeit und ästhetische Anpassungsfähigkeit für zeitgenössische Architektur.",
+        fr: "Système moderne pour constructions de façades autoportantes. Excellente efficacité énergétique, durabilité et adaptabilité esthétique pour l'architecture contemporaine.",
+        es: "Sistema moderno para construcciones de fachadas autoportantes. Excelente eficiencia energética, durabilidad y adaptabilidad estética para la arquitectura contemporánea.",
+        it: "Sistema moderno per costruzioni di facciate autoportanti. Eccellente efficienza energetica, durabilità e adattabilità estetica per l'architettura contemporanea.",
+        pl: "Nowoczesny system do samonośnych konstrukcji fasadowych. Doskonała efektywność energetyczna, trwałość i elastyczność estetyczna dla współczesnej architektury."
+    },
+    "facades.feal60.sound": {
+        en: "Up to 42 dB", nl: "Tot 42 dB", de: "Bis zu 42 dB", fr: "Jusqu'à 42 dB", es: "Hasta 42 dB", it: "Fino a 42 dB", pl: "Do 42 dB"
+    },
+    "facades.feal60.type": {
+        en: "Self-Supporting", nl: "Zelfdragend", de: "Selbsttragend", fr: "Autoportant", es: "Autoportante", it: "Autoportante", pl: "Samonośna"
+    },
+    "facades.spec.visibleWidth": {
+        en: "Visible Width", nl: "Zichtbare breedte", de: "Sichtbare Breite", fr: "Largeur visible", es: "Ancho visible", it: "Larghezza visibile", pl: "Szerokość widoczna"
+    },
+    "facades.spec.uValue": {
+        en: "U-Value", nl: "U-waarde", de: "U-Wert", fr: "Valeur U", es: "Valor U", it: "Valore U", pl: "Wartość U"
+    },
+    "facades.spec.uValueUf": {
+        en: "U-Value (Uf)", nl: "U-waarde (Uf)", de: "U-Wert (Uf)", fr: "Valeur U (Uf)", es: "Valor U (Uf)", it: "Valore U (Uf)", pl: "Wartość U (Uf)"
+    },
+    "facades.spec.sound": {
+        en: "Sound", nl: "Geluid", de: "Schall", fr: "Son", es: "Sonido", it: "Suono", pl: "Dźwięk"
+    },
+    "facades.spec.glazing": {
+        en: "Glazing", nl: "Beglazing", de: "Verglasung", fr: "Vitrage", es: "Acristalamiento", it: "Vetraggio", pl: "Szklenie"
+    },
+    "facades.spec.mullion": {
+        en: "Mullion", nl: "Stijl", de: "Pfosten", fr: "Meneau", es: "Montante", it: "Montante", pl: "Słupek"
+    },
+    "facades.spec.type": {
+        en: "Type", nl: "Type", de: "Typ", fr: "Type", es: "Tipo", it: "Tipo", pl: "Typ"
+    },
+    "facades.spec.maxGlass": {
+        en: "Max Glass", nl: "Max. glas", de: "Max. Glas", fr: "Verre max.", es: "Vidrio máx.", it: "Vetro max.", pl: "Maks. szkło"
+    },
+    "facades.spec.wind": {
+        en: "Wind", nl: "Wind", de: "Wind", fr: "Vent", es: "Viento", it: "Vento", pl: "Wiatr"
+    },
+    "facades.spec.water": {
+        en: "Water", nl: "Water", de: "Wasser", fr: "Eau", es: "Agua", it: "Acqua", pl: "Woda"
+    },
+    "facades.fws50.title": {
+        en: "Schüco FWS 50", nl: "Schüco FWS 50", de: "Schüco FWS 50", fr: "Schüco FWS 50", es: "Schüco FWS 50", it: "Schüco FWS 50", pl: "Schüco FWS 50"
+    },
+    "facades.fws50.desc": {
+        en: "Flexible facade system for facades and roof skylights. Attractive design options with optimized fabrication and installation processes. Wide range of elements.",
+        nl: "Flexibel gevelsysteem voor gevels en daklichten. Aantrekkelijke ontwerpopties met geoptimaliseerde fabricage- en installatieprocessen. Breed scala aan elementen.",
+        de: "Flexibles Fassadensystem für Fassaden und Dachverglasungen. Attraktive Gestaltungsmöglichkeiten mit optimierten Fertigungs- und Montageprozessen. Breites Elementspektrum.",
+        fr: "Système de façade flexible pour façades et verrières de toit. Options de design attrayantes avec des processus de fabrication et d'installation optimisés. Large gamme d'éléments.",
+        es: "Sistema de fachada flexible para fachadas y claraboyas. Atractivas opciones de diseño con procesos de fabricación e instalación optimizados. Amplia gama de elementos.",
+        it: "Sistema di facciata flessibile per facciate e lucernari. Opzioni di design attraenti con processi di fabbricazione e installazione ottimizzati. Ampia gamma di elementi.",
+        pl: "Elastyczny system fasadowy do fasad i świetlików dachowych. Atrakcyjne opcje projektowe ze zoptymalizowanymi procesami produkcji i montażu. Szeroka gama elementów."
+    },
+    "facades.fws60.title": {
+        en: "Schüco FWS 60", nl: "Schüco FWS 60", de: "Schüco FWS 60", fr: "Schüco FWS 60", es: "Schüco FWS 60", it: "Schüco FWS 60", pl: "Schüco FWS 60"
+    },
+    "facades.fws60.desc": {
+        en: "60mm visible width with high design flexibility. Wide choice of pressure plates and covers, fully compatible with Schüco window, door, and sliding systems.",
+        nl: "60 mm zichtbare breedte met grote ontwerpflexibiliteit. Ruime keuze aan drukplaten en afdekkappen, volledig compatibel met Schüco raam-, deur- en schuifsystemen.",
+        de: "60 mm Ansichtsbreite mit hoher Gestaltungsflexibilität. Große Auswahl an Druckleisten und Abdeckungen, voll kompatibel mit Schüco Fenster-, Tür- und Schiebesystemen.",
+        fr: "Largeur visible de 60 mm avec grande flexibilité de conception. Large choix de plaques de pression et capots, entièrement compatible avec les systèmes de fenêtres, portes et coulissants Schüco.",
+        es: "Ancho visible de 60 mm con alta flexibilidad de diseño. Amplia selección de placas de presión y tapas, totalmente compatible con los sistemas de ventanas, puertas y correderas Schüco.",
+        it: "Larghezza visibile di 60 mm con elevata flessibilità progettuale. Ampia scelta di piastre di pressione e coperture, completamente compatibile con i sistemi di finestre, porte e scorrevoli Schüco.",
+        pl: "Szerokość widoczna 60 mm z dużą elastycznością projektową. Szeroki wybór listew dociskowych i nakładek, w pełni kompatybilny z systemami okien, drzwi i przesuwów Schüco."
+    },
+    "facades.types.subtitle": {
+        en: "Types", nl: "Types", de: "Typen", fr: "Types", es: "Tipos", it: "Tipi", pl: "Typy"
+    },
+    "facades.types.title": {
+        en: "Facade", nl: "Gevel", de: "Fassaden", fr: "Configurations de", es: "Configuraciones de", it: "Configurazioni di", pl: "Konfiguracje"
+    },
+    "facades.types.titleAccent": {
+        en: "Configurations", nl: "Configuraties", de: "Konfigurationen", fr: "Façade", es: "Fachada", it: "Facciata", pl: "Fasad"
+    },
+    "facades.structural.title": {
+        en: "Structural Facades", nl: "Structurele Gevels", de: "Strukturelle Fassaden", fr: "Façades Structurelles", es: "Fachadas Estructurales", it: "Facciate Strutturali", pl: "Fasady Strukturalne"
+    },
+    "facades.structural.desc": {
+        en: "Fully glazed facades with hidden profiles for a seamless glass appearance. Maximum transparency and modern aesthetics.",
+        nl: "Volledig beglaasde gevels met verborgen profielen voor een naadloos glasuiterlijk. Maximale transparantie en moderne esthetiek.",
+        de: "Vollverglaste Fassaden mit verdeckten Profilen für eine nahtlose Glasoptik. Maximale Transparenz und moderne Ästhetik.",
+        fr: "Façades entièrement vitrées avec profilés cachés pour un aspect verre sans couture. Transparence maximale et esthétique moderne.",
+        es: "Fachadas totalmente acristaladas con perfiles ocultos para una apariencia de vidrio uniforme. Máxima transparencia y estética moderna.",
+        it: "Facciate completamente vetrate con profili nascosti per un aspetto in vetro senza giunture. Massima trasparenza ed estetica moderna.",
+        pl: "W pełni przeszklone fasady z ukrytymi profilami dla jednolitego wyglądu szklanego. Maksymalna przejrzystość i nowoczesna estetyka."
+    },
+    "facades.continuous.title": {
+        en: "Continuous Facades", nl: "Doorlopende Gevels", de: "Durchgehende Fassaden", fr: "Façades Continues", es: "Fachadas Continuas", it: "Facciate Continue", pl: "Fasady Ciągłe"
+    },
+    "facades.continuous.desc": {
+        en: "Mullion-transom curtain walls with visible aluminium profiles. Versatile configuration for any building geometry.",
+        nl: "Stijl-regelgevels met zichtbare aluminium profielen. Veelzijdige configuratie voor elke gebouwgeometrie.",
+        de: "Pfosten-Riegel-Vorhangfassaden mit sichtbaren Aluminiumprofilen. Vielseitige Konfiguration für jede Gebäudegeometrie.",
+        fr: "Murs-rideaux à meneaux et traverses avec profilés en aluminium visibles. Configuration polyvalente pour toute géométrie de bâtiment.",
+        es: "Muros cortina de montantes y travesaños con perfiles de aluminio visibles. Configuración versátil para cualquier geometría de edificio.",
+        it: "Facciate continue a montanti e traversi con profili in alluminio visibili. Configurazione versatile per qualsiasi geometria dell'edificio.",
+        pl: "Fasady słupowo-ryglowe z widocznymi profilami aluminiowymi. Wszechstronna konfiguracja dla dowolnej geometrii budynku."
+    },
+    "facades.cta.subtitle": {
+        en: "Get Started", nl: "Aan de slag", de: "Jetzt starten", fr: "Commencer", es: "Empezar", it: "Inizia", pl: "Rozpocznij"
+    },
+    "facades.cta.desc": {
+        en: "Send us your architectural drawings and we'll provide a complete facade solution with pricing within 48 hours.",
+        nl: "Stuur ons uw architectuurtekeningen en wij bieden een complete geveloplossing met prijsopgave binnen 48 uur.",
+        de: "Senden Sie uns Ihre Architekturzeichnungen und wir liefern eine komplette Fassadenlösung mit Preisangebot innerhalb von 48 Stunden.",
+        fr: "Envoyez-nous vos plans architecturaux et nous vous fournirons une solution de façade complète avec devis sous 48 heures.",
+        es: "Envíenos sus planos arquitectónicos y le proporcionaremos una solución de fachada completa con precios en 48 horas.",
+        it: "Inviateci i vostri disegni architettonici e vi forniremo una soluzione di facciata completa con preventivo entro 48 ore.",
+        pl: "Wyślij nam swoje rysunki architektoniczne, a my dostarczymy kompletne rozwiązanie fasadowe z wyceną w ciągu 48 godzin."
+    },
+    "facades.cta.btn1": {
+        en: "Request a Free Quote", nl: "Gratis Offerte Aanvragen", de: "Kostenloses Angebot Anfordern", fr: "Demander un Devis Gratuit", es: "Solicitar Presupuesto Gratis", it: "Richiedi Preventivo Gratuito", pl: "Zamów Darmową Wycenę"
+    },
+    "facades.cta.btn2": {
+        en: "WhatsApp Us", nl: "WhatsApp Ons", de: "WhatsApp Uns", fr: "WhatsApp", es: "WhatsApp", it: "WhatsApp", pl: "WhatsApp"
+    },
+
+    // --- Garage Doors Page ---
+    "garage.hero.desc": {
+        en: "Premium insulated sectional garage doors with superior thermal performance, smooth operation, and modern aesthetics. Motorized or manual — built to last.",
+        nl: "Premium geïsoleerde sectionaaldeuren met uitstekende thermische prestaties, soepele werking en modern design. Gemotoriseerd of handmatig — gebouwd om lang mee te gaan.",
+        de: "Premium isolierte Sektionaltore mit hervorragender Wärmedämmung, sanftem Lauf und moderner Ästhetik. Motorisiert oder manuell — gebaut für die Ewigkeit.",
+        fr: "Portes de garage sectionnelles isolées premium avec performances thermiques supérieures, fonctionnement fluide et esthétique moderne. Motorisées ou manuelles — conçues pour durer.",
+        es: "Puertas de garaje seccionales aisladas premium con rendimiento térmico superior, funcionamiento suave y estética moderna. Motorizadas o manuales — hechas para durar.",
+        it: "Portoni sezionali isolati premium con prestazioni termiche superiori, funzionamento fluido ed estetica moderna. Motorizzati o manuali — costruiti per durare.",
+        pl: "Segmentowe bramy garażowe premium z doskonałą izolacją termiczną, płynnym działaniem i nowoczesną estetyką. Zmotoryzowane lub ręczne — stworzone, by służyć latami."
+    },
+    "garage.why.desc": {
+        en: "Sectional garage doors open vertically, meaning they don't swing outward and take up zero driveway space. The insulated sandwich panels provide excellent thermal and acoustic insulation for your garage.",
+        nl: "Sectionaaldeuren openen verticaal, wat betekent dat ze niet naar buiten zwaaien en geen opritruimte innemen. De geïsoleerde sandwichpanelen bieden uitstekende thermische en akoestische isolatie voor uw garage.",
+        de: "Sektionaltore öffnen vertikal, d.h. sie schwingen nicht nach außen und nehmen keinen Platz auf der Einfahrt ein. Die isolierten Sandwichpaneele bieten hervorragende Wärme- und Schalldämmung für Ihre Garage.",
+        fr: "Les portes sectionnelles s'ouvrent verticalement, ce qui signifie qu'elles ne pivotent pas vers l'extérieur et n'occupent aucun espace dans l'allée. Les panneaux sandwich isolés offrent une excellente isolation thermique et acoustique.",
+        es: "Las puertas seccionales se abren verticalmente, lo que significa que no giran hacia afuera y no ocupan espacio en la entrada. Los paneles sándwich aislados proporcionan una excelente aislación térmica y acústica.",
+        it: "I portoni sezionali si aprono verticalmente, il che significa che non si aprono verso l'esterno e non occupano spazio nel vialetto. I pannelli sandwich isolati offrono un eccellente isolamento termico e acustico.",
+        pl: "Bramy segmentowe otwierają się pionowo, co oznacza, że nie wychylają się na zewnątrz i nie zajmują miejsca na podjeździe. Izolowane panele sandwiczowe zapewniają doskonałą izolację termiczną i akustyczną."
+    },
+    "garage.why.check1": {
+        en: "Vertical opening — no driveway space needed",
+        nl: "Verticale opening — geen opritruimte nodig",
+        de: "Vertikale Öffnung — kein Einfahrtsplatz nötig",
+        fr: "Ouverture verticale — aucun espace d'allée nécessaire",
+        es: "Apertura vertical — sin necesidad de espacio en la entrada",
+        it: "Apertura verticale — nessuno spazio nel vialetto necessario",
+        pl: "Otwieranie pionowe — nie wymaga miejsca na podjeździe"
+    },
+    "garage.why.check2": {
+        en: "42mm double-walled insulated panels",
+        nl: "42mm dubbelwandige geïsoleerde panelen",
+        de: "42mm doppelwandige isolierte Paneele",
+        fr: "Panneaux isolés double paroi de 42mm",
+        es: "Paneles aislados de doble pared de 42mm",
+        it: "Pannelli isolati a doppia parete da 42mm",
+        pl: "Panele izolowane dwuścienne 42mm"
+    },
+    "garage.why.check3": {
+        en: "Motorized with remote control option",
+        nl: "Gemotoriseerd met afstandsbedieningsoptie",
+        de: "Motorisiert mit Fernbedienungsoption",
+        fr: "Motorisée avec option télécommande",
+        es: "Motorizada con opción de mando a distancia",
+        it: "Motorizzato con opzione telecomando",
+        pl: "Zmotoryzowana z opcją pilota zdalnego sterowania"
+    },
+    "garage.why.check4": {
+        en: "Anti-pinch finger protection",
+        nl: "Anti-klem vingerbescherming",
+        de: "Einklemmschutz für Finger",
+        fr: "Protection anti-pincement des doigts",
+        es: "Protección anti-pellizco para dedos",
+        it: "Protezione anti-schiacciamento dita",
+        pl: "Zabezpieczenie przed przytrzaśnięciem palców"
+    },
+    "garage.why.check5": {
+        en: "Wide range of colors and finishes",
+        nl: "Breed scala aan kleuren en afwerkingen",
+        de: "Große Auswahl an Farben und Oberflächen",
+        fr: "Large gamme de couleurs et finitions",
+        es: "Amplia gama de colores y acabados",
+        it: "Ampia gamma di colori e finiture",
+        pl: "Szeroka gama kolorów i wykończeń"
+    },
+    "garage.why.check6": {
+        en: "Optional windows and ventilation grilles",
+        nl: "Optionele ramen en ventilatieroosters",
+        de: "Optionale Fenster und Lüftungsgitter",
+        fr: "Fenêtres et grilles de ventilation en option",
+        es: "Ventanas y rejillas de ventilación opcionales",
+        it: "Finestre e griglie di ventilazione opzionali",
+        pl: "Opcjonalne okienka i kratki wentylacyjne"
+    },
+    "garage.panels.desc": {
+        en: "Choose from two premium panel types — each offering different surface textures and design possibilities.",
+        nl: "Kies uit twee premium paneeltypes — elk met verschillende oppervlaktetexturen en ontwerpmogelijkheden.",
+        de: "Wählen Sie aus zwei Premium-Paneeltypen — jeder bietet unterschiedliche Oberflächenstrukturen und Gestaltungsmöglichkeiten.",
+        fr: "Choisissez parmi deux types de panneaux premium — chacun offrant des textures de surface et des possibilités de design différentes.",
+        es: "Elija entre dos tipos de paneles premium — cada uno con diferentes texturas de superficie y posibilidades de diseño.",
+        it: "Scegli tra due tipi di pannelli premium — ognuno offre diverse texture superficiali e possibilità di design.",
+        pl: "Wybierz spośród dwóch typów paneli premium — każdy oferuje inne tekstury powierzchni i możliwości projektowe."
+    },
+    "garage.lte.title": {
+        en: "LTE Panels", nl: "LTE Panelen", de: "LTE Paneele", fr: "Panneaux LTE", es: "Paneles LTE", it: "Pannelli LTE", pl: "Panele LTE"
+    },
+    "garage.lte.desc": {
+        en: "Large-groove surface design with elegant horizontal lines. Double-walled sandwich construction with PU foam insulation. Available in smooth and woodgrain finishes.",
+        nl: "Groot-groef oppervlaktedesign met elegante horizontale lijnen. Dubbelwandige sandwichconstructie met PU-schuimisolatie. Verkrijgbaar in glad en houtnerf.",
+        de: "Großrillen-Oberflächendesign mit eleganten horizontalen Linien. Doppelwandige Sandwich-Konstruktion mit PU-Schaumisolierung. Erhältlich in Glatt und Holzdekor.",
+        fr: "Design de surface à larges rainures avec d'élégantes lignes horizontales. Construction sandwich double paroi avec isolation en mousse PU. Disponible en finitions lisses et imitation bois.",
+        es: "Diseño de superficie con ranuras grandes y elegantes líneas horizontales. Construcción sándwich de doble pared con aislamiento de espuma PU. Disponible en acabados lisos y veta de madera.",
+        it: "Design superficiale a scanalature larghe con eleganti linee orizzontali. Costruzione sandwich a doppia parete con isolamento in schiuma PU. Disponibile in finitura liscia e venatura legno.",
+        pl: "Powierzchnia z dużymi rowkami i eleganckimi liniami poziomymi. Dwuścienna konstrukcja sandwiczowa z izolacją pianką PU. Dostępna w wykończeniu gładkim i imitacji drewna."
+    },
+    "garage.spec.thickness": {
+        en: "Thickness", nl: "Dikte", de: "Dicke", fr: "Épaisseur", es: "Espesor", it: "Spessore", pl: "Grubość"
+    },
+    "garage.spec.surface": {
+        en: "Surface", nl: "Oppervlak", de: "Oberfläche", fr: "Surface", es: "Superficie", it: "Superficie", pl: "Powierzchnia"
+    },
+    "garage.lte.surfaceVal": {
+        en: "Stucco / Woodgrain", nl: "Stucco / Houtnerf", de: "Stucco / Holzdekor", fr: "Stucco / Imitation Bois", es: "Estuco / Veta de Madera", it: "Stucco / Venatura Legno", pl: "Stucco / Imitacja Drewna"
+    },
+    "garage.lpu.title": {
+        en: "LPU Panels", nl: "LPU Panelen", de: "LPU Paneele", fr: "Panneaux LPU", es: "Paneles LPU", it: "Pannelli LPU", pl: "Panele LPU"
+    },
+    "garage.lpu.desc": {
+        en: "Premium panel with micro-groove surface for a refined look. Enhanced thermal insulation and superior weather resistance. Premium finish options available.",
+        nl: "Premium paneel met micro-groef oppervlak voor een verfijnd uiterlijk. Verbeterde thermische isolatie en superieure weerbestendigheid. Premium afwerkingsopties beschikbaar.",
+        de: "Premium-Paneel mit Mikrorillen-Oberfläche für ein edles Erscheinungsbild. Verbesserte Wärmedämmung und überlegene Wetterbeständigkeit. Premium-Oberflächenoptionen verfügbar.",
+        fr: "Panneau premium avec surface micro-rainurée pour un look raffiné. Isolation thermique améliorée et résistance aux intempéries supérieure. Options de finition premium disponibles.",
+        es: "Panel premium con superficie micro-ranurada para un aspecto refinado. Aislamiento térmico mejorado y resistencia superior a la intemperie. Opciones de acabado premium disponibles.",
+        it: "Pannello premium con superficie micro-scanalata per un aspetto raffinato. Isolamento termico migliorato e resistenza alle intemperie superiore. Opzioni di finitura premium disponibili.",
+        pl: "Panel premium z powierzchnią mikro-rowkowaną o wyrafinowanym wyglądzie. Ulepszona izolacja termiczna i doskonała odporność na warunki atmosferyczne. Dostępne opcje wykończenia premium."
+    },
+    "garage.lpu.surfaceVal": {
+        en: "Micro-Groove / Silkgrain", nl: "Micro-Groef / Zijdenerf", de: "Mikrorillen / Seidendekor", fr: "Micro-Rainure / Grain Soyeux", es: "Micro-Ranura / Grano Seda", it: "Micro-Scanalatura / Grana Seta", pl: "Mikro-Rowki / Jedwabista Struktura"
+    },
+    "garage.cta.desc": {
+        en: "Send us your dimensions and preferred style. We'll provide a detailed quote with delivery timeline within 24 hours.",
+        nl: "Stuur ons uw afmetingen en gewenste stijl. Wij leveren een gedetailleerde offerte met levertijd binnen 24 uur.",
+        de: "Senden Sie uns Ihre Maße und Ihren bevorzugten Stil. Wir erstellen Ihnen ein detailliertes Angebot mit Lieferzeitplan innerhalb von 24 Stunden.",
+        fr: "Envoyez-nous vos dimensions et votre style préféré. Nous vous fournirons un devis détaillé avec un délai de livraison sous 24 heures.",
+        es: "Envíenos sus dimensiones y estilo preferido. Le proporcionaremos un presupuesto detallado con plazo de entrega en 24 horas.",
+        it: "Inviateci le vostre dimensioni e lo stile preferito. Vi forniremo un preventivo dettagliato con tempistiche di consegna entro 24 ore.",
+        pl: "Wyślij nam wymiary i preferowany styl. Dostarczymy szczegółową wycenę z terminem dostawy w ciągu 24 godzin."
+    },
+    "garage.cta.btn1": {
+        en: "Request a Free Quote", nl: "Gratis Offerte Aanvragen", de: "Kostenloses Angebot Anfordern", fr: "Demander un Devis Gratuit", es: "Solicitar Presupuesto Gratis", it: "Richiedi Preventivo Gratuito", pl: "Zamów Darmową Wycenę"
+    },
+    "garage.cta.btn2": {
+        en: "WhatsApp Us", nl: "WhatsApp Ons", de: "WhatsApp Uns", fr: "WhatsApp", es: "WhatsApp", it: "WhatsApp", pl: "Napisz na WhatsApp"
+    },
+
+    // --- Doors Page (body content i18n) ---
+    "doors.hero.desc2": {
+        en: "Make a statement with premium entry doors. PVC and aluminium profiles from REHAU, Schüco, and FEAL — available in 20+ designer models.",
+        nl: "Maak indruk met premium voordeuren. PVC- en aluminium profielen van REHAU, Schüco en FEAL — verkrijgbaar in 20+ designermodellen.",
+        de: "Setzen Sie ein Zeichen mit Premium-Haustüren. PVC- und Aluminium-Profile von REHAU, Schüco und FEAL — erhältlich in über 20 Designermodellen.",
+        fr: "Faites une déclaration avec des portes d'entrée premium. Profilés PVC et aluminium REHAU, Schüco et FEAL — disponibles dans 20+ modèles design.",
+        es: "Haga una declaración con puertas de entrada premium. Perfiles PVC y aluminio de REHAU, Schüco y FEAL — disponibles en más de 20 modelos de diseño.",
+        it: "Fai una dichiarazione con porte d'ingresso premium. Profili in PVC e alluminio REHAU, Schüco e FEAL — disponibili in oltre 20 modelli design.",
+        pl: "Zrób wrażenie dzięki drzwiom wejściowym premium. Profile PVC i aluminiowe REHAU, Schüco i FEAL — dostępne w ponad 20 modelach designerskich."
+    },
+    "doors.pvc.title": { en: "REHAU", nl: "REHAU", de: "REHAU", fr: "REHAU", es: "REHAU", it: "REHAU", pl: "REHAU" },
+    "doors.pvc.titleAccent": { en: "Euro 70", nl: "Euro 70", de: "Euro 70", fr: "Euro 70", es: "Euro 70", it: "Euro 70", pl: "Euro 70" },
+    "doors.pvc.desc": {
+        en: "Proven PVC door profile with excellent thermal and acoustic insulation. Available in a wide range of colors and panel designs.",
+        nl: "Beproefd PVC-deurprofiel met uitstekende thermische en akoestische isolatie. Verkrijgbaar in een breed scala aan kleuren en paneelontwerpen.",
+        de: "Bewährtes PVC-Türprofil mit hervorragender Wärme- und Schalldämmung. Erhältlich in einer großen Auswahl an Farben und Paneeldesigns.",
+        fr: "Profilé de porte PVC éprouvé avec une excellente isolation thermique et acoustique. Disponible dans une large gamme de couleurs et de designs de panneaux.",
+        es: "Perfil de puerta PVC probado con excelente aislamiento térmico y acústico. Disponible en una amplia gama de colores y diseños de paneles.",
+        it: "Profilo porta in PVC collaudato con eccellente isolamento termico e acustico. Disponibile in un'ampia gamma di colori e design dei pannelli.",
+        pl: "Sprawdzony profil drzwiowy PVC z doskonałą izolacją termiczną i akustyczną. Dostępny w szerokiej gamie kolorów i wzorów paneli."
+    },
+    "doors.pvc.profileTitle": { en: "REHAU Euro 70", nl: "REHAU Euro 70", de: "REHAU Euro 70", fr: "REHAU Euro 70", es: "REHAU Euro 70", it: "REHAU Euro 70", pl: "REHAU Euro 70" },
+    "doors.pvc.profileDesc": {
+        en: "Multi-chamber PVC profile with 70mm depth. Steel reinforcement and EPDM gaskets for reliable sealing and security.",
+        nl: "Meerkamer PVC-profiel met 70mm diepte. Stalen versterking en EPDM-afdichtingen voor betrouwbare afsluiting en veiligheid.",
+        de: "Mehrkammer-PVC-Profil mit 70mm Tiefe. Stahlverstärkung und EPDM-Dichtungen für zuverlässige Abdichtung und Sicherheit.",
+        fr: "Profilé PVC multi-chambres de 70mm de profondeur. Renfort en acier et joints EPDM pour une étanchéité et une sécurité fiables.",
+        es: "Perfil PVC multicámara con 70mm de profundidad. Refuerzo de acero y juntas EPDM para un sellado y seguridad fiables.",
+        it: "Profilo PVC multicamera con profondità di 70mm. Rinforzo in acciaio e guarnizioni EPDM per una tenuta e sicurezza affidabili.",
+        pl: "Wielokomorowy profil PVC o głębokości 70mm. Stalowe wzmocnienia i uszczelki EPDM zapewniają niezawodną szczelność i bezpieczeństwo."
+    },
+    "doors.spec.depth": { en: "Depth", nl: "Diepte", de: "Tiefe", fr: "Profondeur", es: "Profundidad", it: "Profondità", pl: "Głębokość" },
+    "doors.spec.chambers": { en: "Chambers", nl: "Kamers", de: "Kammern", fr: "Chambres", es: "Cámaras", it: "Camere", pl: "Komory" },
+    "doors.spec.insulation": { en: "Insulation", nl: "Isolatie", de: "Dämmung", fr: "Isolation", es: "Aislamiento", it: "Isolamento", pl: "Izolacja" },
+    "doors.spec.security": { en: "Security", nl: "Veiligheid", de: "Sicherheit", fr: "Sécurité", es: "Seguridad", it: "Sicurezza", pl: "Bezpieczeństwo" },
+    "doors.spec.type": { en: "Type", nl: "Type", de: "Typ", fr: "Type", es: "Tipo", it: "Tipo", pl: "Typ" },
+    "doors.spec.multi": { en: "Multi", nl: "Multi", de: "Multi", fr: "Multi", es: "Multi", it: "Multi", pl: "Multi" },
+    "doors.spec.veryGood": { en: "Very Good", nl: "Zeer Goed", de: "Sehr Gut", fr: "Très Bon", es: "Muy Bueno", it: "Molto Buono", pl: "Bardzo Dobra" },
+    "doors.spec.upToRC2": { en: "Up to RC2", nl: "Tot RC2", de: "Bis RC2", fr: "Jusqu'à RC2", es: "Hasta RC2", it: "Fino a RC2", pl: "Do RC2" },
+    "doors.spec.high": { en: "High", nl: "Hoog", de: "Hoch", fr: "Élevée", es: "Alta", it: "Alta", pl: "Wysoka" },
+    "doors.spec.veryHigh": { en: "Very High", nl: "Zeer Hoog", de: "Sehr Hoch", fr: "Très Élevée", es: "Muy Alta", it: "Molto Alta", pl: "Bardzo Wysoka" },
+    "doors.spec.passiveHouse": { en: "Passive House", nl: "Passiefhuis", de: "Passivhaus", fr: "Maison Passive", es: "Casa Pasiva", it: "Casa Passiva", pl: "Dom Pasywny" },
+    "doors.spec.entryDoor": { en: "Entry Door", nl: "Voordeur", de: "Haustür", fr: "Porte d'Entrée", es: "Puerta de Entrada", it: "Porta d'Ingresso", pl: "Drzwi Wejściowe" },
+    "doors.alu.desc": {
+        en: "Premium aluminium door profiles for maximum security, thermal insulation, and architectural design freedom.",
+        nl: "Premium aluminium deurprofielen voor maximale veiligheid, thermische isolatie en architectonische ontwerpvrijheid.",
+        de: "Premium Aluminium-Türprofile für maximale Sicherheit, Wärmedämmung und architektonische Gestaltungsfreiheit.",
+        fr: "Profilés de porte en aluminium premium pour une sécurité maximale, une isolation thermique et une liberté de conception architecturale.",
+        es: "Perfiles de puerta de aluminio premium para máxima seguridad, aislamiento térmico y libertad de diseño arquitectónico.",
+        it: "Profili porta in alluminio premium per massima sicurezza, isolamento termico e libertà progettuale architettonica.",
+        pl: "Aluminiowe profile drzwiowe premium zapewniające maksymalne bezpieczeństwo, izolację termiczną i swobodę projektowania architektonicznego."
+    },
+    "doors.alu.ads70.title": { en: "Schüco ADS 70.HI", nl: "Schüco ADS 70.HI", de: "Schüco ADS 70.HI", fr: "Schüco ADS 70.HI", es: "Schüco ADS 70.HI", it: "Schüco ADS 70.HI", pl: "Schüco ADS 70.HI" },
+    "doors.alu.ads70.desc": {
+        en: "Thermally insulated aluminium door system. Robust construction with excellent energy efficiency for residential and commercial entrances.",
+        nl: "Thermisch geïsoleerd aluminium deursysteem. Robuuste constructie met uitstekende energie-efficiëntie voor residentiële en commerciële ingangen.",
+        de: "Thermisch isoliertes Aluminium-Türsystem. Robuste Konstruktion mit hervorragender Energieeffizienz für Wohn- und Gewerbe-Eingänge.",
+        fr: "Système de porte en aluminium à isolation thermique. Construction robuste avec une excellente efficacité énergétique pour les entrées résidentielles et commerciales.",
+        es: "Sistema de puerta de aluminio con aislamiento térmico. Construcción robusta con excelente eficiencia energética para entradas residenciales y comerciales.",
+        it: "Sistema porta in alluminio a taglio termico. Costruzione robusta con eccellente efficienza energetica per ingressi residenziali e commerciali.",
+        pl: "Termicznie izolowany aluminiowy system drzwiowy. Solidna konstrukcja z doskonałą efektywnością energetyczną dla wejść mieszkalnych i komercyjnych."
+    },
+    "doors.alu.ads75.title": { en: "Schüco ADS 75.HI", nl: "Schüco ADS 75.HI", de: "Schüco ADS 75.HI", fr: "Schüco ADS 75.HI", es: "Schüco ADS 75.HI", it: "Schüco ADS 75.HI", pl: "Schüco ADS 75.HI" },
+    "doors.alu.ads75.desc": {
+        en: "Enhanced 75mm depth for improved thermal performance. Ideal for energy-efficient buildings requiring premium entrance solutions.",
+        nl: "Verbeterde 75mm diepte voor betere thermische prestaties. Ideaal voor energiezuinige gebouwen die premium ingangsoplossingen vereisen.",
+        de: "Erweiterte 75mm Tiefe für verbesserte Wärmeleistung. Ideal für energieeffiziente Gebäude, die Premium-Eingangslösungen erfordern.",
+        fr: "Profondeur améliorée de 75mm pour de meilleures performances thermiques. Idéal pour les bâtiments écoénergétiques nécessitant des solutions d'entrée premium.",
+        es: "Profundidad mejorada de 75mm para un mejor rendimiento térmico. Ideal para edificios energéticamente eficientes que requieren soluciones de entrada premium.",
+        it: "Profondità migliorata di 75mm per prestazioni termiche superiori. Ideale per edifici ad alta efficienza energetica che richiedono soluzioni d'ingresso premium.",
+        pl: "Zwiększona głębokość 75mm dla lepszej izolacji termicznej. Idealny dla energooszczędnych budynków wymagających rozwiązań wejściowych premium."
+    },
+    "doors.alu.ads90.title": { en: "Schüco ADS 90.SI", nl: "Schüco ADS 90.SI", de: "Schüco ADS 90.SI", fr: "Schüco ADS 90.SI", es: "Schüco ADS 90.SI", it: "Schüco ADS 90.SI", pl: "Schüco ADS 90.SI" },
+    "doors.alu.ads90.desc": {
+        en: "Top-tier 90mm door system for highest energy standards. Maximum thermal insulation meets maximum security for premium projects.",
+        nl: "Topklasse 90mm deursysteem voor de hoogste energienormen. Maximale thermische isolatie ontmoet maximale veiligheid voor premium projecten.",
+        de: "Erstklassiges 90mm-Türsystem für höchste Energiestandards. Maximale Wärmedämmung trifft auf maximale Sicherheit für Premium-Projekte.",
+        fr: "Système de porte 90mm haut de gamme pour les normes énergétiques les plus élevées. Isolation thermique maximale et sécurité maximale pour les projets premium.",
+        es: "Sistema de puerta de 90mm de primera clase para los más altos estándares energéticos. Máximo aislamiento térmico y máxima seguridad para proyectos premium.",
+        it: "Sistema porta 90mm di prima classe per i più alti standard energetici. Massimo isolamento termico e massima sicurezza per progetti premium.",
+        pl: "Najwyższej klasy system drzwiowy 90mm dla najwyższych standardów energetycznych. Maksymalna izolacja termiczna i maksymalne bezpieczeństwo dla projektów premium."
+    },
+    "doors.alu.feal85.title": { en: "FEAL Thermo 85VS", nl: "FEAL Thermo 85VS", de: "FEAL Thermo 85VS", fr: "FEAL Thermo 85VS", es: "FEAL Thermo 85VS", it: "FEAL Thermo 85VS", pl: "FEAL Thermo 85VS" },
+    "doors.alu.feal85.desc": {
+        en: "Heavy-duty aluminium door profile with thermal break. Designed for high-traffic entrances with robust construction and excellent weather resistance.",
+        nl: "Zware aluminium deurprofiel met thermische onderbreking. Ontworpen voor drukbezochte ingangen met robuuste constructie en uitstekende weerbestendigheid.",
+        de: "Schwerlast-Aluminium-Türprofil mit thermischer Trennung. Entwickelt für stark frequentierte Eingänge mit robuster Konstruktion und hervorragender Witterungsbeständigkeit.",
+        fr: "Profilé de porte en aluminium robuste avec rupture de pont thermique. Conçu pour les entrées à fort passage avec une construction robuste et une excellente résistance aux intempéries.",
+        es: "Perfil de puerta de aluminio de alta resistencia con rotura de puente térmico. Diseñado para entradas de alto tráfico con construcción robusta y excelente resistencia a la intemperie.",
+        it: "Profilo porta in alluminio per impieghi gravosi con taglio termico. Progettato per ingressi ad alto traffico con costruzione robusta ed eccellente resistenza alle intemperie.",
+        pl: "Wytrzymały aluminiowy profil drzwiowy z przerwą termiczną. Zaprojektowany dla intensywnie użytkowanych wejść z solidną konstrukcją i doskonałą odpornością na warunki atmosferyczne."
+    },
+    "doors.gallery.desc": {
+        en: "Choose from our curated collection of 20+ designer door models. Each available in custom colors, glass options, and hardware configurations.",
+        nl: "Kies uit onze zorgvuldig samengestelde collectie van 20+ designerdeurmodellen. Elk verkrijgbaar in aangepaste kleuren, glasopties en hardwareconfiguraties.",
+        de: "Wählen Sie aus unserer kuratierten Kollektion von über 20 Designer-Türmodellen. Jedes erhältlich in individuellen Farben, Glasoptionen und Beschlagkonfigurationen.",
+        fr: "Choisissez parmi notre collection de plus de 20 modèles de portes design. Chacun disponible en couleurs personnalisées, options de vitrage et configurations de quincaillerie.",
+        es: "Elija de nuestra colección curada de más de 20 modelos de puertas de diseño. Cada uno disponible en colores personalizados, opciones de vidrio y configuraciones de herrajes.",
+        it: "Scegli dalla nostra collezione curata di oltre 20 modelli di porte design. Ognuno disponibile in colori personalizzati, opzioni di vetro e configurazioni di ferramenta.",
+        pl: "Wybierz z naszej kolekcji ponad 20 designerskich modeli drzwi. Każdy dostępny w niestandardowych kolorach, opcjach szkła i konfiguracjach okuć."
+    },
+    "doors.gallery.classic": { en: "Classic Collection", nl: "Klassieke Collectie", de: "Klassische Kollektion", fr: "Collection Classique", es: "Colección Clásica", it: "Collezione Classica", pl: "Kolekcja Klasyczna" },
+    "doors.gallery.elegant": { en: "Elegant Collection", nl: "Elegante Collectie", de: "Elegante Kollektion", fr: "Collection Élégante", es: "Colección Elegante", it: "Collezione Elegante", pl: "Kolekcja Elegancka" },
+    "doors.cta.desc2": {
+        en: "Send us your preferred model and dimensions. We'll provide a detailed quote with delivery timeline within 24 hours.",
+        nl: "Stuur ons uw gewenste model en afmetingen. Wij bezorgen u een gedetailleerde offerte met leveringstijdlijn binnen 24 uur.",
+        de: "Senden Sie uns Ihr bevorzugtes Modell und die Maße. Wir erstellen ein detailliertes Angebot mit Lieferzeit innerhalb von 24 Stunden.",
+        fr: "Envoyez-nous votre modèle préféré et les dimensions. Nous fournirons un devis détaillé avec délai de livraison sous 24 heures.",
+        es: "Envíenos su modelo preferido y las dimensiones. Le proporcionaremos un presupuesto detallado con plazo de entrega en 24 horas.",
+        it: "Inviateci il modello preferito e le dimensioni. Forniremo un preventivo dettagliato con tempistiche di consegna entro 24 ore.",
+        pl: "Wyślij nam preferowany model i wymiary. Dostarczymy szczegółową wycenę z terminem dostawy w ciągu 24 godzin."
+    },
+    "doors.cta.btn1.page": { en: "Request a Free Quote", nl: "Gratis Offerte Aanvragen", de: "Kostenloses Angebot Anfordern", fr: "Demander un Devis Gratuit", es: "Solicitar Presupuesto Gratis", it: "Richiedi Preventivo Gratuito", pl: "Zamów Darmową Wycenę" },
+    "doors.cta.btn2.page": { en: "WhatsApp Us", nl: "WhatsApp Ons", de: "WhatsApp Uns", fr: "WhatsApp", es: "WhatsApp", it: "WhatsApp", pl: "WhatsApp" },
+    "footer.pvcWindows": { en: "PVC Windows", nl: "PVC Ramen", de: "PVC Fenster", fr: "Fenêtres PVC", es: "Ventanas PVC", it: "Finestre PVC", pl: "Okna PVC" },
+    "footer.garageDoors": { en: "Garage Doors", nl: "Garagedeuren", de: "Garagentore", fr: "Portes de Garage", es: "Puertas de Garaje", it: "Portoni Garage", pl: "Bramy Garażowe" },
+    "footer.aboutUs": { en: "About Us", nl: "Over Ons", de: "Über Uns", fr: "À Propos", es: "Sobre Nosotros", it: "Chi Siamo", pl: "O Nas" },
+
+
+    // --- Roller Shutters Page (body content) ---
+    "shutters.hero.desc": { en: "REHAU roller shutters with up to 25% energy savings and Raffstore external venetian blinds for precise light control. Elegant protection for any building.", nl: "REHAU rolluiken met tot 25% energiebesparing en Raffstore buitenzonwering voor nauwkeurige lichtregeling. Elegante bescherming voor elk gebouw.", de: "REHAU Rollläden mit bis zu 25% Energieeinsparung und Raffstore Außenjalousien für präzise Lichtsteuerung. Eleganter Schutz für jedes Gebäude.", fr: "Volets roulants REHAU avec jusqu'à 25% d'économies d'énergie et stores extérieurs Raffstore pour un contrôle précis de la lumière. Protection élégante pour tout bâtiment.", es: "Persianas enrollables REHAU con hasta un 25% de ahorro energético y persianas venecianas exteriores Raffstore para un control preciso de la luz. Protección elegante para cualquier edificio.", it: "Tapparelle REHAU con risparmio energetico fino al 25% e veneziane esterne Raffstore per un controllo preciso della luce. Protezione elegante per qualsiasi edificio.", pl: "Rolety REHAU z oszczędnością energii do 25% i żaluzje zewnętrzne Raffstore do precyzyjnej kontroli światła. Elegancka ochrona dla każdego budynku." },
+    "shutters.rehau.desc": { en: "The REHAU roller shutter system provides more than just light and privacy protection — it significantly improves thermal and acoustic insulation. Studies by the Fraunhofer Institute show energy loss reduction of up to 25%.", nl: "Het REHAU rolluiksysteem biedt meer dan alleen licht- en privacybescherming — het verbetert de thermische en akoestische isolatie aanzienlijk. Studies van het Fraunhofer Instituut tonen een energieverliesreductie tot 25%.", de: "Das REHAU Rollladensystem bietet mehr als nur Licht- und Sichtschutz — es verbessert die Wärme- und Schalldämmung erheblich. Studien des Fraunhofer-Instituts zeigen eine Energieverlustreduzierung von bis zu 25%.", fr: "Le système de volets roulants REHAU offre bien plus qu'une simple protection contre la lumière et les regards — il améliore considérablement l'isolation thermique et acoustique. Les études de l'Institut Fraunhofer montrent une réduction des pertes d'énergie jusqu'à 25%.", es: "El sistema de persianas enrollables REHAU ofrece más que protección contra la luz y la privacidad — mejora significativamente el aislamiento térmico y acústico. Los estudios del Instituto Fraunhofer muestran una reducción de pérdidas de energía de hasta el 25%.", it: "Il sistema di tapparelle REHAU offre molto più della semplice protezione dalla luce e dalla privacy — migliora significativamente l'isolamento termico e acustico. Gli studi dell'Istituto Fraunhofer mostrano una riduzione delle perdite energetiche fino al 25%.", pl: "System rolet REHAU zapewnia nie tylko ochronę przed światłem i prywatnością — znacząco poprawia izolację termiczną i akustyczną. Badania Instytutu Fraunhofera wykazują redukcję strat energii do 25%." },
+    "shutters.rehau.feat1": { en: "Up to 25% energy loss reduction (Fraunhofer study)", nl: "Tot 25% minder energieverlies (Fraunhofer-studie)", de: "Bis zu 25% weniger Energieverlust (Fraunhofer-Studie)", fr: "Jusqu'à 25% de réduction des pertes d'énergie (étude Fraunhofer)", es: "Hasta un 25% de reducción de pérdidas de energía (estudio Fraunhofer)", it: "Riduzione delle perdite energetiche fino al 25% (studio Fraunhofer)", pl: "Redukcja strat energii do 25% (badanie Fraunhofera)" },
+    "shutters.rehau.feat2": { en: "Anti-lift and anti-push security mechanism", nl: "Anti-optil en anti-duw beveiligingsmechanisme", de: "Hochschiebe- und Ausdrücksicherung", fr: "Mécanisme de sécurité anti-soulèvement et anti-poussée", es: "Mecanismo de seguridad anti-elevación y anti-empuje", it: "Meccanismo di sicurezza anti-sollevamento e anti-spinta", pl: "Mechanizm zabezpieczający przed podważeniem i wypchnięciem" },
+    "shutters.rehau.feat3": { en: "Integrated insect screen option", nl: "Geïntegreerde insectenhor optie", de: "Integrierte Insektenschutz-Option", fr: "Option moustiquaire intégrée", es: "Opción de mosquitera integrada", it: "Opzione zanzariera integrata", pl: "Opcja zintegrowanej moskitiery" },
+    "shutters.rehau.feat4": { en: "ALU foam-filled lamellae for superior insulation", nl: "ALU schuimgevulde lamellen voor superieure isolatie", de: "ALU-schaumgefüllte Lamellen für überlegene Dämmung", fr: "Lamelles ALU remplies de mousse pour une isolation supérieure", es: "Lamas ALU rellenas de espuma para un aislamiento superior", it: "Lamelle ALU riempite di schiuma per un isolamento superiore", pl: "Lamele ALU wypełnione pianką dla doskonałej izolacji" },
+    "shutters.rehau.feat5": { en: "Electric or manual operation available", nl: "Elektrische of handmatige bediening beschikbaar", de: "Elektrische oder manuelle Bedienung verfügbar", fr: "Fonctionnement électrique ou manuel disponible", es: "Funcionamiento eléctrico o manual disponible", it: "Funzionamento elettrico o manuale disponibile", pl: "Dostępna obsługa elektryczna lub ręczna" },
+    "shutters.lamellae.subtitle": { en: "Technical Details", nl: "Technische Details", de: "Technische Details", fr: "Détails Techniques", es: "Detalles Técnicos", it: "Dettagli Tecnici", pl: "Szczegóły Techniczne" },
+    "shutters.lamellae.title": { en: "ALU Foam-Filled", nl: "ALU Schuimgevulde", de: "ALU Schaumgefüllte", fr: "ALU Remplies de Mousse", es: "ALU Rellenas de Espuma", it: "ALU Riempite di Schiuma", pl: "ALU Wypełnione Pianką" },
+    "shutters.lamellae.titleAccent": { en: "Lamellae", nl: "Lamellen", de: "Lamellen", fr: "Lamelles", es: "Lamas", it: "Lamelle", pl: "Lamele" },
+    "shutters.lamellae.desc": { en: "Aluminium lamellae filled with insulating foam offer exceptional strength, durability, and improved thermal and acoustic properties. Highly resistant to weather conditions and damage.", nl: "Aluminium lamellen gevuld met isolerend schuim bieden uitzonderlijke sterkte, duurzaamheid en verbeterde thermische en akoestische eigenschappen. Zeer bestendig tegen weersinvloeden en schade.", de: "Mit Isolierschaum gefüllte Aluminiumlamellen bieten außergewöhnliche Festigkeit, Langlebigkeit und verbesserte thermische und akustische Eigenschaften. Hochbeständig gegen Witterung und Beschädigung.", fr: "Les lamelles en aluminium remplies de mousse isolante offrent une résistance, une durabilité et des propriétés thermiques et acoustiques exceptionnelles. Très résistantes aux intempéries et aux dommages.", es: "Las lamas de aluminio rellenas de espuma aislante ofrecen una resistencia, durabilidad y propiedades térmicas y acústicas excepcionales. Altamente resistentes a las condiciones climáticas y los daños.", it: "Le lamelle in alluminio riempite di schiuma isolante offrono resistenza, durata e proprietà termiche e acustiche eccezionali. Altamente resistenti alle condizioni atmosferiche e ai danni.", pl: "Aluminiowe lamele wypełnione pianką izolacyjną zapewniają wyjątkową wytrzymałość, trwałość oraz lepsze właściwości termiczne i akustyczne. Wysoka odporność na warunki atmosferyczne i uszkodzenia." },
+    "shutters.colors.subtitle": { en: "Colors", nl: "Kleuren", de: "Farben", fr: "Couleurs", es: "Colores", it: "Colori", pl: "Kolory" },
+    "shutters.colors.title": { en: "Available", nl: "Beschikbare", de: "Verfügbare", fr: "Finitions", es: "Acabados", it: "Finiture", pl: "Dostępne" },
+    "shutters.colors.titleAccent": { en: "Finishes", nl: "Afwerkingen", de: "Ausführungen", fr: "Disponibles", es: "Disponibles", it: "Disponibili", pl: "Wykończenia" },
+    "shutters.colors.desc": { en: "Lamellae available in three standard colors to complement your building's architectural style.", nl: "Lamellen beschikbaar in drie standaardkleuren die passen bij de architectonische stijl van uw gebouw.", de: "Lamellen in drei Standardfarben erhältlich, die den architektonischen Stil Ihres Gebäudes ergänzen.", fr: "Lamelles disponibles en trois couleurs standard pour compléter le style architectural de votre bâtiment.", es: "Lamas disponibles en tres colores estándar para complementar el estilo arquitectónico de su edificio.", it: "Lamelle disponibili in tre colori standard per completare lo stile architettonico del vostro edificio.", pl: "Lamele dostępne w trzech standardowych kolorach, dopasowanych do stylu architektonicznego budynku." },
+    "shutters.color.white": { en: "White", nl: "Wit", de: "Weiß", fr: "Blanc", es: "Blanco", it: "Bianco", pl: "Biały" },
+    "shutters.color.whiteDesc": { en: "Classic white finish — clean and timeless.", nl: "Klassieke witte afwerking — schoon en tijdloos.", de: "Klassisches Weiß — sauber und zeitlos.", fr: "Finition blanche classique — propre et intemporelle.", es: "Acabado blanco clásico — limpio y atemporal.", it: "Finitura bianca classica — pulita e senza tempo.", pl: "Klasyczne białe wykończenie — czyste i ponadczasowe." },
+    "shutters.color.grey": { en: "Light Grey", nl: "Lichtgrijs", de: "Hellgrau", fr: "Gris Clair", es: "Gris Claro", it: "Grigio Chiaro", pl: "Jasnoszary" },
+    "shutters.color.greyDesc": { en: "Subtle grey for modern exteriors.", nl: "Subtiel grijs voor moderne gevels.", de: "Dezentes Grau für moderne Fassaden.", fr: "Gris subtil pour les extérieurs modernes.", es: "Gris sutil para exteriores modernos.", it: "Grigio sottile per esterni moderni.", pl: "Subtelny szary do nowoczesnych elewacji." },
+    "shutters.color.anthracite": { en: "Anthracite", nl: "Antraciet", de: "Anthrazit", fr: "Anthracite", es: "Antracita", it: "Antracite", pl: "Antracyt" },
+    "shutters.color.anthraciteDesc": { en: "Bold anthracite for contemporary buildings.", nl: "Gedurfd antraciet voor hedendaagse gebouwen.", de: "Kräftiges Anthrazit für zeitgenössische Gebäude.", fr: "Anthracite audacieux pour les bâtiments contemporains.", es: "Antracita audaz para edificios contemporáneos.", it: "Antracite audace per edifici contemporanei.", pl: "Odważny antracyt do nowoczesnych budynków." },
+    "shutters.raffstore.desc": { en: "External aluminium venetian blinds — the modern solution for sun protection, light control, and thermal comfort in any building.", nl: "Externe aluminium jaloezieën — de moderne oplossing voor zonwering, lichtregeling en thermisch comfort in elk gebouw.", de: "Außenliegende Aluminium-Jalousien — die moderne Lösung für Sonnenschutz, Lichtsteuerung und thermischen Komfort in jedem Gebäude.", fr: "Stores vénitiens extérieurs en aluminium — la solution moderne pour la protection solaire, le contrôle de la lumière et le confort thermique dans tout bâtiment.", es: "Persianas venecianas exteriores de aluminio — la solución moderna para protección solar, control de luz y confort térmico en cualquier edificio.", it: "Veneziane esterne in alluminio — la soluzione moderna per la protezione solare, il controllo della luce e il comfort termico in qualsiasi edificio.", pl: "Zewnętrzne żaluzje aluminiowe — nowoczesne rozwiązanie zapewniające ochronę przed słońcem, kontrolę światła i komfort termiczny w każdym budynku." },
+    "shutters.raffstore.controlTitle": { en: "Precise Light & Privacy Control", nl: "Nauwkeurige Licht- & Privacyregeling", de: "Präzise Licht- & Sichtschutzsteuerung", fr: "Contrôle Précis de la Lumière & de la Vie Privée", es: "Control Preciso de Luz y Privacidad", it: "Controllo Preciso di Luce e Privacy", pl: "Precyzyjna Kontrola Światła i Prywatności" },
+    "shutters.raffstore.controlDesc": { en: "Raffstore external venetian blinds allow rooms to be illuminated with indirect light while protecting from overheating. Adjustable lamellae let you control exactly how much light enters, creating comfortable atmospheres at any time of day.", nl: "Raffstore buitenzonwering laat kamers verlichten met indirect licht terwijl ze beschermen tegen oververhitting. Verstelbare lamellen laten u precies bepalen hoeveel licht er binnenkomt, voor een comfortabele sfeer op elk moment van de dag.", de: "Raffstore Außenjalousien ermöglichen die Beleuchtung von Räumen mit indirektem Licht bei gleichzeitigem Schutz vor Überhitzung. Verstellbare Lamellen lassen Sie genau steuern, wie viel Licht einfällt — für angenehme Atmosphäre zu jeder Tageszeit.", fr: "Les stores extérieurs Raffstore permettent d'éclairer les pièces avec une lumière indirecte tout en protégeant contre la surchauffe. Les lamelles réglables vous permettent de contrôler exactement la quantité de lumière entrante, créant des atmosphères confortables à tout moment de la journée.", es: "Las persianas exteriores Raffstore permiten iluminar las habitaciones con luz indirecta mientras protegen del sobrecalentamiento. Las lamas ajustables le permiten controlar exactamente cuánta luz entra, creando ambientes confortables a cualquier hora del día.", it: "Le veneziane esterne Raffstore permettono di illuminare le stanze con luce indiretta proteggendo dal surriscaldamento. Le lamelle regolabili consentono di controllare esattamente quanta luce entra, creando atmosfere confortevoli in qualsiasi momento della giornata.", pl: "Żaluzje zewnętrzne Raffstore pozwalają oświetlać pomieszczenia światłem rozproszonym, chroniąc jednocześnie przed przegrzewaniem. Regulowane lamele umożliwiają precyzyjną kontrolę ilości wpadającego światła, tworząc komfortową atmosferę o każdej porze dnia." },
+    "shutters.raffstore.feat1": { en: "Thermal protection & UV shielding", nl: "Thermische bescherming & UV-afscherming", de: "Wärmeschutz & UV-Abschirmung", fr: "Protection thermique & protection UV", es: "Protección térmica y protección UV", it: "Protezione termica e schermatura UV", pl: "Ochrona termiczna i osłona UV" },
+    "shutters.raffstore.feat2": { en: "Manual (crank) or electric operation", nl: "Handbediening (zwengel) of elektrisch", de: "Manuelle (Kurbel) oder elektrische Bedienung", fr: "Fonctionnement manuel (manivelle) ou électrique", es: "Funcionamiento manual (manivela) o eléctrico", it: "Funzionamento manuale (manovella) o elettrico", pl: "Obsługa ręczna (korbka) lub elektryczna" },
+    "shutters.raffstore.feat3": { en: "Surface-mounted or concealed installation", nl: "Opbouw of inbouw montage", de: "Aufputz- oder Unterputzmontage", fr: "Installation en saillie ou encastrée", es: "Instalación en superficie u oculta", it: "Installazione a vista o incassata", pl: "Montaż natynkowy lub podtynkowy" },
+    "shutters.raffstore.feat4": { en: "Multiple color combinations available", nl: "Meerdere kleurencombinaties beschikbaar", de: "Mehrere Farbkombinationen verfügbar", fr: "Plusieurs combinaisons de couleurs disponibles", es: "Múltiples combinaciones de colores disponibles", it: "Molteplici combinazioni di colori disponibili", pl: "Wiele kombinacji kolorystycznych dostępnych" },
+    "shutters.raffstore.feat5": { en: "Modern, elegant exterior appearance", nl: "Modern, elegant buitenaanzicht", de: "Modernes, elegantes Erscheinungsbild", fr: "Apparence extérieure moderne et élégante", es: "Apariencia exterior moderna y elegante", it: "Aspetto esterno moderno ed elegante", pl: "Nowoczesny, elegancki wygląd zewnętrzny" },
+    "shutters.raffstore.lamelTitle": { en: "Adjustable Lamellae", nl: "Verstelbare Lamellen", de: "Verstellbare Lamellen", fr: "Lamelles Réglables", es: "Lamas Ajustables", it: "Lamelle Regolabili", pl: "Regulowane Lamele" },
+    "shutters.raffstore.lamelDesc": { en: "Precisely angled aluminium lamellae for optimal light control and privacy. Weather-resistant and low-maintenance.", nl: "Nauwkeurig gehoekte aluminium lamellen voor optimale lichtregeling en privacy. Weerbestendig en onderhoudsarm.", de: "Präzise ausgerichtete Aluminiumlamellen für optimale Lichtsteuerung und Privatsphäre. Witterungsbeständig und wartungsarm.", fr: "Lamelles en aluminium à angle précis pour un contrôle optimal de la lumière et de la vie privée. Résistantes aux intempéries et faciles d'entretien.", es: "Lamas de aluminio con ángulo preciso para un control óptimo de la luz y la privacidad. Resistentes a la intemperie y de bajo mantenimiento.", it: "Lamelle in alluminio ad angolazione precisa per un controllo ottimale della luce e della privacy. Resistenti alle intemperie e a bassa manutenzione.", pl: "Precyzyjnie nachylone aluminiowe lamele zapewniające optymalną kontrolę światła i prywatności. Odporne na warunki atmosferyczne i łatwe w utrzymaniu." },
+    "shutters.raffstore.designTitle": { en: "Elegant Design", nl: "Elegant Ontwerp", de: "Elegantes Design", fr: "Design Élégant", es: "Diseño Elegante", it: "Design Elegante", pl: "Elegancki Design" },
+    "shutters.raffstore.designDesc": { en: "Seamlessly integrates into any building facade. Available in surface-mounted and concealed configurations.", nl: "Integreert naadloos in elke gevel. Beschikbaar in opbouw- en inbouwconfiguraties.", de: "Fügt sich nahtlos in jede Gebäudefassade ein. Erhältlich in Aufputz- und Unterputzkonfigurationen.", fr: "S'intègre parfaitement dans toute façade de bâtiment. Disponible en configurations en saillie et encastrées.", es: "Se integra perfectamente en cualquier fachada. Disponible en configuraciones en superficie y ocultas.", it: "Si integra perfettamente in qualsiasi facciata. Disponibile in configurazioni a vista e incassate.", pl: "Bezproblemowo integruje się z każdą fasadą budynku. Dostępny w konfiguracjach natynkowych i podtynkowych." },
+    "shutters.cta.subtitle": { en: "Get Started", nl: "Aan de Slag", de: "Loslegen", fr: "Commencer", es: "Empezar", it: "Inizia", pl: "Rozpocznij" },
+    "shutters.cta.desc": { en: "Get a free quote for roller shutters or Raffstore blinds — tailored to your windows and building.", nl: "Ontvang een gratis offerte voor rolluiken of Raffstore zonwering — op maat voor uw ramen en gebouw.", de: "Erhalten Sie ein kostenloses Angebot für Rollläden oder Raffstore Jalousien — maßgeschneidert für Ihre Fenster und Ihr Gebäude.", fr: "Obtenez un devis gratuit pour des volets roulants ou des stores Raffstore — adaptés à vos fenêtres et votre bâtiment.", es: "Obtenga un presupuesto gratuito para persianas enrollables o estores Raffstore — adaptados a sus ventanas y edificio.", it: "Ottieni un preventivo gratuito per tapparelle o veneziane Raffstore — su misura per le tue finestre e il tuo edificio.", pl: "Otrzymaj bezpłatną wycenę rolet lub żaluzji Raffstore — dopasowaną do Twoich okien i budynku." },
+    "shutters.cta.quote": { en: "Request a Free Quote", nl: "Vraag een Gratis Offerte Aan", de: "Kostenloses Angebot Anfordern", fr: "Demander un Devis Gratuit", es: "Solicitar Presupuesto Gratuito", it: "Richiedi un Preventivo Gratuito", pl: "Zamów Darmową Wycenę" },
+    "shutters.cta.whatsapp": { en: "WhatsApp Us", nl: "WhatsApp Ons", de: "WhatsApp Schreiben", fr: "Nous Contacter sur WhatsApp", es: "WhatsApp", it: "Scrivici su WhatsApp", pl: "Napisz na WhatsApp" },
+    // --- Windows Page (REHAU profiles body i18n) ---
+    "win.hero.desc": { en: "World-class REHAU profiles delivering exceptional thermal insulation, acoustic performance, and durability. Available in tilt-and-turn, sliding, and fixed configurations.", nl: "Hoogwaardige REHAU-profielen met uitzonderlijke thermische isolatie, akoestische prestaties en duurzaamheid. Beschikbaar in draai-kiep, schuif- en vaste configuraties.", de: "Erstklassige REHAU-Profile mit herausragender Wärmedämmung, Schallschutz und Langlebigkeit. Erhältlich in Dreh-Kipp-, Schiebe- und Festverglasungen.", fr: "Profilés REHAU de classe mondiale offrant une isolation thermique, des performances acoustiques et une durabilité exceptionnelles. Disponibles en oscillo-battant, coulissant et fixe.", es: "Perfiles REHAU de clase mundial con aislamiento térmico, rendimiento acústico y durabilidad excepcionales. Disponibles en oscilobatiente, corredera y fijo.", it: "Profili REHAU di classe mondiale con eccezionale isolamento termico, prestazioni acustiche e durabilità. Disponibili in ribalta, scorrevole e fisso.", pl: "Światowej klasy profile REHAU zapewniające wyjątkową izolację termiczną, właściwości akustyczne i trwałość. Dostępne w konfiguracjach rozwierno-uchylnych, przesuwnych i stałych." },
+    "win.intro.subtitle": { en: "Why REHAU", nl: "Waarom REHAU", de: "Warum REHAU", fr: "Pourquoi REHAU", es: "Por qué REHAU", it: "Perché REHAU", pl: "Dlaczego REHAU" },
+    "win.intro.title": { en: "Premium PVC", nl: "Premium PVC", de: "Premium PVC", fr: "Profilés PVC", es: "Perfiles PVC", it: "Profili PVC", pl: "Profile PVC" },
+    "win.intro.titleAccent": { en: "Profiles", nl: "Profielen", de: "Profile", fr: "Premium", es: "Premium", it: "Premium", pl: "Premium" },
+    "win.intro.desc": { en: "REHAU is one of Europe\u2019s leading manufacturers of PVC window systems. Their profiles feature multi-chamber design, steel reinforcement, and EPDM gaskets for outstanding performance.", nl: "REHAU is een van Europa\u2019s toonaangevende fabrikanten van PVC-raamsystemen. Hun profielen hebben een meerkamerontwerp, staalversterking en EPDM-afdichtingen voor uitstekende prestaties.", de: "REHAU ist einer der führenden Hersteller von PVC-Fenstersystemen in Europa. Ihre Profile verfügen über Mehrkammerdesign, Stahlverstärkung und EPDM-Dichtungen für hervorragende Leistung.", fr: "REHAU est l\u2019un des principaux fabricants européens de systèmes de fenêtres en PVC. Leurs profilés présentent une conception multi-chambres, un renfort en acier et des joints EPDM pour des performances exceptionnelles.", es: "REHAU es uno de los principales fabricantes europeos de sistemas de ventanas de PVC. Sus perfiles cuentan con diseño multicámara, refuerzo de acero y juntas EPDM para un rendimiento excepcional.", it: "REHAU è uno dei principali produttori europei di sistemi di finestre in PVC. I loro profili presentano design multicamera, rinforzo in acciaio e guarnizioni EPDM per prestazioni eccezionali.", pl: "REHAU jest jednym z wiodących europejskich producentów systemów okien PVC. Ich profile charakteryzują się wielokomorową konstrukcją, stalowym wzmocnieniem i uszczelkami EPDM zapewniającymi doskonałe parametry." },
+    "win.intro.feat1": { en: "Up to 45% better thermal insulation", nl: "Tot 45% betere thermische isolatie", de: "Bis zu 45% bessere Wärmedämmung", fr: "Jusqu\u2019à 45% de meilleure isolation thermique", es: "Hasta un 45% mejor aislamiento térmico", it: "Fino al 45% in più di isolamento termico", pl: "Do 45% lepsza izolacja termiczna" },
+    "win.intro.feat2": { en: "Sound reduction up to 47 dB", nl: "Geluidsreductie tot 47 dB", de: "Schallschutz bis zu 47 dB", fr: "Réduction du bruit jusqu\u2019à 47 dB", es: "Reducción de ruido hasta 47 dB", it: "Riduzione del rumore fino a 47 dB", pl: "Redukcja hałasu do 47 dB" },
+    "win.intro.feat3": { en: "Security ratings up to RC3", nl: "Veiligheidsklassen tot RC3", de: "Sicherheitsklassen bis RC3", fr: "Classes de sécurité jusqu\u2019à RC3", es: "Clasificaciones de seguridad hasta RC3", it: "Classi di sicurezza fino a RC3", pl: "Klasy bezpieczeństwa do RC3" },
+    "win.intro.feat4": { en: "200+ RAL color options", nl: "200+ RAL kleuropties", de: "200+ RAL Farboptionen", fr: "200+ options de couleurs RAL", es: "200+ opciones de color RAL", it: "200+ opzioni colore RAL", pl: "200+ opcji kolorów RAL" },
+    "win.profiles.desc": { en: "Choose the perfect profile system for your project — from premium flush-sash designs to innovative sliding solutions.", nl: "Kies het perfecte profielsysteem voor uw project — van premium vlakke raamontwerpen tot innovatieve schuifoplossingen.", de: "Wählen Sie das perfekte Profilsystem für Ihr Projekt — von Premium-Flächenbündig-Designs bis zu innovativen Schiebelösungen.", fr: "Choisissez le système de profilé parfait pour votre projet — des designs affleurants premium aux solutions coulissantes innovantes.", es: "Elija el sistema de perfil perfecto para su proyecto — desde diseños enrasados premium hasta soluciones correderas innovadoras.", it: "Scegli il sistema di profili perfetto per il tuo progetto — dai design filo-muro premium alle innovative soluzioni scorrevoli.", pl: "Wybierz idealny system profili do swojego projektu — od premium fleszowych po innowacyjne rozwiązania przesuwne." },
+    "win.artevo.title": { en: "ARTEVO", nl: "ARTEVO", de: "ARTEVO", fr: "ARTEVO", es: "ARTEVO", it: "ARTEVO", pl: "ARTEVO" },
+    "win.artevo.desc": { en: "Premium flush-sash design with clean, modern aesthetics. The ARTEVO profile combines sleek lines with outstanding thermal performance for contemporary architecture.", nl: "Premium vlak-raam ontwerp met strakke, moderne esthetiek. Het ARTEVO-profiel combineert slanke lijnen met uitstekende thermische prestaties voor hedendaagse architectuur.", de: "Premium-Flächenbündig-Design mit klarer, moderner Ästhetik. Das ARTEVO-Profil verbindet schlanke Linien mit hervorragender Wärmedämmung für zeitgenössische Architektur.", fr: "Design affleurant premium. Le profilé ARTEVO allie lignes élégantes et performances thermiques exceptionnelles pour l\u2019architecture contemporaine.", es: "Diseño enrasado premium con estética limpia y moderna. El perfil ARTEVO combina líneas elegantes con un rendimiento térmico excepcional para la arquitectura contemporánea.", it: "Design filo-muro premium con estetica pulita e moderna. Il profilo ARTEVO combina linee eleganti con eccezionali prestazioni termiche per l\u2019architettura contemporanea.", pl: "Premium design z płaskim skrzydłem o czystej, nowoczesnej estetyce. Profil ARTEVO łączy smukłe linie z doskonałymi właściwościami termicznymi dla współczesnej architektury." },
+    "win.spec.design": { en: "Design", nl: "Ontwerp", de: "Design", fr: "Design", es: "Diseño", it: "Design", pl: "Design" },
+    "win.spec.style": { en: "Style", nl: "Stijl", de: "Stil", fr: "Style", es: "Estilo", it: "Stile", pl: "Styl" },
+    "win.spec.insulation": { en: "Insulation", nl: "Isolatie", de: "Dämmung", fr: "Isolation", es: "Aislamiento", it: "Isolamento", pl: "Izolacja" },
+    "win.spec.security": { en: "Security", nl: "Veiligheid", de: "Sicherheit", fr: "Sécurité", es: "Seguridad", it: "Sicurezza", pl: "Bezpieczeństwo" },
+    "win.spec.depth": { en: "Depth", nl: "Diepte", de: "Tiefe", fr: "Profondeur", es: "Profundidad", it: "Profondità", pl: "Głębokość" },
+    "win.spec.chambers": { en: "Chambers", nl: "Kamers", de: "Kammern", fr: "Chambres", es: "Cámaras", it: "Camere", pl: "Komory" },
+    "win.spec.bestFor": { en: "Best For", nl: "Ideaal voor", de: "Ideal für", fr: "Idéal pour", es: "Ideal para", it: "Ideale per", pl: "Idealne do" },
+    "win.spec.sound": { en: "Sound", nl: "Geluid", de: "Schall", fr: "Son", es: "Sonido", it: "Suono", pl: "Dźwięk" },
+    "win.spec.energy": { en: "Energy", nl: "Energie", de: "Energie", fr: "Énergie", es: "Energía", it: "Energia", pl: "Energia" },
+    "win.spec.type": { en: "Type", nl: "Type", de: "Typ", fr: "Type", es: "Tipo", it: "Tipo", pl: "Typ" },
+    "win.spec.operation": { en: "Operation", nl: "Bediening", de: "Bedienung", fr: "Opération", es: "Operación", it: "Funzionamento", pl: "Obsługa" },
+    "win.spec.maxSize": { en: "Max Size", nl: "Max Formaat", de: "Max. Größe", fr: "Taille Max", es: "Tamaño Máx", it: "Dimensione Max", pl: "Maks. Rozmiar" },
+    "win.val.flushSash": { en: "Flush Sash", nl: "Vlak raam", de: "Flächenbündig", fr: "Affleurant", es: "Enrasado", it: "Filo muro", pl: "Płaskie skrzydło" },
+    "win.val.premium": { en: "Premium", nl: "Premium", de: "Premium", fr: "Premium", es: "Premium", it: "Premium", pl: "Premium" },
+    "win.val.excellent": { en: "Excellent", nl: "Uitstekend", de: "Ausgezeichnet", fr: "Excellent", es: "Excelente", it: "Eccellente", pl: "Doskonała" },
+    "win.val.upToRC3": { en: "Up to RC3", nl: "Tot RC3", de: "Bis RC3", fr: "Jusqu\u2019à RC3", es: "Hasta RC3", it: "Fino a RC3", pl: "Do RC3" },
+    "win.val.multi": { en: "Multi", nl: "Meerdere", de: "Mehrfach", fr: "Multiple", es: "Múltiple", it: "Multipla", pl: "Wielokomorowe" },
+    "win.val.veryGood": { en: "Very Good", nl: "Zeer goed", de: "Sehr gut", fr: "Très bon", es: "Muy bueno", it: "Molto buono", pl: "Bardzo dobra" },
+    "win.val.renovations": { en: "Renovations", nl: "Renovaties", de: "Renovierungen", fr: "Rénovations", es: "Renovaciones", it: "Ristrutturazioni", pl: "Renowacje" },
+    "win.val.aRated": { en: "A++ Rated", nl: "A++ classificatie", de: "A++ Bewertung", fr: "Classé A++", es: "Clasificación A++", it: "Classe A++", pl: "Klasa A++" },
+    "win.val.sliding": { en: "Sliding", nl: "Schuif", de: "Schiebe", fr: "Coulissant", es: "Corredera", it: "Scorrevole", pl: "Przesuwne" },
+    "win.val.effortless": { en: "Effortless", nl: "Moeiteloos", de: "Mühelos", fr: "Sans effort", es: "Sin esfuerzo", it: "Senza sforzo", pl: "Bezwysiłkowa" },
+    "win.val.terraces": { en: "Terraces", nl: "Terrassen", de: "Terrassen", fr: "Terrasses", es: "Terrazas", it: "Terrazze", pl: "Tarasy" },
+    "win.val.liftSlide": { en: "Lift & Slide", nl: "Hef-schuif", de: "Hebe-Schiebe", fr: "Levant-coulissant", es: "Elevadora corredera", it: "Alzante scorrevole", pl: "Podnoszono-przesuwne" },
+    "win.val.largeFormat": { en: "Large Format", nl: "Groot formaat", de: "Großformat", fr: "Grand format", es: "Gran formato", it: "Grande formato", pl: "Wielkoformatowe" },
+    "win.val.panoramic": { en: "Panoramic", nl: "Panoramisch", de: "Panorama", fr: "Panoramique", es: "Panorámico", it: "Panoramico", pl: "Panoramiczne" },
+    "win.ed70.title": { en: "Euro Design 70 (ED70)", nl: "Euro Design 70 (ED70)", de: "Euro Design 70 (ED70)", fr: "Euro Design 70 (ED70)", es: "Euro Design 70 (ED70)", it: "Euro Design 70 (ED70)", pl: "Euro Design 70 (ED70)" },
+    "win.ed70.desc": { en: "The proven classic. The ED70 offers reliable performance with a 70mm depth, multi-chamber construction, and excellent price-to-performance ratio.", nl: "De beproefde klassieker. De ED70 biedt betrouwbare prestaties met een diepte van 70mm, meerkamerconstructie en een uitstekende prijs-kwaliteitverhouding.", de: "Der bewährte Klassiker. Der ED70 bietet zuverlässige Leistung mit 70mm Bautiefe, Mehrkammerkonstruktion und hervorragendem Preis-Leistungs-Verhältnis.", fr: "Le classique éprouvé. L\u2019ED70 offre des performances fiables avec une profondeur de 70mm, une construction multi-chambres et un excellent rapport qualité-prix.", es: "El clásico probado. El ED70 ofrece un rendimiento fiable con una profundidad de 70mm, construcción multicámara y una excelente relación calidad-precio.", it: "Il classico collaudato. L\u2019ED70 offre prestazioni affidabili con una profondità di 70mm, costruzione multicamera e un eccellente rapporto qualità-prezzo.", pl: "Sprawdzony klasyk. ED70 oferuje niezawodne parametry z głębokością 70mm, wielokomorową konstrukcją i doskonałym stosunkiem jakości do ceny." },
+    "win.synego.title": { en: "SYNEGO", nl: "SYNEGO", de: "SYNEGO", fr: "SYNEGO", es: "SYNEGO", it: "SYNEGO", pl: "SYNEGO" },
+    "win.synego.desc": { en: "45% better thermal insulation than standard windows. The SYNEGO profile sustainably contributes to environmental protection and significantly reduces energy costs.", nl: "45% betere thermische isolatie dan standaardramen. Het SYNEGO-profiel draagt duurzaam bij aan milieubescherming en verlaagt de energiekosten aanzienlijk.", de: "45% bessere Wärmedämmung als Standardfenster. Das SYNEGO-Profil trägt nachhaltig zum Umweltschutz bei und senkt die Energiekosten erheblich.", fr: "45% de meilleure isolation thermique que les fenêtres standard. Le profilé SYNEGO contribue durablement à la protection de l\u2019environnement et réduit considérablement les coûts énergétiques.", es: "45% mejor aislamiento térmico que las ventanas estándar. El perfil SYNEGO contribuye de forma sostenible a la protección medioambiental y reduce significativamente los costes energéticos.", it: "45% di isolamento termico in più rispetto alle finestre standard. Il profilo SYNEGO contribuisce in modo sostenibile alla protezione dell\u2019ambiente e riduce significativamente i costi energetici.", pl: "O 45% lepsza izolacja termiczna niż standardowe okna. Profil SYNEGO w zrównoważony sposób przyczynia się do ochrony środowiska i znacząco obniża koszty energii." },
+    "win.slide.title": { en: "SYNEGO SLIDE", nl: "SYNEGO SLIDE", de: "SYNEGO SLIDE", fr: "SYNEGO SLIDE", es: "SYNEGO SLIDE", it: "SYNEGO SLIDE", pl: "SYNEGO SLIDE" },
+    "win.slide.desc": { en: "Innovative sliding mechanism — effortless and practical. The SYNEGO SLIDE offers a completely new, easy way to operate sliding doors and windows.", nl: "Innovatief schuifmechanisme — moeiteloos en praktisch. De SYNEGO SLIDE biedt een geheel nieuwe, eenvoudige manier om schuifdeuren en -ramen te bedienen.", de: "Innovativer Schiebemechanismus — mühelos und praktisch. Der SYNEGO SLIDE bietet eine völlig neue, einfache Art, Schiebetüren und -fenster zu bedienen.", fr: "Mécanisme coulissant innovant — sans effort et pratique. Le SYNEGO SLIDE offre une toute nouvelle façon simple d\u2019utiliser les portes et fenêtres coulissantes.", es: "Mecanismo deslizante innovador — sin esfuerzo y práctico. El SYNEGO SLIDE ofrece una forma completamente nueva y fácil de operar puertas y ventanas correderas.", it: "Meccanismo scorrevole innovativo — senza sforzo e pratico. Il SYNEGO SLIDE offre un modo completamente nuovo e facile di azionare porte e finestre scorrevoli.", pl: "Innowacyjny mechanizm przesuwny — bezwysiłkowy i praktyczny. SYNEGO SLIDE oferuje zupełnie nowy, łatwy sposób obsługi drzwi i okien przesuwnych." },
+    "win.slide190.title": { en: "SYNEGO SLIDE 190", nl: "SYNEGO SLIDE 190", de: "SYNEGO SLIDE 190", fr: "SYNEGO SLIDE 190", es: "SYNEGO SLIDE 190", it: "SYNEGO SLIDE 190", pl: "SYNEGO SLIDE 190" },
+    "win.slide190.desc": { en: "Large-format sliding solution for maximum glass surfaces. Create impressive panoramic views with floor-to-ceiling sliding elements up to 190mm depth.", nl: "Grootformaat schuifoplossing voor maximale glasoppervlakken. Creëer indrukwekkende panoramische uitzichten met vloer-tot-plafond schuifelementen tot 190mm diepte.", de: "Großformat-Schiebelösung für maximale Glasflächen. Schaffen Sie beeindruckende Panoramablicke mit bodentiefen Schiebeelementen bis 190mm Bautiefe.", fr: "Solution coulissante grand format pour des surfaces vitrées maximales. Créez des vues panoramiques impressionnantes avec des éléments coulissants du sol au plafond.", es: "Solución corredera de gran formato para máximas superficies de vidrio. Cree impresionantes vistas panorámicas con elementos correderos de suelo a techo de hasta 190mm de profundidad.", it: "Soluzione scorrevole di grande formato per superfici vetrate massime. Create viste panoramiche impressionanti con elementi scorrevoli dal pavimento al soffitto.", pl: "Wielkoformatowe rozwiązanie przesuwne dla maksymalnych powierzchni szklanych. Stwórz imponujące widoki panoramiczne z elementami przesuwanymi od podłogi do sufitu o głębokości do 190mm." },
+    "win.colors.subtitle": { en: "Customization", nl: "Maatwerk", de: "Individualisierung", fr: "Personnalisation", es: "Personalización", it: "Personalizzazione", pl: "Personalizacja" },
+    "win.colors.title": { en: "Colors &", nl: "Kleuren &", de: "Farben &", fr: "Couleurs &", es: "Colores y", it: "Colori &", pl: "Kolory i" },
+    "win.colors.titleAccent": { en: "Finishes", nl: "Afwerkingen", de: "Oberflächen", fr: "Finitions", es: "Acabados", it: "Finiture", pl: "Wykończenia" },
+    "win.colors.desc": { en: "Over 200 color options available. From classic white to wood-look Woodec finishes and metallic aluminium effects.", nl: "Meer dan 200 kleuropties beschikbaar. Van klassiek wit tot houtlook Woodec-afwerkingen en metallic aluminium-effecten.", de: "Über 200 Farboptionen verfügbar. Von klassischem Weiß über Holzoptik-Woodec-Oberflächen bis hin zu metallischen Aluminium-Effekten.", fr: "Plus de 200 options de couleurs disponibles. Du blanc classique aux finitions Woodec aspect bois et aux effets aluminium métalliques.", es: "Más de 200 opciones de color disponibles. Desde el blanco clásico hasta acabados Woodec y efectos de aluminio metálico.", it: "Oltre 200 opzioni di colore disponibili. Dal bianco classico alle finiture Woodec effetto legno e agli effetti alluminio metallizzato.", pl: "Ponad 200 opcji kolorystycznych. Od klasycznej bieli po wykończenia Woodec imitujące drewno i metaliczne efekty aluminium." },
+    "win.colors.woodec": { en: "Woodec — Wood Look", nl: "Woodec — Houtlook", de: "Woodec — Holzoptik", fr: "Woodec — Aspect Bois", es: "Woodec — Aspecto Madera", it: "Woodec — Effetto Legno", pl: "Woodec — Imitacja Drewna" },
+    "win.colors.aluEffect": { en: "Aluminium Effect", nl: "Aluminium-effect", de: "Aluminium-Effekt", fr: "Effet Aluminium", es: "Efecto Aluminio", it: "Effetto Alluminio", pl: "Efekt Aluminium" },
+    "win.colors.ralColors": { en: "200+ RAL Colors", nl: "200+ RAL kleuren", de: "200+ RAL Farben", fr: "200+ Couleurs RAL", es: "200+ Colores RAL", it: "200+ Colori RAL", pl: "200+ Kolorów RAL" },
+    "win.acc.subtitle": { en: "Accessories", nl: "Accessoires", de: "Zubehör", fr: "Accessoires", es: "Accesorios", it: "Accessori", pl: "Akcesoria" },
+    "win.acc.title": { en: "Handles, Hardware &", nl: "Handgrepen, beslag &", de: "Griffe, Beschläge &", fr: "Poignées, quincaillerie &", es: "Manillas, herrajes y", it: "Maniglie, ferramenta &", pl: "Klamki, okucia i" },
+    "win.acc.titleAccent": { en: "Windowsills", nl: "Vensterbanken", de: "Fensterbänke", fr: "Appuis de fenêtre", es: "Alféizares", it: "Davanzali", pl: "Parapety" },
+    "win.acc.desc": { en: "Complete your windows with premium accessories — handles in multiple finishes, high-security hardware, and interior/exterior windowsills.", nl: "Completeer uw ramen met premium accessoires — handgrepen in meerdere afwerkingen, hoogwaardig veiligheidsbeslag en binnen-/buitenvensterbanken.", de: "Vervollständigen Sie Ihre Fenster mit Premium-Zubehör — Griffe in verschiedenen Ausführungen, Sicherheitsbeschläge und Innen-/Außenfensterbänke.", fr: "Complétez vos fenêtres avec des accessoires premium — poignées en plusieurs finitions, quincaillerie haute sécurité et appuis de fenêtre.", es: "Complete sus ventanas con accesorios premium — manillas en múltiples acabados, herrajes de alta seguridad y alféizares.", it: "Completa le tue finestre con accessori premium — maniglie in diverse finiture, ferramenta ad alta sicurezza e davanzali.", pl: "Uzupełnij swoje okna akcesoriami premium — klamki w wielu wykończeniach, okucia antywłamaniowe oraz parapety wewnętrzne i zewnętrzne." },
+    "win.acc.handles.title": { en: "Handles", nl: "Handgrepen", de: "Griffe", fr: "Poignées", es: "Manillas", it: "Maniglie", pl: "Klamki" },
+    "win.acc.handles.desc": { en: "Premium handles in various models, finishes, and colors. Secure locking, comfortable operation, and perfect style match for any interior.", nl: "Premium handgrepen in diverse modellen, afwerkingen en kleuren. Veilige vergrendeling, comfortabele bediening en perfecte stijlmatch voor elk interieur.", de: "Premium-Griffe in verschiedenen Modellen, Oberflächen und Farben. Sichere Verriegelung, komfortable Bedienung und perfekte Stilanpassung.", fr: "Poignées premium en divers modèles, finitions et couleurs. Verrouillage sécurisé, fonctionnement confortable et accord de style parfait.", es: "Manillas premium en varios modelos, acabados y colores. Cierre seguro, operación cómoda y combinación de estilo perfecta.", it: "Maniglie premium in vari modelli, finiture e colori. Chiusura sicura, funzionamento confortevole e abbinamento di stile perfetto.", pl: "Klamki premium w różnych modelach, wykończeniach i kolorach. Bezpieczne ryglowanie, komfortowa obsługa i idealne dopasowanie stylistyczne." },
+    "win.acc.hardware.title": { en: "Hardware", nl: "Beslag", de: "Beschläge", fr: "Quincaillerie", es: "Herrajes", it: "Ferramenta", pl: "Okucia" },
+    "win.acc.hardware.desc": { en: "High-quality window hardware for tilt-and-turn, sliding, and fixed systems. Tested for durability and available with anti-burglar features.", nl: "Hoogwaardig raambeslag voor draai-kiep, schuif- en vaste systemen. Getest op duurzaamheid en beschikbaar met inbraakwerende eigenschappen.", de: "Hochwertige Fensterbeschläge für Dreh-Kipp-, Schiebe- und Festverglasungssysteme. Auf Langlebigkeit getestet und mit einbruchhemmenden Funktionen.", fr: "Quincaillerie de fenêtre de haute qualité pour systèmes oscillo-battants, coulissants et fixes. Testée pour la durabilité avec caractéristiques anti-effraction.", es: "Herrajes de ventana de alta calidad para sistemas oscilobatientes, correderos y fijos. Probados para durabilidad con características antirrobo.", it: "Ferramenta per finestre di alta qualità per sistemi a ribalta, scorrevoli e fissi. Testata per la durata con caratteristiche anti-effrazione.", pl: "Wysokiej jakości okucia okienne do systemów rozwierno-uchylnych, przesuwnych i stałych. Testowane pod kątem trwałości z właściwościami antywłamaniowymi." },
+    "win.acc.sills.title": { en: "Windowsills", nl: "Vensterbanken", de: "Fensterbänke", fr: "Appuis de fenêtre", es: "Alféizares", it: "Davanzali", pl: "Parapety" },
+    "win.acc.sills.desc": { en: "Interior and exterior windowsills in a wide range of finishes. Weather-resistant, scratch-proof, and available in colors to match your profiles.", nl: "Binnen- en buitenvensterbanken in een breed scala aan afwerkingen. Weerbestendig, krasbestendig en verkrijgbaar in kleuren passend bij uw profielen.", de: "Innen- und Außenfensterbänke in einer breiten Palette an Oberflächen. Witterungsbeständig, kratzfest und in Farben passend zu Ihren Profilen.", fr: "Appuis de fenêtre intérieurs et extérieurs dans une large gamme de finitions. Résistants aux intempéries et anti-rayures.", es: "Alféizares interiores y exteriores en una amplia gama de acabados. Resistentes a la intemperie y anti-arañazos.", it: "Davanzali interni ed esterni in un\u2019ampia gamma di finiture. Resistenti alle intemperie e antigraffio.", pl: "Parapety wewnętrzne i zewnętrzne w szerokim zakresie wykończeń. Odporne na warunki atmosferyczne i na zarysowania." },
+    "win.cta.subtitle": { en: "Get Started", nl: "Aan de slag", de: "Loslegen", fr: "Commencer", es: "Empezar", it: "Iniziare", pl: "Zacznij" },
+    "win.cta.title": { en: "Ready for Premium REHAU Windows at 30–40% Less?", nl: "Klaar voor premium REHAU-ramen tegen 30–40% minder?", de: "Bereit für Premium-REHAU-Fenster zum 30–40% günstigeren Preis?", fr: "Prêt pour des fenêtres REHAU premium à 30–40% de moins ?", es: "¿Listo para ventanas REHAU premium a un 30–40% menos?", it: "Pronto per finestre REHAU premium al 30–40% in meno?", pl: "Gotowy na okna premium REHAU w cenach niższych o 30–40%?" },
+    "win.cta.desc": { en: "Request your free, no-obligation quote. Our engineering team responds within 24 hours.", nl: "Vraag uw gratis, vrijblijvende offerte aan. Ons technisch team reageert binnen 24 uur.", de: "Fordern Sie Ihr kostenloses, unverbindliches Angebot an. Unser Ingenieurteam antwortet innerhalb von 24 Stunden.", fr: "Demandez votre devis gratuit et sans engagement. Notre équipe technique répond sous 24 heures.", es: "Solicite su presupuesto gratuito y sin compromiso. Nuestro equipo técnico responde en 24 horas.", it: "Richiedi il tuo preventivo gratuito e senza impegno. Il nostro team tecnico risponde entro 24 ore.", pl: "Zamów bezpłatną wycenę bez zobowiązań. Nasz zespół techniczny odpowiada w ciągu 24 godzin." },
+    "win.cta.btn1": { en: "Request a Free Quote", nl: "Gratis Offerte Aanvragen", de: "Kostenloses Angebot Anfordern", fr: "Demander un Devis Gratuit", es: "Solicitar Presupuesto Gratis", it: "Richiedi Preventivo Gratuito", pl: "Zamów Darmową Wycenę" },
+    "win.cta.btn2": { en: "WhatsApp Us", nl: "WhatsApp Ons", de: "WhatsApp Uns", fr: "WhatsApp", es: "WhatsApp", it: "WhatsApp", pl: "WhatsApp" },
+    "footer.brandDesc": { en: "Premium PVC & ALU windows, doors, facades and more — delivered across Europe.", nl: "Premium PVC- & ALU-ramen, deuren, gevels en meer — geleverd in heel Europa.", de: "Premium PVC- & ALU-Fenster, Türen, Fassaden und mehr — europaweit geliefert.", fr: "Fenêtres, portes, façades PVC & ALU premium — livrées dans toute l\u2019Europe.", es: "Ventanas, puertas, fachadas PVC y ALU premium — entregadas en toda Europa.", it: "Finestre, porte, facciate PVC & ALU premium — consegnate in tutta Europa.", pl: "Okna, drzwi, fasady PVC i ALU premium — dostarczane w całej Europie." },
+    "footer.link.pvcWindows": { en: "PVC Windows", nl: "PVC Ramen", de: "PVC Fenster", fr: "Fenêtres PVC", es: "Ventanas PVC", it: "Finestre PVC", pl: "Okna PVC" },
+    "footer.link.garageDoors": { en: "Garage Doors", nl: "Garagedeuren", de: "Garagentore", fr: "Portes de Garage", es: "Puertas de Garaje", it: "Portoni da Garage", pl: "Bramy Garażowe" },
+    "footer.link.aboutUs": { en: "About Us", nl: "Over ons", de: "Über uns", fr: "À propos", es: "Nosotros", it: "Chi siamo", pl: "O nas" },
+    "footer.link.whatsapp": { en: "WhatsApp", nl: "WhatsApp", de: "WhatsApp", fr: "WhatsApp", es: "WhatsApp", it: "WhatsApp", pl: "WhatsApp" },
+    "footer.copyright": { en: "© 2026 QD Frames. All rights reserved.", nl: "© 2026 QD Frames. Alle rechten voorbehouden.", de: "© 2026 QD Frames. Alle Rechte vorbehalten.", fr: "© 2026 QD Frames. Tous droits réservés.", es: "© 2026 QD Frames. Todos los derechos reservados.", it: "© 2026 QD Frames. Tutti i diritti riservati.", pl: "© 2026 QD Frames. Wszelkie prawa zastrzeżone." }
+
 };
 
 const LANG_FLAGS = {
