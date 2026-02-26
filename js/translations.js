@@ -68,12 +68,12 @@ const translations = {
     },
     "hero.description": {
         en: "Same premium quality as top European brands — at 30–40% lower prices. Fast delivery anywhere in Europe. Quality craftsmanship backed by 15+ years of experience.",
-        nl: "Dezelfde Salamander kwaliteit als topmerken — voor 30–40% lagere prijzen. Snelle levering in heel Europa. Kwaliteitswerk ondersteund door 15+ jaar ervaring.",
+        nl: "Dezelfde Europese kwaliteit als topmerken — voor 30–40% lagere prijzen. Snelle levering in heel Europa. Kwaliteitswerk ondersteund door 15+ jaar ervaring.",
         de: "Gleiche europäische Qualität wie Top-Marken — zu 30–40% günstigeren Preisen. Schnelle Lieferung in ganz Europa. Qualitätshandwerk mit über 15 Jahren Erfahrung.",
-        fr: "Même qualité Salamander que les grandes marques — à des prix 30–40% inférieurs. Livraison rapide partout en Europe. Un savoir-faire de qualité soutenu par 15+ ans d'expérience.",
-        es: "Misma calidad Salamander que las mejores marcas — a precios 30–40% más bajos. Entrega rápida en toda Europa. Artesanía de calidad respaldada por más de 15 años de experiencia.",
-        it: "Stessa qualità Salamander dei migliori marchi — a prezzi inferiori del 30–40%. Consegna rapida in tutta Europa. Artigianato di qualità supportato da oltre 15 anni di esperienza.",
-        pl: "Ta sama jakość Salamander co wiodące marki – w cenach niższych o 30–40%. Szybka dostawa w całej Europie. Jakość potwierdzona ponad 15-letnim doświadczeniem."
+        fr: "Même qualité européenne que les grandes marques — à des prix 30–40% inférieurs. Livraison rapide partout en Europe. Un savoir-faire de qualité soutenu par 15+ ans d'expérience.",
+        es: "Misma calidad europea que las mejores marcas — a precios 30–40% más bajos. Entrega rápida en toda Europa. Artesanía de calidad respaldada por más de 15 años de experiencia.",
+        it: "Stessa qualità europea dei migliori marchi — a prezzi inferiori del 30–40%. Consegna rapida in tutta Europa. Artigianato di qualità supportato da oltre 15 anni di esperienza.",
+        pl: "Ta sama jakość europejska co wiodące marki – w cenach niższych o 30–40%. Szybka dostawa w całej Europie. Jakość potwierdzona ponad 15-letnim doświadczeniem."
     },
     "hero.cta": {
         en: "Get Your Free Quote",
@@ -115,12 +115,12 @@ const translations = {
     },
     "usp.desc": {
         en: "We combined premium European quality with direct-from-manufacturer pricing and the fastest delivery in the industry.",
-        nl: "We combineren premium Salamander kwaliteit met prijzen direct van de fabrikant en de snelste levering in de sector.",
+        nl: "We combineren premium Europese kwaliteit met prijzen direct van de fabrikant en de snelste levering in de sector.",
         de: "Wir kombinieren erstklassige europäische Qualität mit Preisen direkt vom Hersteller und der schnellsten Lieferung der Branche.",
-        fr: "Nous avons combiné la qualité premium Salamander avec des prix direct fabricant et la livraison la plus rapide du secteur.",
-        es: "Combinamos la calidad premium de Salamander con precios directos de fábrica y la entrega más rápida del sector.",
-        it: "Abbiamo combinato la qualità premium Salamander con prezzi diretti dal produttore e la consegna più veloce del settore.",
-        pl: "Łączymy najwyższą jakość Salamander z cenami producenta i najszybszą dostawą w branży."
+        fr: "Nous avons combiné la qualité premium European avec des prix direct fabricant et la livraison la plus rapide du secteur.",
+        es: "Combinamos la calidad premium europea con precios directos de fábrica y la entrega más rápida del sector.",
+        it: "Abbiamo combinato la qualità premium europea con prezzi diretti dal produttore e la consegna più veloce del settore.",
+        pl: "Łączymy najwyższą jakość europejska z cenami producenta i najszybszą dostawą w branży."
     },
     "usp.card1.title": {
         en: "30–40% Lower Prices",
@@ -133,12 +133,12 @@ const translations = {
     },
     "usp.card1.desc": {
         en: "Same REHAU, Schüco & FEAL profiles, same hardware, same quality — without the retail markup. We manufacture directly and pass the savings to you.",
-        nl: "Dezelfde Salamander profielen, hetzelfde beslag, dezelfde kwaliteit — zonder de retailopslag. Wij produceren direct en geven het voordeel aan u door.",
-        de: "Gleiche Salamander-Profile, gleiche Beschläge, gleiche Qualität — ohne Einzelhandelsaufschlag. Wir produzieren direkt und geben die Ersparnis an Sie weiter.",
-        fr: "Mêmes profilés Salamander, même quincaillerie, même qualité — sans la marge distributeur. Nous fabriquons en direct et vous en faisons profiter.",
-        es: "Mismos perfiles Salamander, mismos herrajes, misma calidad — sin margen minorista. Fabricamos directamente y le trasladamos el ahorro.",
-        it: "Stessi profili Salamander, stessa ferramenta, stessa qualità — senza ricarico al dettaglio. Produciamo direttamente e vi trasferiamo il risparmio.",
-        pl: "Te same profile Salamander, te same okucia, ta sama jakość — bez marży detalicznej. Produkujemy bezpośrednio, a oszczędności trafiają do Ciebie."
+        nl: "Dezelfde REHAU, Schüco & FEAL profielen, hetzelfde beslag, dezelfde kwaliteit — zonder de retailopslag. Wij produceren direct en geven het voordeel aan u door.",
+        de: "Gleiche REHAU-, Schüco- & FEAL-Profile, gleiche Beschläge, gleiche Qualität — ohne Einzelhandelsaufschlag. Wir produzieren direkt und geben die Ersparnis an Sie weiter.",
+        fr: "Mêmes profilés REHAU, Schüco & FEAL, même quincaillerie, même qualité — sans la marge distributeur. Nous fabriquons en direct et vous en faisons profiter.",
+        es: "Mismos perfiles REHAU, Schüco & FEAL, mismos herrajes, misma calidad — sin margen minorista. Fabricamos directamente y le trasladamos el ahorro.",
+        it: "Stessi profili REHAU, Schüco & FEAL, stessa ferramenta, stessa qualità — senza ricarico al dettaglio. Produciamo direttamente e vi trasferiamo il risparmio.",
+        pl: "Te same profile REHAU, Schüco & FEAL, te same okucia, ta sama jakość — bez marży detalicznej. Produkujemy bezpośrednio, a oszczędności trafiają do Ciebie."
     },
     "usp.card2.title": {
         en: "Fast Europe-Wide Delivery",
@@ -183,21 +183,21 @@ const translations = {
     "products.titleAccent": { en: "Solutions", nl: "Oplossingen", de: "Lösungen", fr: "Construction", es: "Construcción", it: "Edilizia", pl: "Budowlane" },
     "products.desc": {
         en: "From residential windows to commercial glass facades — everything manufactured with premium REHAU, Schüco & FEAL profiles.",
-        nl: "Van ramen voor woningen tot glazen gevels voor bedrijven — alles vervaardigd met premium Salamander profielen.",
-        de: "Von Wohnungsfenstern bis zu gewerblichen Glasfassaden — alles gefertigt mit erstklassigen Salamander-Profilen.",
-        fr: "Des fenêtres résidentielles aux façades vitrées commerciales — tout est fabriqué avec des profilés Salamander premium.",
-        es: "Desde ventanas residenciales hasta fachadas de vidrio comerciales — todo fabricado con perfiles premium Salamander.",
-        it: "Dalle finestre residenziali alle facciate in vetro commerciali — tutto prodotto con profili premium Salamander.",
-        pl: "Od okien mieszkalnych po komercyjne fasady szklane — wszystko na profilach premium Salamander."
+        nl: "Van ramen voor woningen tot glazen gevels voor bedrijven — alles vervaardigd met premium REHAU, Schüco & FEAL profielen.",
+        de: "Von Wohnungsfenstern bis zu gewerblichen Glasfassaden — alles gefertigt mit erstklassigen REHAU-, Schüco- & FEAL-Profilen.",
+        fr: "Des fenêtres résidentielles aux façades vitrées commerciales — tout est fabriqué avec des profilés REHAU, Schüco & FEAL premium.",
+        es: "Desde ventanas residenciales hasta fachadas de vidrio comerciales — todo fabricado con perfiles premium europeos.",
+        it: "Dalle finestre residenziali alle facciate in vetro commerciali — tutto prodotto con profili premium europei.",
+        pl: "Od okien mieszkalnych po komercyjne fasady szklane — wszystko na profilach premium European."
     },
     "products.card1.title": { en: "Windows", nl: "Ramen", de: "Fenster", fr: "Fenêtres", es: "Ventanas", it: "Finestre", pl: "Okna" },
     "products.card1.desc": {
         en: "Tilt-and-turn, casement, fixed, and sliding systems in 76mm, 82mm, and 88mm REHAU, Schüco & FEAL profiles.",
-        nl: "Draai-kiep, uitzet, vast en schuifsystemen in 76mm, 82mm en 88mm Salamander profielen.",
-        de: "Dreh-Kipp-, Flügel-, Fest- und Schiebesysteme in 76mm, 82mm und 88mm Salamander-Profilen.",
+        nl: "Draai-kiep, uitzet, vast en schuifsystemen in 76mm, 82mm en 88mm REHAU, Schüco & FEAL profielen.",
+        de: "Dreh-Kipp-, Flügel-, Fest- und Schiebesysteme in 76mm, 82mm und 88mm REHAU-, Schüco- & FEAL-Profilen.",
         fr: "Oscillo-battants, battants, fixes et coulissants en profilés QD Essential 76, 82mm et 88mm.",
-        es: "Oscilobatientes, practicables, fijos y correderas en perfiles Salamander de 76mm, 82mm y 88mm.",
-        it: "Ribalta, battente, fissi e scorrevoli in profili Salamander da 76mm, 82mm e 88mm.",
+        es: "Oscilobatientes, practicables, fijos y correderas en perfiles REHAU, Schüco & FEAL de 76mm, 82mm y 88mm.",
+        it: "Ribalta, battente, fissi e scorrevoli in profili REHAU, Schüco & FEAL da 76mm, 82mm e 88mm.",
         pl: "Rozwierno-uchylne, stałe i przesuwne systemy w profilach QD Essential 76, 82mm i 88mm."
     },
     "products.card1.link": { en: "Explore Windows", nl: "Bekijk Ramen", de: "Fenster entdecken", fr: "Voir les Fenêtres", es: "Ver Ventanas", it: "Scopri Finestre", pl: "Zobacz Okna" },
@@ -268,18 +268,18 @@ const translations = {
     "process.step4": { en: "You approve, we manufacture & deliver", nl: "U keurt goed, wij produceren & leveren", de: "Sie genehmigen, wir fertigen & liefern", fr: "Vous validez, nous fabriquons & livrons", es: "Usted aprueba, fabricamos y entregamos", it: "Tu approvi, noi produciamo & consegniamo", pl: "Akceptujesz, my produkujemy i dostarczamy" },
     "process.btn": { en: "See Full Process", nl: "Bekijk Proces", de: "Zum Ablauf", fr: "Voir le Processus", es: "Ver Proceso Completo", it: "Vedi Processo Completo", pl: "Zobacz Pełny Proces" },
 
-    // --- Salamander Section ---
+    // --- Partners Section ---
     "salamander.subtitle": { en: "Profile Partner", nl: "Profiel Partner", de: "Profilpartner", fr: "Partenaire Profilé", es: "Socio de Perfiles", it: "Partner Profili", pl: "Partner Systemowy" },
     "salamander.title": { en: "Powered by", nl: "Aangedreven door", de: "Powered by", fr: "Propulsé par", es: "Impulsado por", it: "Powered by", pl: "Wspierane przez" },
-    "salamander.titleAccent": { en: "Salamander", nl: "Salamander", de: "Salamander", fr: "Salamander", es: "Salamander", it: "Salamander", pl: "Salamander" },
+    "salamander.titleAccent": { en: "European", nl: "European", de: "European", fr: "European", es: "European", it: "European", pl: "European" },
     "salamander.desc": {
         en: "We exclusively use REHAU, Schüco & FEAL profiles — the same PVC system trusted by Europe's premium window brands. Multi-chamber design, steel reinforcement, and EPDM gaskets deliver exceptional thermal and acoustic performance.",
-        nl: "We gebruiken uitsluitend Salamander profielen. Meerkamerontwerp, staalversterking en EPDM-afdichtingen zorgen voor uitzonderlijke thermische en akoestische prestaties.",
-        de: "Wir verwenden ausschließlich Salamander-Profile. Mehrkammerdesign, Stahlverstärkung und EPDM-Dichtungen sorgen für hervorragende Wärme- und Schalldämmung.",
-        fr: "Nous utilisons exclusivement des profilés Salamander. Conception multi-chambres, renfort acier et joints EPDM offrent des performances thermiques et acoustiques exceptionnelles.",
-        es: "Utilizamos exclusivamente perfiles Salamander. Diseño multicámara, refuerzo de acero y juntas EPDM ofrecen un rendimiento térmico y acústico excepcional.",
-        it: "Utilizziamo esclusivamente profili Salamander. Design multicamera, rinforzo in acciaio e guarnizioni in EPDM offrono prestazioni termiche e acustiche eccezionali.",
-        pl: "Używamy wyłącznie profili Salamander. Wielokomorowa konstrukcja, stalowe wzmocnienia i uszczelki EPDM zapewniają wyjątkową izolację termiczną i akustyczną."
+        nl: "We gebruiken uitsluitend REHAU, Schüco & FEAL profielen. Meerkamerontwerp, staalversterking en EPDM-afdichtingen zorgen voor uitzonderlijke thermische en akoestische prestaties.",
+        de: "Wir verwenden ausschließlich REHAU-, Schüco- & FEAL-Profile. Mehrkammerdesign, Stahlverstärkung und EPDM-Dichtungen sorgen für hervorragende Wärme- und Schalldämmung.",
+        fr: "Nous utilisons exclusivement des profilés REHAU, Schüco & FEAL. Conception multi-chambres, renfort acier et joints EPDM offrent des performances thermiques et acoustiques exceptionnelles.",
+        es: "Utilizamos exclusivamente perfiles REHAU, Schüco & FEAL. Diseño multicámara, refuerzo de acero y juntas EPDM ofrecen un rendimiento térmico y acústico excepcional.",
+        it: "Utilizziamo esclusivamente profili REHAU, Schüco & FEAL. Design multicamera, rinforzo in acciaio e guarnizioni in EPDM offrono prestazioni termiche e acustiche eccezionali.",
+        pl: "Używamy wyłącznie profili REHAU, Schüco & FEAL. Wielokomorowa konstrukcja, stalowe wzmocnienia i uszczelki EPDM zapewniają wyjątkową izolację termiczną i akustyczną."
     },
     "salamander.feat1": { en: "U-values from 0.7 W/m²K", nl: "U-waarden vanaf 0,7 W/m²K", de: "U-Werte ab 0,7 W/m²K", fr: "Valeurs U dès 0,7 W/m²K", es: "Valores U desde 0,7 W/m²K", it: "Valori U da 0,7 W/m²K", pl: "Współczynniki U od 0,7 W/m²K" },
     "salamander.feat2": { en: "Up to 47 dB sound reduction", nl: "Tot 47 dB geluidsreductie", de: "Bis zu 47 dB Schallschutz", fr: "Jusqu'à 47 dB de réduction sonore", es: "Hasta 47 dB de reducción sonora", it: "Fino a 47 dB di riduzione sonora", pl: "Do 47 dB redukcji hałasu" },
@@ -307,7 +307,7 @@ const translations = {
     "testimonials.subtitle": { en: "Customer Reviews", nl: "Klantbeoordelingen", de: "Kundenbewertungen", fr: "Avis Clients", es: "Opiniones de Clientes", it: "Recensioni Clienti", pl: "Opinie Klientów" },
     "testimonials.title": { en: "Trusted by Homeowners", nl: "Vertrouwd door Huiseigenaren", de: "Vertrauen von Hausbesitzern", fr: "La Confiance des Propriétaires", es: "Confianza de Propietarios", it: "La Fiducia dei Proprietari", pl: "Zaufanie Właścicieli Domów" },
     "testimonials.titleAccent": { en: "Across Europe", nl: "In Heel Europa", de: "In Ganz Europa", fr: "Dans Toute l'Europe", es: "En Toda Europa", it: "In Tutta Europa", pl: "W Całej Europie" },
-    "testimonials.review1": { en: "\"We saved over €4,000 compared to local quotes — and the quality is identical. The REHAU, Schüco & FEAL profiles are excellent. Delivery to the Netherlands was smooth and on time.\"", nl: "\"We hebben meer dan €4.000 bespaard ten opzichte van lokale offertes — en de kwaliteit is identiek. De Salamander profielen zijn uitstekend. Levering in Nederland was soepel en op tijd.\"", de: "\"Wir haben über 4.000 € im Vergleich zu lokalen Angeboten gespart — und die Qualität ist identisch. Die Salamander-Profile sind ausgezeichnet.\"", fr: "\"Nous avons économisé plus de 4 000 € par rapport aux devis locaux — et la qualité est identique. Les profilés Salamander sont excellents.\"", es: "\"Ahorramos más de 4.000 € en comparación con los presupuestos locales — y la calidad es idéntica. Los perfiles Salamander son excelentes.\"", it: "\"Abbiamo risparmiato oltre 4.000 € rispetto ai preventivi locali — e la qualità è identica. I profili Salamander sono eccellenti.\"", pl: "\"Zaoszczędziliśmy ponad 4000 € w porównaniu z lokalnymi ofertami — a jakość jest identyczna. Profile Salamander są doskonałe.\"" },
+    "testimonials.review1": { en: "\"We saved over €4,000 compared to local quotes — and the quality is identical. The REHAU, Schüco & FEAL profiles are excellent. Delivery to the Netherlands was smooth and on time.\"", nl: "\"We hebben meer dan €4.000 bespaard ten opzichte van lokale offertes — en de kwaliteit is identiek. De REHAU, Schüco & FEAL profielen zijn uitstekend. Levering in Nederland was soepel en op tijd.\"", de: "\"Wir haben über 4.000 € im Vergleich zu lokalen Angeboten gespart — und die Qualität ist identisch. Die REHAU-, Schüco- & FEAL-Profile sind ausgezeichnet.\"", fr: "\"Nous avons économisé plus de 4 000 € par rapport aux devis locaux — et la qualité est identique. Les profilés REHAU, Schüco & FEAL sont excellents.\"", es: "\"Ahorramos más de 4.000 € en comparación con los presupuestos locales — y la calidad es idéntica. Los perfiles REHAU, Schüco & FEAL son excelentes.\"", it: "\"Abbiamo risparmiato oltre 4.000 € rispetto ai preventivi locali — e la qualità è identica. I profili REHAU, Schüco & FEAL sono eccellenti.\"", pl: "\"Zaoszczędziliśmy ponad 4000 € w porównaniu z lokalnymi ofertami — a jakość jest identyczna. REHAU • Schüco • FEAL są doskonałe.\"" },
     "testimonials.name1": { en: "Thomas van den Berg", nl: "Thomas van den Berg", de: "Thomas van den Berg", fr: "Thomas van den Berg", es: "Thomas van den Berg", it: "Thomas van den Berg", pl: "Thomas van den Berg" },
     "testimonials.loc1": { en: "Amsterdam, Netherlands", nl: "Amsterdam, Nederland", de: "Amsterdam, Niederlande", fr: "Amsterdam, Pays-Bas", es: "Ámsterdam, Países Bajos", it: "Amsterdam, Paesi Bassi", pl: "Amsterdam, Holandia" },
     "testimonials.review2": { en: "\"Professional from start to finish. The engineering team helped us choose the right profiles for our renovation. 15 windows and 3 doors — all perfect.\"", nl: "\"Professioneel van begin tot eind. Het technische team hielp ons de juiste profielen te kiezen voor onze renovatie. 15 ramen en 3 deuren — allemaal perfect.\"", de: "\"Professionell von Anfang bis Ende. Das Ingenieurteam half uns, die richtigen Profile für unsere Renovierung zu wählen. 15 Fenster und 3 Türen — alle perfekt.\"", fr: "\"Professionnel du début à la fin. L'équipe d'ingénierie nous a aidés à choisir les bons profilés pour notre rénovation.\"", es: "\"Profesional de principio a fin. El equipo de ingeniería nos ayudó a elegir los perfiles adecuados para nuestra renovación.\"", it: "\"Professionale dall'inizio alla fine. Il team di ingegneria ci ha aiutato a scegliere i profili giusti per la nostra ristrutturazione.\"", pl: "\"Profesjonalnie od początku do końca. Zespół inżynierski pomógł nam wybrać odpowiednie profile do naszej renowacji.\"" },
@@ -326,57 +326,57 @@ const translations = {
     "footer.company": { en: "Company", nl: "Bedrijf", de: "Unternehmen", fr: "Entreprise", es: "Empresa", it: "Azienda", pl: "Firma" },
     "footer.contact": { en: "Contact", nl: "Contact", de: "Kontakt", fr: "Contact", es: "Contacto", it: "Contatti", pl: "Kontakt" },
     "footer.desc": {
-        en: "Premium Salamander windows, doors, and glass facades delivered free across Europe.",
-        nl: "Premium Salamander ramen, deuren en gevels gratis geleverd in heel Europa.",
+        en: "Premium REHAU, Schüco & FEAL windows, doors, and glass facades delivered free across Europe.",
+        nl: "Premium REHAU, Schüco & FEAL ramen, deuren en gevels gratis geleverd in heel Europa.",
         de: "Premium Europäische Fenster, Türen und Fassaden, kostenlos europaweit geliefert.",
-        fr: "Fenêtres, portes et façades Salamander premium livrées gratuitement en Europe.",
-        es: "Ventanas, puertas y fachadas Salamander premium entregadas gratis en Europa.",
-        it: "Finestre, porte e facciate Salamander premium consegnate gratuitamente in Europa.",
-        pl: "Okna, drzwi i fasady Salamander premium z szybką dostawą w całej Europie."
+        fr: "Fenêtres, portes et façades REHAU, Schüco & FEAL premium livrées gratuitement en Europe.",
+        es: "Ventanas, puertas y fachadas REHAU, Schüco & FEAL premium entregadas gratis en Europa.",
+        it: "Finestre, porte e facciate REHAU, Schüco & FEAL premium consegnate gratuitamente in Europa.",
+        pl: "Okna, drzwi i fasady REHAU, Schüco & FEAL premium z szybką dostawą w całej Europie."
     },
     "footer.rights": { en: "All rights reserved.", nl: "Alle rechten voorbehouden.", de: "Alle Rechte vorbehalten.", fr: "Tous droits réservés.", es: "Todos los derechos reservados.", it: "Tutti i diritti riservati.", pl: "Wszelkie prawa zastrzeżone." },
     "footer.tagline": {
         en: "Premium European Window & Door Systems",
         nl: "Premium Europese Ramen & Deuren",
         de: "Premium Europäische Fenster & Türen",
-        fr: "Fenêtres & Portes Salamander Premium",
-        es: "Ventanas y Puertas Premium Salamander",
-        it: "Finestre & Porte Premium Salamander",
-        pl: "Okna i Drzwi Premium Salamander"
+        fr: "Fenêtres & Portes REHAU, Schüco & FEAL Premium",
+        es: "Ventanas y Puertas Premium European",
+        it: "Finestre & Porte Premium European",
+        pl: "Okna i Drzwi Premium European"
     }
     ,
 
     // --- Windows Page ---
     "windows.pageTitle": {
-        en: "Premium Salamander Windows | Tilt-Turn, Casement, Sliding | QD Frames",
+        en: "Premium European Windows | Tilt-Turn, Casement, Sliding | QD Frames",
         nl: "Premium Europese Ramen | Draai-Kiep, Uitzet, Schuif | QD Frames",
         de: "Premium Europäische Fenster | Dreh-Kipp, Flügel, Schiebe | QD Frames",
-        fr: "Fenêtres Salamander Premium | Oscillo-battant, Battant, Coulissant | QD Frames",
-        es: "Ventanas Salamander Premium | Oscilobatiente, Practicable, Corredera | QD Frames",
-        it: "Finestre Salamander Premium | Ribalta, Battente, Scorrevole | QD Frames",
-        pl: "Okna Salamander Premium | Rozwierno-Uchylne, Przesuwne | QD Frames"
+        fr: "Fenêtres REHAU, Schüco & FEAL Premium | Oscillo-battant, Battant, Coulissant | QD Frames",
+        es: "Ventanas REHAU, Schüco & FEAL Premium | Oscilobatiente, Practicable, Corredera | QD Frames",
+        it: "Finestre REHAU, Schüco & FEAL Premium | Ribalta, Battente, Scorrevole | QD Frames",
+        pl: "Okna REHAU, Schüco & FEAL Premium | Rozwierno-Uchylne, Przesuwne | QD Frames"
     },
     "windows.metaDesc": {
-        en: "Premium Salamander profile windows — 76mm, 82mm, and 88mm systems. Tilt-and-turn, casement, fixed, and sliding windows. U-values from 0.7 W/m²K. 200+ colors.",
-        nl: "Premium Salamander profiel ramen — 76mm, 82mm en 88mm systemen. Draai-kiep, uitzet, vaste en schuiframen. U-waarden vanaf 0,7 W/m²K. 200+ kleuren.",
-        de: "Premium Salamander-Profilfenster — 76mm, 82mm und 88mm Systeme. Dreh-Kipp-, Flügel-, Fest- und Schiebefenster. U-Werte ab 0,7 W/m²K. 200+ Farben.",
-        fr: "Fenêtres profilés Salamander Premium — systèmes 76mm, 82mm et 88mm. Fenêtres oscillo-battantes, battantes, fixes et coulissantes. Valeurs U dès 0,7 W/m²K. 200+ couleurs.",
-        es: "Ventanas de perfil Salamander Premium — sistemas de 76mm, 82mm y 88mm. Ventanas oscilobatientes, practicables, fijas y correderas. Valores U desde 0,7 W/m²K. 200+ colores.",
-        it: "Finestre con profili Salamander Premium — sistemi da 76mm, 82mm e 88mm. Finestre a ribalta, battente, fisse e scorrevoli. Valori U da 0,7 W/m²K. 200+ colori.",
-        pl: "Okna na profilach Salamander Premium — systemy 76mm, 82mm i 88mm. Okna rozwierno-uchylne, stałe i przesuwne. Współczynniki U od 0,7 W/m²K. Ponad 200 kolorów."
+        en: "Premium European profile windows — 76mm, 82mm, and 88mm systems. Tilt-and-turn, casement, fixed, and sliding windows. U-values from 0.7 W/m²K. 200+ colors.",
+        nl: "Premium European profiel ramen — 76mm, 82mm en 88mm systemen. Draai-kiep, uitzet, vaste en schuiframen. U-waarden vanaf 0,7 W/m²K. 200+ kleuren.",
+        de: "Premium European-Profilfenster — 76mm, 82mm und 88mm Systeme. Dreh-Kipp-, Flügel-, Fest- und Schiebefenster. U-Werte ab 0,7 W/m²K. 200+ Farben.",
+        fr: "Fenêtres profilés REHAU, Schüco & FEAL Premium — systèmes 76mm, 82mm et 88mm. Fenêtres oscillo-battantes, battantes, fixes et coulissantes. Valeurs U dès 0,7 W/m²K. 200+ couleurs.",
+        es: "Ventanas de perfil REHAU, Schüco & FEAL Premium — sistemas de 76mm, 82mm y 88mm. Ventanas oscilobatientes, practicables, fijas y correderas. Valores U desde 0,7 W/m²K. 200+ colores.",
+        it: "Finestre con profili REHAU, Schüco & FEAL Premium — sistemi da 76mm, 82mm e 88mm. Finestre a ribalta, battente, fisse e scorrevoli. Valori U da 0,7 W/m²K. 200+ colori.",
+        pl: "Okna na profilach REHAU, Schüco & FEAL Premium — systemy 76mm, 82mm i 88mm. Okna rozwierno-uchylne, stałe i przesuwne. Współczynniki U od 0,7 W/m²K. Ponad 200 kolorów."
     },
     "windows.hero.breadcrumb": { en: "Windows", nl: "Ramen", de: "Fenster", fr: "Fenêtres", es: "Ventanas", it: "Finestre", pl: "Okna" },
     "windows.hero.subtitle": { en: "Window Systems", nl: "Raamsystemen", de: "Fenstersysteme", fr: "Systèmes de Fenêtres", es: "Sistemas de Ventanas", it: "Sistemi di Finestre", pl: "Systemy Okienne" },
-    "windows.hero.title": { en: "Salamander Profile", nl: "Salamander Profiel", de: "Salamander Profil", fr: "Profilé Salamander", es: "Perfil Salamander", it: "Profilo Salamander", pl: "Profile Salamander" },
+    "windows.hero.title": { en: "REHAU • Schüco • FEALe", nl: "European Profiel", de: "REHAU • Schüco • FEAL", fr: "REHAU • Schüco • FEAL", es: "REHAU • Schüco • FEAL", it: "REHAU • Schüco • FEAL", pl: "REHAU • Schüco • FEAL" },
     "windows.hero.titleAccent": { en: "Windows", nl: "Ramen", de: "Fenster", fr: "Fenêtres", es: "Ventanas", it: "Finestre", pl: "Okna" },
     "windows.hero.desc": {
-        en: "Three premium profile systems engineered for every climate and budget. All manufactured with genuine Salamander PVC profiles and high-performance glazing.",
-        nl: "Drie premium profielsystemen ontworpen voor elk klimaat en budget. Allemaal vervaardigd met echte Salamander PVC-profielen en hoogwaardige beglazing.",
-        de: "Drei Premium-Profilsysteme, entwickelt für jedes Klima und Budget. Alle gefertigt mit echten Salamander PVC-Profilen und Hochleistungsverglasung.",
-        fr: "Trois systèmes de profilés premium conçus pour tous les climats et budgets. Tous fabriqués avec de véritables profilés PVC Salamander et un vitrage haute performance.",
-        es: "Tres sistemas de perfiles premium diseñados para cada clima y presupuesto. Todos fabricados con auténticos perfiles de PVC Salamander y acristalamiento de alto rendimiento.",
-        it: "Tre sistemi di profili premium progettati per ogni clima e budget. Tutti prodotti con profili in PVC Salamander originali e vetri ad alte prestazioni.",
-        pl: "Trzy systemy profili premium zaprojektowane dla każdego klimatu i budżetu. Wszystkie produkowane z oryginalnych profili PVC Salamander i wysokiej jakości szklenia."
+        en: "Three premium profile systems engineered for every climate and budget. All manufactured with genuine European PVC profiles and high-performance glazing.",
+        nl: "Drie premium profielsystemen ontworpen voor elk klimaat en budget. Allemaal vervaardigd met echte European PVC-profielen en hoogwaardige beglazing.",
+        de: "Drei Premium-Profilsysteme, entwickelt für jedes Klima und Budget. Alle gefertigt mit echten REHAU-, Schüco- & FEAL-Profilen und Hochleistungsverglasung.",
+        fr: "Trois systèmes de profilés premium conçus pour tous les climats et budgets. Tous fabriqués avec de véritables profilés REHAU, Schüco & FEAL et un vitrage haute performance.",
+        es: "Tres sistemas de perfiles premium diseñados para cada clima y presupuesto. Todos fabricados con auténticos perfiles REHAU, Schüco & FEAL y acristalamiento de alto rendimiento.",
+        it: "Tre sistemi di profili premium progettati per ogni clima e budget. Tutti prodotti con profili REHAU, Schüco & FEAL originali e vetri ad alte prestazioni.",
+        pl: "Trzy systemy profili premium zaprojektowane dla każdego klimatu i budżetu. Wszystkie produkowane z oryginalnych profili REHAU, Schüco & FEAL i wysokiej jakości szklenia."
     },
     "windows.systems.subtitle": { en: "Profile Systems", nl: "Profielsystemen", de: "Profilsysteme", fr: "Systèmes de Profilés", es: "Sistemas de Perfiles", it: "Sistemi di Profili", pl: "Systemy Profilowe" },
     "windows.systems.title": { en: "Choose Your", nl: "Kies Uw", de: "Wählen Sie Ihr", fr: "Choisissez Votre", es: "Elija Su", it: "Scegli Il Tuo", pl: "Wybierz Swój" },
@@ -559,13 +559,13 @@ const translations = {
         pl: "Drzwi Premium | Wejściowe, Przesuwne, Balkonowe i Składane | QD Frames"
     },
     "doors.metaDesc": {
-        en: "Premium Salamander profile doors — entry doors, lift & slide, French doors, and bi-fold systems. RC2/RC3 security ratings. Fast delivery across Europe.",
-        nl: "Premium Salamander profiel deuren — voordeuren, hef-schuif, openslaande deuren en vouwsystemen. RC2/RC3 veiligheid. Snelle levering in Europa.",
-        de: "Premium Salamander-Profiltüren — Haustüren, Hebe-Schiebe, Balkontüren und Faltsysteme. RC2/RC3 Sicherheitsklassen. Schnelle Lieferung in Europa.",
-        fr: "Portes profilés Salamander Premium — portes d'entrée, levantes-coulissantes, portes-fenêtres et systèmes pliants. Sécurité RC2/RC3. Livraison rapide en Europe.",
-        es: "Puertas de perfil Salamander Premium — puertas de entrada, elevadoras correderas, balconeras y sistemas plegables. Seguridad RC2/RC3. Entrega gratis en Europa.",
-        it: "Porte con profili Salamander Premium — porte d'ingresso, alzanti scorrevoli, porte finestre e sistemi a libro. Sicurezza RC2/RC3. Consegna rapida in Europa.",
-        pl: "Drzwi na profilach Salamander Premium — wejściowe, podnoszono-przesuwne, balkonowe i systemy składane. Klasy bezpieczeństwa RC2/RC3. Szybka dostawa w Europie."
+        en: "Premium European profile doors — entry doors, lift & slide, French doors, and bi-fold systems. RC2/RC3 security ratings. Fast delivery across Europe.",
+        nl: "Premium European profiel deuren — voordeuren, hef-schuif, openslaande deuren en vouwsystemen. RC2/RC3 veiligheid. Snelle levering in Europa.",
+        de: "Premium European-Profiltüren — Haustüren, Hebe-Schiebe, Balkontüren und Faltsysteme. RC2/RC3 Sicherheitsklassen. Schnelle Lieferung in Europa.",
+        fr: "Portes profilés REHAU, Schüco & FEAL Premium — portes d'entrée, levantes-coulissantes, portes-fenêtres et systèmes pliants. Sécurité RC2/RC3. Livraison rapide en Europe.",
+        es: "Puertas de perfil REHAU, Schüco & FEAL Premium — puertas de entrada, elevadoras correderas, balconeras y sistemas plegables. Seguridad RC2/RC3. Entrega gratis en Europa.",
+        it: "Porte con profili REHAU, Schüco & FEAL Premium — porte d'ingresso, alzanti scorrevoli, porte finestre e sistemi a libro. Sicurezza RC2/RC3. Consegna rapida in Europa.",
+        pl: "Drzwi na profilach REHAU, Schüco & FEAL Premium — wejściowe, podnoszono-przesuwne, balkonowe i systemy składane. Klasy bezpieczeństwa RC2/RC3. Szybka dostawa w Europie."
     },
     "doors.hero.breadcrumb": { en: "Doors", nl: "Deuren", de: "Türen", fr: "Portes", es: "Puertas", it: "Porte", pl: "Drzwi" },
     "doors.hero.subtitle": { en: "Door Systems", nl: "Deursystemen", de: "Türsysteme", fr: "Systèmes de Portes", es: "Sistemas de Puertas", it: "Sistemi di Porte", pl: "Systemy Drzwiowe" },
@@ -586,12 +586,12 @@ const translations = {
     "doors.card1.title": { en: "Entry Doors", nl: "Voordeuren", de: "Haustüren", fr: "Portes d'Entrée", es: "Puertas de Entrada", it: "Porte d'Ingresso", pl: "Drzwi Wejściowe" },
     "doors.card1.desc": {
         en: "Reinforced REHAU, Schüco & FEAL profiles with multi-point locking systems. Available in RC2 and RC3 security ratings with decorative glass panels and modern hardware.",
-        nl: "Versterkte Salamander profielen met meerpuntsvergrendeling. Beschikbaar in RC2 en RC3 veiligheidsklassen met decoratieve glaspanelen en modern beslag.",
-        de: "Verstärkte Salamander-Profile mit Mehrfachverriegelung. Erhältlich in RC2- und RC3-Sicherheitsklassen mit dekorativen Glasfüllungen und modernen Beschlägen.",
-        fr: "Profilés Salamander renforcés avec systèmes de verrouillage multipoint. Disponibles en classes de sécurité RC2 et RC3 avec panneaux de verre décoratifs et quincaillerie moderne.",
-        es: "Perfiles Salamander reforzados con sistemas de cierre multipunto. Disponibles en clasificaciones de seguridad RC2 y RC3 con paneles de vidrio decorativos y herrajes modernos.",
-        it: "Profili Salamander rinforzati con sistemi di chiusura multipunto. Disponibili nelle classi di sicurezza RC2 e RC3 con pannelli in vetro decorativi e ferramenta moderna.",
-        pl: "Wzmocnione profile Salamander z wielopunktowymi zamkami. Dostępne w klasach bezpieczeństwa RC2 i RC3 z ozdobnymi panelami szklanymi i nowoczesnymi okuciami."
+        nl: "Versterkte REHAU, Schüco & FEAL profielen met meerpuntsvergrendeling. Beschikbaar in RC2 en RC3 veiligheidsklassen met decoratieve glaspanelen en modern beslag.",
+        de: "Verstärkte REHAU-, Schüco- & FEAL-Profile mit Mehrfachverriegelung. Erhältlich in RC2- und RC3-Sicherheitsklassen mit dekorativen Glasfüllungen und modernen Beschlägen.",
+        fr: "Profilés European renforcés avec systèmes de verrouillage multipoint. Disponibles en classes de sécurité RC2 et RC3 avec panneaux de verre décoratifs et quincaillerie moderne.",
+        es: "Perfiles European reforzados con sistemas de cierre multipunto. Disponibles en clasificaciones de seguridad RC2 y RC3 con paneles de vidrio decorativos y herrajes modernos.",
+        it: "Profili European rinforzati con sistemi di chiusura multipunto. Disponibili nelle classi di sicurezza RC2 e RC3 con pannelli in vetro decorativi e ferramenta moderna.",
+        pl: "Wzmocnione profile REHAU, Schüco & FEAL z wielopunktowymi zamkami. Dostępne w klasach bezpieczeństwa RC2 i RC3 z ozdobnymi panelami szklanymi i nowoczesnymi okuciami."
     },
     "doors.card2.title": { en: "Lift & Slide Doors", nl: "Hef-Schuifdeuren", de: "Hebe-Schiebe-Türen", fr: "Portes Levantes-Coulissantes", es: "Puertas Elevadoras Correderas", it: "Porte Alzanti Scorrevoli", pl: "Drzwi Podnoszono-Przesuwne" },
     "doors.card2.desc": {
@@ -805,7 +805,7 @@ const translations = {
     "process.comp.row6.qd": { en: "✓ Free", nl: "✓ Gratis", de: "✓ Kostenlos", fr: "✓ Gratuit", es: "✓ Gratis", it: "✓ Gratis", pl: "✓ Za darmo" },
     "process.comp.row6.trad": { en: "€200–€500 extra", nl: "€200–€500 extra", de: "€200–€500 extra", fr: "€200–€500 extra", es: "€200–€500 extra", it: "€200–€500 extra", pl: "€200–€500 dodatkowo" },
     "process.comp.row7.feat": { en: "Profile System", nl: "Profielsysteem", de: "Profilsystem", fr: "Système de Profil", es: "Sistema de Perfil", it: "Sistema di Profilo", pl: "System Profili" },
-    // row7 values are "Salamander" and "Varies" which are mostly universal or repeated. "Salamander" is proper name. "Varies" is translatable.
+    // row7 values are "European" and "Varies" which are mostly universal or repeated. "European" is proper name. "Varies" is translatable.
     "process.comp.row7.varies": { en: "Varies", nl: "Varieert", de: "Variiert", fr: "Variable", es: "Varía", it: "Varia", pl: "Różnie" },
 
     // CTA
@@ -816,28 +816,28 @@ const translations = {
 
     // --- About Page ---
     "about.pageTitle": { en: "About QD Frames | 15+ Years of Premium Window Manufacturing", nl: "Over QD Frames | 15+ Jaar Premium Ramenproductie", de: "Über QD Frames | 15+ Jahre Premium-Fensterherstellung", fr: "À Propos de QD Frames | 15+ Ans de Fabrication de Fenêtres Premium", es: "Sobre QD Frames | 15+ Años de Fabricación de Ventanas Premium", it: "Chi Siamo - QD Frames | 15+ Anni di Produzione di Finestre Premium", pl: "O QD Frames | 15+ Lat Produkcji Okien Premium" },
-    "about.metaDesc": { en: "QD Frames manufactures premium Salamander windows, doors, and glass facades. 15+ years experience, CE and ISO certified, serving 28 European countries.", nl: "QD Frames produceert premium Salamander ramen, deuren en glazen gevels. 15+ jaar ervaring, CE en ISO gecertificeerd, leverend aan 28 Europese landen.", de: "QD Frames stellt Premium-Salamander-Fenster, -Türen und -Glasfassaden her. 15+ Jahre Erfahrung, CE- und ISO-zertifiziert, bedient 28 europäische Länder.", fr: "QD Frames fabrique des fenêtres, portes et façades en verre Salamander haut de gamme. 15+ ans d'expérience, certifié CE et ISO, desservant 28 pays européens.", es: "QD Frames fabrica ventanas, puertas y fachadas de vidrio Salamander premium. 15+ años de experiencia, certificado CE e ISO, sirviendo a 28 países europeos.", it: "QD Frames produce finestre, porte e facciate in vetro Salamander premium. 15+ anni di esperienza, certificati CE e ISO, al servizio di 28 paesi europei.", pl: "QD Frames produkuje okna, drzwi i fasady szklane Salamander premium. 15+ lat doświadczenia, certyfikaty CE i ISO, obsługa 28 krajów europejskich." },
+    "about.metaDesc": { en: "QD Frames manufactures premium REHAU, Schüco & FEAL windows, doors, and glass facades. 15+ years experience, CE and ISO certified, serving 28 European countries.", nl: "QD Frames produceert premium REHAU, Schüco & FEAL ramen, deuren en glazen gevels. 15+ jaar ervaring, CE en ISO gecertificeerd, leverend aan 28 Europese landen.", de: "QD Frames stellt Premium-REHAU-, Schüco- & FEAL-Fenster, -Türen und -Glasfassaden her. 15+ Jahre Erfahrung, CE- und ISO-zertifiziert, bedient 28 europäische Länder.", fr: "QD Frames fabrique des fenêtres, portes et façades en verre REHAU, Schüco & FEAL premium. 15+ ans d'expérience, certifié CE et ISO, desservant 28 pays européens.", es: "QD Frames fabrica ventanas, puertas y fachadas de vidrio REHAU, Schüco & FEAL premium. 15+ años de experiencia, certificado CE e ISO, sirviendo a 28 países europeos.", it: "QD Frames produce finestre, porte e facciate in vetro REHAU, Schüco & FEAL premium. 15+ anni di esperienza, certificati CE e ISO, al servizio di 28 paesi europei.", pl: "QD Frames produkuje okna, drzwi i fasady szklane REHAU, Schüco & FEAL premium. 15+ lat doświadczenia, certyfikaty CE i ISO, obsługa 28 krajów europejskich." },
 
     // Hero
     "about.hero.breadcrumb": { en: "About", nl: "Over Ons", de: "Über Uns", fr: "À Propos", es: "Nosotros", it: "Chi Siamo", pl: "O Nas" },
     "about.hero.subtitle": { en: "About Us", nl: "Over Ons", de: "Über Uns", fr: "À Propos de Nous", es: "Sobre Nosotros", it: "Chi Siamo", pl: "O Nas" },
     "about.hero.title": { en: "Building Trust Across", nl: "Vertrouwen Bouwen in", de: "Vertrauen Bauen in", fr: "Bâtir la Confiance à Travers", es: "Construyendo Confianza en", it: "Costruire Fiducia in", pl: "Budowanie Zaufania w" },
     "about.hero.titleAccent": { en: "Europe", nl: "Europa", de: "Europa", fr: "L'Europe", es: "Europa", it: "Europa", pl: "Europie" },
-    "about.hero.desc": { en: "We manufacture premium Salamander windows, doors, and glass facades — delivering quality and value to 28 countries.", nl: "Wij produceren premium Salamander ramen, deuren en glazen gevels — en leveren kwaliteit en waarde aan 28 landen.", de: "Wir stellen Premium-Salamander-Fenster, -Türen und -Glasfassaden her — und liefern Qualität und Wert in 28 Länder.", fr: "Nous fabriquons des fenêtres, portes et façades en verre Salamander haut de gamme — offrant qualité et valeur à 28 pays.", es: "Fabricamos ventanas, puertas y fachadas de vidrio Salamander premium — entregando calidad y valor a 28 países.", it: "Produciamo finestre, porte e facciate in vetro Salamander premium — offrendo qualità e valore a 28 paesi.", pl: "Produkujemy okna, drzwi i fasady szklane Salamander premium — dostarczając jakość i wartość do 28 krajów." },
+    "about.hero.desc": { en: "We manufacture premium REHAU, Schüco & FEAL windows, doors, and glass facades — delivering quality and value to 28 countries.", nl: "Wij produceren premium REHAU, Schüco & FEAL ramen, deuren en glazen gevels — en leveren kwaliteit en waarde aan 28 landen.", de: "Wir stellen Premium-REHAU-, Schüco- & FEAL-Fenster, -Türen und -Glasfassaden her — und liefern Qualität und Wert in 28 Länder.", fr: "Nous fabriquons des fenêtres, portes et façades en verre REHAU, Schüco & FEAL premium — offrant qualité et valeur à 28 pays.", es: "Fabricamos ventanas, puertas y fachadas de vidrio REHAU, Schüco & FEAL premium — entregando calidad y valor a 28 países.", it: "Produciamo finestre, porte e facciate in vetro REHAU, Schüco & FEAL premium — offrendo qualità e valore a 28 paesi.", pl: "Produkujemy okna, drzwi i fasady szklane REHAU, Schüco & FEAL premium — dostarczając jakość i wartość do 28 krajów." },
 
     // Story
     "about.story.subtitle": { en: "Our Story", nl: "Ons Verhaal", de: "Unsere Geschichte", fr: "Notre Histoire", es: "Nuestra Historia", it: "La Nostra Storia", pl: "Nasza Historia" },
     "about.story.title": { en: "From Local Workshop to", nl: "Van Lokale Werkplaats tot", de: "Von der Lokalen Werkstatt zum", fr: "De l'Atelier Local au", es: "De Taller Local a", it: "Da Officina Locale a", pl: "Od Lokalnego Warsztatu do" },
     "about.story.titleAccent": { en: "European Manufacturer", nl: "Europese Fabrikant", de: "Europäischen Hersteller", fr: "Fabricant Européen", es: "Fabricante Europeo", it: "Produttore Europeo", pl: "Producenta Europejskiego" },
     "about.story.p1": { en: "QD Frames started as a small workshop with a simple idea: premium European windows shouldn't cost a fortune. Over 15 years, we've grown into a modern manufacturing facility serving clients across 28 countries — but we've never lost that original mission.", nl: "QD Frames begon als een kleine werkplaats met een eenvoudig idee: premium Europese ramen zouden geen fortuin moeten kosten. In 15 jaar zijn we uitgegroeid tot een moderne productiefaciliteit die klanten in 28 landen bedient — maar we zijn die oorspronkelijke missie nooit verloren.", de: "QD Frames begann als kleine Werkstatt mit einer einfachen Idee: Premium-Fenster aus Europa sollten kein Vermögen kosten. In über 15 Jahren sind wir zu einer modernen Produktionsstätte gewachsen, die Kunden in 28 Ländern bedient — aber wir haben diese ursprüngliche Mission nie verloren.", fr: "QD Frames a commencé comme un petit atelier avec une idée simple : les fenêtres européennes haut de gamme ne devraient pas coûter une fortune. En 15 ans, nous sommes devenus une usine de fabrication moderne servant des clients dans 28 pays — mais nous n'avons jamais perdu cette mission originale.", es: "QD Frames comenzó como un pequeño taller con una idea simple: las ventanas europeas premium no deberían costar una fortuna. En 15 años, hemos crecido hasta convertirnos en una moderna instalación de fabricación que sirve a clientes en 28 países — pero nunca hemos perdido esa misión original.", it: "QD Frames è iniziata come una piccola officina con un'idea semplice: le finestre europee premium non dovrebbero costare una fortuna. In 15 anni, siamo cresciuti fino a diventare un moderno stabilimento di produzione che serve clienti in 28 paesi — ma non abbiamo mai perso quella missione originale.", pl: "QD Frames zaczynało jako mały warsztat z prostym pomysłem: okna premium nie powinny kosztować fortuny. Przez 15 lat urośliśmy do nowoczesnego zakładu produkcyjnego obsługującego klientów w 28 krajach — ale nigdy nie straciliśmy tej pierwotnej misji." },
-    "about.story.p2": { en: "Today, we use the same REHAU, Schüco & FEAL profiles as the biggest brands in Europe, but our direct-to-customer model eliminates the middlemen that inflate prices by 30–40%. The result? You get identical quality at significantly lower cost, with fast delivery to your door.", nl: "Vandaag gebruiken we dezelfde Salamander-profielen als de grootste merken in Europa, maar ons direct-to-customer model elimineert de tussenpersonen die de prijzen met 30–40% opdrijven. Het resultaat? U krijgt identieke kwaliteit tegen aanzienlijk lagere kosten, met snelle levering aan de deur.", de: "Heute verwenden wir die gleichen Salamander-Profile wie die größten Marken in Europa, aber unser Direkt-zum-Kunden-Modell eliminiert die Zwischenhändler, die die Preise um 30–40% in die Höhe treiben. Das Ergebnis? Sie erhalten identische Qualität zu deutlich niedrigeren Kosten, mit kostenloser Lieferung.", fr: "Aujourd'hui, nous utilisons les mêmes profils Salamander que les plus grandes marques d'Europe, mais notre modèle direct au client élimine les intermédiaires qui gonflent les prix de 30 à 40 %. Le résultat ? Vous obtenez une qualité identique à un coût nettement inférieur, avec livraison rapide.", es: "Hoy, utilizamos los mismos perfiles Salamander que las marcas más grandes de Europa, pero nuestro modelo directo al cliente elimina a los intermediarios que inflan los precios en un 30–40%. ¿El resultado? Obtiene una calidad idéntica a un costo significativamente menor, con entrega rápida.", it: "Oggi utilizziamo gli stessi profili Salamander dei più grandi marchi in Europa, ma il nostro modello diretto al cliente elimina gli intermediari che gonfiano i prezzi del 30–40%. Il risultato? Ottieni una qualità identica a un costo significativamente inferiore, con consegna rapida.", pl: "Dziś używamy tych samych profili Salamander co największe marki w Europie, ale nasz model bezpośredni eliminuje pośredników, którzy zawyżają ceny o 30–40%. Wynik? Otrzymujesz identyczną jakość za znacznie niższą cenę, z szybką dostawą." },
+    "about.story.p2": { en: "Today, we use the same REHAU, Schüco & FEAL profiles as the biggest brands in Europe, but our direct-to-customer model eliminates the middlemen that inflate prices by 30–40%. The result? You get identical quality at significantly lower cost, with fast delivery to your door.", nl: "Vandaag gebruiken we dezelfde REHAU, Schüco & FEAL profielen als de grootste merken in Europa, maar ons direct-to-customer model elimineert de tussenpersonen die de prijzen met 30–40% opdrijven. Het resultaat? U krijgt identieke kwaliteit tegen aanzienlijk lagere kosten, met snelle levering aan de deur.", de: "Heute verwenden wir die gleichen REHAU-, Schüco- & FEAL-Profile wie die größten Marken in Europa, aber unser Direkt-zum-Kunden-Modell eliminiert die Zwischenhändler, die die Preise um 30–40% in die Höhe treiben. Das Ergebnis? Sie erhalten identische Qualität zu deutlich niedrigeren Kosten, mit kostenloser Lieferung.", fr: "Aujourd'hui, nous utilisons les mêmes profils European que les plus grandes marques d'Europe, mais notre modèle direct au client élimine les intermédiaires qui gonflent les prix de 30 à 40 %. Le résultat ? Vous obtenez une qualité identique à un coût nettement inférieur, avec livraison rapide.", es: "Hoy, utilizamos los mismos perfiles REHAU, Schüco & FEAL que las marcas más grandes de Europa, pero nuestro modelo directo al cliente elimina a los intermediarios que inflan los precios en un 30–40%. ¿El resultado? Obtiene una calidad idéntica a un costo significativamente menor, con entrega rápida.", it: "Oggi utilizziamo gli stessi profili REHAU, Schüco & FEAL dei più grandi marchi in Europa, ma il nostro modello diretto al cliente elimina gli intermediari che gonfiano i prezzi del 30–40%. Il risultato? Ottieni una qualità identica a un costo significativamente inferiore, con consegna rapida.", pl: "Dziś używamy tych samych profili REHAU, Schüco & FEAL co największe marki w Europie, ale nasz model bezpośredni eliminuje pośredników, którzy zawyżają ceny o 30–40%. Wynik? Otrzymujesz identyczną jakość za znacznie niższą cenę, z szybką dostawą." },
 
     // Values
     "about.values.subtitle": { en: "Our Values", nl: "Onze Waarden", de: "Unsere Werte", fr: "Nos Valeurs", es: "Nuestros Valores", it: "I Nostri Valori", pl: "Nasze Wartości" },
     "about.values.title": { en: "What Drives", nl: "Wat Drijft", de: "Was Uns Antreibt:", fr: "Ce Qui Motive", es: "Lo Que Impulsa", it: "Cosa Guida", pl: "Co Napędza" },
     "about.values.titleAccent": { en: "Our Work", nl: "Ons Werk", de: "Unsere Arbeit", fr: "Notre Travail", es: "Nuestro Trabajo", it: "Il Nostro Lavoro", pl: "Naszą Pracę" },
     "about.val1.title": { en: "Quality First", nl: "Kwaliteit Eerst", de: "Qualität Zuerst", fr: "Qualité d'Abord", es: "Calidad Primero", it: "Qualità Prima di Tutto", pl: "Jakość Przede Wszystkim" },
-    "about.val1.desc": { en: "Every product passes multi-stage quality control. We use only genuine REHAU, Schüco & FEAL profiles, premium hardware, and certified glazing units.", nl: "Elk product doorstaat een meertraps kwaliteitscontrole. We gebruiken alleen echte Salamander-profielen, premium beslag en gecertificeerde beglazing.", de: "Jedes Produkt durchläuft eine mehrstufige Qualitätskontrolle. Wir verwenden nur echte Salamander-Profile, Premium-Beschläge und zertifizierte Verglasungseinheiten.", fr: "Chaque produit passe un contrôle qualité en plusieurs étapes. Nous n'utilisons que des profils Salamander authentiques, de la quincaillerie premium et des vitrages certifiés.", es: "Cada producto pasa un control de calidad de múltiples etapas. Solo utilizamos perfiles Salamander genuinos, herrajes premium y unidades de acristalamiento certificadas.", it: "Ogni prodotto supera un controllo di qualità a più fasi. Utilizziamo solo profili Salamander originali, ferramenta premium e unità di vetratura certificate.", pl: "Każdy produkt przechodzi wieloetapową kontrolę jakości. Używamy tylko oryginalnych profili Salamander, okuć premium i certyfikowanych pakietów szybowych." },
+    "about.val1.desc": { en: "Every product passes multi-stage quality control. We use only genuine REHAU, Schüco & FEAL profiles, premium hardware, and certified glazing units.", nl: "Elk product doorstaat een meertraps kwaliteitscontrole. We gebruiken alleen echte REHAU, Schüco & FEAL profielen, premium beslag en gecertificeerde beglazing.", de: "Jedes Produkt durchläuft eine mehrstufige Qualitätskontrolle. Wir verwenden nur echte REHAU-, Schüco- & FEAL-Profile, Premium-Beschläge und zertifizierte Verglasungseinheiten.", fr: "Chaque produit passe un contrôle qualité en plusieurs étapes. Nous n'utilisons que des profils European authentiques, de la quincaillerie premium et des vitrages certifiés.", es: "Cada producto pasa un control de calidad de múltiples etapas. Solo utilizamos perfiles REHAU, Schüco & FEAL genuinos, herrajes premium y unidades de acristalamiento certificadas.", it: "Ogni prodotto supera un controllo di qualità a più fasi. Utilizziamo solo profili REHAU, Schüco & FEAL originali, ferramenta premium e unità di vetratura certificate.", pl: "Każdy produkt przechodzi wieloetapową kontrolę jakości. Używamy tylko oryginalnych profili REHAU, Schüco & FEAL, okuć premium i certyfikowanych pakietów szybowych." },
     "about.val2.title": { en: "Transparency", nl: "Transparantie", de: "Transparenz", fr: "Transparence", es: "Transparencia", it: "Trasparenza", pl: "Przejrzystość" },
     "about.val2.desc": { en: "Clear, itemized pricing with no hidden fees. Detailed technical drawings before production. Full tracking on every delivery.", nl: "Duidelijke, gespecificeerde prijzen zonder verborgen kosten. Gedetailleerde technische tekeningen voor productie. Volledige tracking op elke levering.", de: "Klare, detaillierte Preise ohne versteckte Gebühren. Detaillierte technische Zeichnungen vor der Produktion. Volle Sendungsverfolgung bei jeder Lieferung.", fr: "Tarification claire et détaillée sans frais cachés. Dessins techniques détaillés avant la production. Suivi complet sur chaque livraison.", es: "Precios claros y detallados sin tarifas ocultas. Dibujos técnicos detallados antes de la producción. Seguimiento completo en cada entrega.", it: "Prezzi chiari e dettagliati senza costi nascosti. Disegni tecnici dettagliati prima della produzione. Tracciamento completo su ogni consegna.", pl: "Jasne, wyszczególnione ceny bez ukrytych opłat. Szczegółowe rysunki techniczne przed produkcją. Pełne śledzenie każdej dostawy." },
     "about.val3.title": { en: "Reliability", nl: "Betrouwbaarheid", de: "Zuverlässigkeit", fr: "Fiabilité", es: "Fiabilidad", it: "Affidabilità", pl: "Niezawodność" },
@@ -863,7 +863,7 @@ const translations = {
     "about.compare.subtitle": { en: "Price Comparison", nl: "Prijsvergelijking", de: "Preisvergleich", fr: "Comparaison de Prix", es: "Comparación de Precios", it: "Confronto Prezzi", pl: "Porównanie Cen" },
     "about.compare.title": { en: "Same Quality,", nl: "Dezelfde Kwaliteit,", de: "Gleiche Qualität,", fr: "Même Qualité,", es: "Misma Calidad,", it: "Stessa Qualità,", pl: "Ta Sama Jakość," },
     "about.compare.titleAccent": { en: "Better Price", nl: "Betere Prijs", de: "Besserer Preis", fr: "Meilleur Prix", es: "Mejor Precio", it: "Prezzo Migliore", pl: "Lepsza Cena" },
-    "about.compare.desc": { en: "See how QD Frames compares to retail window companies using the same REHAU, Schüco & FEAL profiles.", nl: "Bekijk hoe QD Frames zich verhoudt tot detailhandelaren die dezelfde Salamander profielen gebruiken.", de: "Sehen Sie, wie QD Frames im Vergleich zu Einzelhändlern mit denselben Salamander-Profilen abschneidet.", fr: "Découvrez comment QD Frames se compare aux revendeurs utilisant les mêmes profilés Salamander.", es: "Vea cómo QD Frames se compara con los minoristas que utilizan los mismos perfiles Salamander.", it: "Scopri come QD Frames si confronta con i rivenditori che utilizzano gli stessi profili Salamander.", pl: "Zobacz, jak QD Frames wypada w porównaniu z detalistami używającymi tych samych profili Salamander." },
+    "about.compare.desc": { en: "See how QD Frames compares to retail window companies using the same REHAU, Schüco & FEAL profiles.", nl: "Bekijk hoe QD Frames zich verhoudt tot detailhandelaren die dezelfde REHAU, Schüco & FEAL profielen gebruiken.", de: "Sehen Sie, wie QD Frames im Vergleich zu Einzelhändlern mit denselben REHAU-, Schüco- & FEAL-Profilen abschneidet.", fr: "Découvrez comment QD Frames se compare aux revendeurs utilisant les mêmes profilés REHAU, Schüco & FEAL.", es: "Vea cómo QD Frames se compara con los minoristas que utilizan los mismos perfiles REHAU, Schüco & FEAL.", it: "Scopri come QD Frames si confronta con i rivenditori che utilizzano gli stessi profili REHAU, Schüco & FEAL.", pl: "Zobacz, jak QD Frames wypada w porównaniu z detalistami używającymi tych samych profili REHAU, Schüco & FEAL." },
     "about.compare.row1": { en: "Standard tilt-and-turn window (82mm)", nl: "Standaard draai-kiepraam (82mm)", de: "Standard Dreh-Kipp-Fenster (82mm)", fr: "Fenêtre oscillo-battante standard (82mm)", es: "Ventana oscilobatiente estándar (82mm)", it: "Finestra standard vasistas (82mm)", pl: "Standardowe okno uchylno-rozwierne (82mm)" },
     "about.compare.row2": { en: "Lift & slide door system", nl: "Hefschuifdeur systeem", de: "Hebeschiebetür System", fr: "Porte levante-coulissante", es: "Sistema de puerta elevable", it: "Sistema porta alzante scorrevole", pl: "System drzwi podnoszono-przesuwnych" },
     "about.compare.row3": { en: "Full house (15 windows + 2 doors)", nl: "Volledig huis (15 ramen + 2 deuren)", de: "Ganzes Haus (15 Fenster + 2 Türen)", fr: "Maison complète (15 fenêtres + 2 portes)", es: "Casa completa (15 ventanas + 2 puertas)", it: "Casa completa (15 finestre + 2 porte)", pl: "Cały dom (15 okien + 2 drzwi)" },
@@ -894,7 +894,7 @@ const translations = {
 
     // --- Delivery Page ---
     "delivery.pageTitle": { en: "Fast Delivery Across Europe | Europe-Wide Shipping | QD Frames", nl: "Snelle Levering in Heel Europa | Europese Verzending | QD Frames", de: "Schnelle Lieferung in Ganz Europa | Europaweiter Versand | QD Frames", fr: "Livraison Rapide dans Toute l'Europe | Expédition Européenne | QD Frames", es: "Entrega Rápida en Toda Europa | Envío a Toda Europa | QD Frames", it: "Consegna Rapida in Tutta Europa | Spedizione in Tutta Europa | QD Frames", pl: "Szybka Dostawa w Całej Europie | Wysyłka Ogólnoeuropejska | QD Frames" },
-    "delivery.metaDesc": { en: "Fast delivery across Europe. Premium Salamander windows, doors, and glass facades shipped directly to your address with full tracking and professional handling.", nl: "Snelle levering in heel Europa. Premium Salamander ramen, deuren en glazen gevels direct naar uw adres verzonden met volledige tracking en professionele afhandeling.", de: "Schnelle Lieferung in ganz Europa. Premium-Salamander-Fenster, -Türen und -Glasfassaden werden direkt an Ihre Adresse mit vollständiger Sendungsverfolgung versendet.", fr: "Livraison rapide dans toute l'Europe. Fenêtres, portes et façades en verre Salamander haut de gamme expédiées directement à votre adresse avec suivi complet.", es: "Entrega rápida en toda Europa. Ventanas, puertas y fachadas de vidrio Salamander premium enviadas directamente a su dirección con seguimiento completo.", it: "Consegna rapida in tutta Europa. Finestre, porte e facciate in vetro Salamander premium spedite direttamente al tuo indirizzo con tracciamento completo.", pl: "Szybka dostawa w całej Europie. Okna, drzwi i fasady szklane Salamander premium wysyłane bezpośrednio pod Twój adres z pełnym śledzeniem." },
+    "delivery.metaDesc": { en: "Fast delivery across Europe. Premium REHAU, Schüco & FEAL windows, doors, and glass facades shipped directly to your address with full tracking and professional handling.", nl: "Snelle levering in heel Europa. Premium REHAU, Schüco & FEAL ramen, deuren en glazen gevels direct naar uw adres verzonden met volledige tracking en professionele afhandeling.", de: "Schnelle Lieferung in ganz Europa. Premium-REHAU-, Schüco- & FEAL-Fenster, -Türen und -Glasfassaden werden direkt an Ihre Adresse mit vollständiger Sendungsverfolgung versendet.", fr: "Livraison rapide dans toute l'Europe. Fenêtres, portes et façades en verre REHAU, Schüco & FEAL premium expédiées directement à votre adresse avec suivi complet.", es: "Entrega rápida en toda Europa. Ventanas, puertas y fachadas de vidrio REHAU, Schüco & FEAL premium enviadas directamente a su dirección con seguimiento completo.", it: "Consegna rapida in tutta Europa. Finestre, porte e facciate in vetro REHAU, Schüco & FEAL premium spedite direttamente al tuo indirizzo con tracciamento completo.", pl: "Szybka dostawa w całej Europie. Okna, drzwi i fasady szklane REHAU, Schüco & FEAL premium wysyłane bezpośrednio pod Twój adres z pełnym śledzeniem." },
 
     // Hero
     "delivery.hero.breadcrumb": { en: "Delivery & Guarantee", nl: "Levering & Garantie", de: "Lieferung & Garantie", fr: "Livraison & Garantie", es: "Entrega y Garantía", it: "Consegna & Garanzia", pl: "Dostawa i Gwarancja" },
@@ -966,7 +966,7 @@ const translations = {
 
     // --- Contact Page ---
     "contact.pageTitle": { en: "Get a Quote | Free Consultation & Engineering | QD Frames", nl: "Vraag een Offerte Aan | Gratis Advies & Engineering | QD Frames", de: "Angebot Einholen | Kostenlose Beratung & Technik | QD Frames", fr: "Obtenir un Devis | Consultation Gratuite & Ingénierie | QD Frames", es: "Obtener una Cotización | Consulta Gratuita e Ingeniería | QD Frames", it: "Ottieni un Preventivo | Consulenza Gratuita & Ingegneria | QD Frames", pl: "Uzyskaj Wycenę | Darmowa Konsultacja i Inżynieria | QD Frames" },
-    "contact.metaDesc": { en: "Request a free, no-obligation quote for premium Salamander windows, doors, and glass facades. Our engineering team responds within 24 hours.", nl: "Vraag een gratis, vrijblijvende offerte aan voor premium Salamander ramen, deuren en glazen gevels. Ons engineeringteam reageert binnen 24 uur.", de: "Fordern Sie ein kostenloses, unverbindliches Angebot für Premium-Salamander-Fenster, -Türen und -Glasfassaden an. Unser Ingenieurteam antwortet innerhalb von 24 Stunden.", fr: "Demandez un devis gratuit et sans engagement pour des fenêtres, portes et façades en verre Salamander haut de gamme. Notre équipe d'ingénierie répond sous 24h.", es: "Solicite una cotización gratuita y sin compromiso para ventanas, puertas y fachadas de vidrio Salamander premium. Nuestro equipo de ingeniería responde en 24 horas.", it: "Richiedi un preventivo gratuito e senza impegno per finestre, porte e facciate in vetro Salamander premium. Il nostro team di ingegneria risponde entro 24 ore.", pl: "Zamów darmową, niezobowiązującą wycenę okien, drzwi i fasad szklanych Salamander premium. Nasz zespół inżynierów odpowiada w ciągu 24 godzin." },
+    "contact.metaDesc": { en: "Request a free, no-obligation quote for premium REHAU, Schüco & FEAL windows, doors, and glass facades. Our engineering team responds within 24 hours.", nl: "Vraag een gratis, vrijblijvende offerte aan voor premium REHAU, Schüco & FEAL ramen, deuren en glazen gevels. Ons engineeringteam reageert binnen 24 uur.", de: "Fordern Sie ein kostenloses, unverbindliches Angebot für Premium-REHAU-, Schüco- & FEAL-Fenster, -Türen und -Glasfassaden an. Unser Ingenieurteam antwortet innerhalb von 24 Stunden.", fr: "Demandez un devis gratuit et sans engagement pour des fenêtres, portes et façades en verre REHAU, Schüco & FEAL premium. Notre équipe d'ingénierie répond sous 24h.", es: "Solicite una cotización gratuita y sin compromiso para ventanas, puertas y fachadas de vidrio REHAU, Schüco & FEAL premium. Nuestro equipo de ingeniería responde en 24 horas.", it: "Richiedi un preventivo gratuito e senza impegno per finestre, porte e facciate in vetro REHAU, Schüco & FEAL premium. Il nostro team di ingegneria risponde entro 24 ore.", pl: "Zamów darmową, niezobowiązującą wycenę okien, drzwi i fasad szklanych REHAU, Schüco & FEAL premium. Nasz zespół inżynierów odpowiada w ciągu 24 godzin." },
 
     // Hero
     "contact.hero.breadcrumb": { en: "Get a Quote", nl: "Vraag een Offerte Aan", de: "Angebot Einholen", fr: "Obtenir un Devis", es: "Obtener Cotización", it: "Ottieni Preventivo", pl: "Uzyskaj Wycenę" },
