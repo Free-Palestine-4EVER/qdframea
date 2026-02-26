@@ -1128,6 +1128,26 @@ const translations = {
     "products.card6.link": { en: "Explore Glass Systems →", nl: "Ontdek Glassystemen →", de: "Glassysteme Entdecken →", fr: "Explorer les Systèmes en Verre →", es: "Explorar Sistemas de Vidrio →", it: "Scopri i Sistemi in Vetro →", pl: "Poznaj Systemy Szklane →" },
     "gallery.btn": { en: "View All Projects", nl: "Bekijk Alle Projecten", de: "Alle Projekte Ansehen", fr: "Voir Tous les Projets", es: "Ver Todos los Proyectos", it: "Vedi Tutti i Progetti", pl: "Zobacz Wszystkie Projekty" },
 
+    // ============ DOORS, FACADES, SHUTTERS TRANSLATIONS ============
+    "doors.hero.subtitle": { en: "Entry & Interior", nl: "Entree & Interieur", de: "Eingangs- & Innentüren", fr: "Entrée & Intérieur", es: "Entrada e Interior", it: "Ingresso e Interni", pl: "Wejściowe i Wewnętrzne" },
+    "doors.pvc.subtitle": { en: "PVC Entry Doors", nl: "PVC Voordeuren", de: "PVC Haustüren", fr: "Portes d'Entrée PVC", es: "Puertas de Entrada PVC", it: "Porte d'Ingresso in PVC", pl: "Drzwi Wejściowe PVC" },
+    "doors.alu.subtitle": { en: "ALU Entry Doors", nl: "ALU Voordeuren", de: "ALU Haustüren", fr: "Portes d'Entrée ALU", es: "Puertas de Entrada ALU", it: "Porte d'Ingresso in ALU", pl: "Drzwi Wejściowe ALU" },
+    "doors.gallery.subtitle": { en: "Design Collection", nl: "Design Collectie", de: "Design-Kollektion", fr: "Collection Design", es: "Colección de Diseños", it: "Collezione Design", pl: "Kolekcja Wzorów" },
+    "facades.feal.subtitle": { en: "FEAL Facade Systems", nl: "FEAL Gevelsystemen", de: "FEAL Fassadensysteme", fr: "Systèmes de Façade FEAL", es: "Sistemas de Fachada FEAL", it: "Sistemi di Facciata FEAL", pl: "Systemy Fasadowe FEAL" },
+    "facades.schuco.subtitle": { en: "Schüco Facade Systems", nl: "Schüco Gevelsystemen", de: "Schüco Fassadensysteme", fr: "Systèmes de Façade Schüco", es: "Sistemas de Fachada Schüco", it: "Sistemi di Facciata Schüco", pl: "Systemy Fasadowe Schüco" },
+
+    // ============ DOORS, FACADES, SHUTTERS (corrected) ============
+    "doors.hero.subtitle": { en: "PVC & ALU", nl: "PVC & ALU", de: "PVC & ALU", fr: "PVC & ALU", es: "PVC y ALU", it: "PVC & ALU", pl: "PVC i ALU" },
+    "doors.hero.titleAccent": { en: "Systems", nl: "Systemen", de: "Systeme", fr: "Systèmes", es: "Sistemas", it: "Sistemi", pl: "Systemy" },
+    "doors.gallery.subtitle": { en: "Designer Collection", nl: "Designer Collectie", de: "Designer-Kollektion", fr: "Collection Design", es: "Colección de Diseño", it: "Collezione Designer", pl: "Kolekcja Projektantów" },
+    "facades.hero.subtitle": { en: "FEAL & Schüco", nl: "FEAL & Schüco", de: "FEAL & Schüco", fr: "FEAL & Schüco", es: "FEAL y Schüco", it: "FEAL & Schüco", pl: "FEAL i Schüco" },
+    "facades.hero.title": { en: "Glass Facade", nl: "Glazen Gevel", de: "Glasfassaden", fr: "Façade Vitrée", es: "Fachada de Vidrio", it: "Facciata in Vetro", pl: "Fasada Szklana" },
+    "facades.hero.titleAccent": { en: "Systems", nl: "Systemen", de: "Systeme", fr: "Systèmes", es: "Sistemas", it: "Sistemi", pl: "Systemy" },
+    "facades.curtain.subtitle": { en: "Curtain Walls", nl: "Vliesgevels", de: "Vorhangfassaden", fr: "Murs-Rideaux", es: "Muros Cortina", it: "Facciate Continue", pl: "Fasady Kurtynowe" },
+    "facades.feal.subtitle": { en: "FEAL Systems", nl: "FEAL Systemen", de: "FEAL Systeme", fr: "Systèmes FEAL", es: "Sistemas FEAL", it: "Sistemi FEAL", pl: "Systemy FEAL" },
+    "facades.schuco.subtitle": { en: "Schüco Systems", nl: "Schüco Systemen", de: "Schüco Systeme", fr: "Systèmes Schüco", es: "Sistemas Schüco", it: "Sistemi Schüco", pl: "Systemy Schüco" },
+    "shutters.hero.subtitle": { en: "Sun Protection & Privacy", nl: "Zonwering & Privacy", de: "Sonnenschutz & Privatsphäre", fr: "Protection Solaire & Confidentialité", es: "Protección Solar y Privacidad", it: "Protezione Solare e Privacy", pl: "Ochrona Słoneczna i Prywatność" },
+
 };
 const LANG_FLAGS = {
     en: "🇬🇧",
@@ -1233,6 +1253,26 @@ const LANG_FLAGS = {
     "products.card6.desc": { en: "Glass railings, partition walls, balcony glazing, guillotine systems, and ALU pergolas.", nl: "Glazen balustrades, scheidingswanden, balkonbeglazing, guillotinesystemen en ALU pergola's.", de: "Glasgeländer, Trennwände, Balkonverglasung, Guillotine-Systeme und ALU-Pergolen.", fr: "Garde-corps en verre, cloisons, vitrages de balcon, systèmes guillotine et pergolas ALU.", es: "Barandillas de vidrio, tabiques, acristalamiento de balcones, sistemas guillotina y pérgolas ALU.", it: "Ringhiere in vetro, pareti divisorie, vetrate per balconi, sistemi a ghigliottina e pergole ALU.", pl: "Balustrady szklane, ścianki działowe, szklenie balkonów, systemy gilotynowe i pergole ALU." },
     "products.card6.link": { en: "Explore Glass Systems →", nl: "Ontdek Glassystemen →", de: "Glassysteme Entdecken →", fr: "Explorer les Systèmes en Verre →", es: "Explorar Sistemas de Vidrio →", it: "Scopri i Sistemi in Vetro →", pl: "Poznaj Systemy Szklane →" },
     "gallery.btn": { en: "View All Projects", nl: "Bekijk Alle Projecten", de: "Alle Projekte Ansehen", fr: "Voir Tous les Projets", es: "Ver Todos los Proyectos", it: "Vedi Tutti i Progetti", pl: "Zobacz Wszystkie Projekty" },
+
+    // ============ DOORS, FACADES, SHUTTERS TRANSLATIONS ============
+    "doors.hero.subtitle": { en: "Entry & Interior", nl: "Entree & Interieur", de: "Eingangs- & Innentüren", fr: "Entrée & Intérieur", es: "Entrada e Interior", it: "Ingresso e Interni", pl: "Wejściowe i Wewnętrzne" },
+    "doors.pvc.subtitle": { en: "PVC Entry Doors", nl: "PVC Voordeuren", de: "PVC Haustüren", fr: "Portes d'Entrée PVC", es: "Puertas de Entrada PVC", it: "Porte d'Ingresso in PVC", pl: "Drzwi Wejściowe PVC" },
+    "doors.alu.subtitle": { en: "ALU Entry Doors", nl: "ALU Voordeuren", de: "ALU Haustüren", fr: "Portes d'Entrée ALU", es: "Puertas de Entrada ALU", it: "Porte d'Ingresso in ALU", pl: "Drzwi Wejściowe ALU" },
+    "doors.gallery.subtitle": { en: "Design Collection", nl: "Design Collectie", de: "Design-Kollektion", fr: "Collection Design", es: "Colección de Diseños", it: "Collezione Design", pl: "Kolekcja Wzorów" },
+    "facades.feal.subtitle": { en: "FEAL Facade Systems", nl: "FEAL Gevelsystemen", de: "FEAL Fassadensysteme", fr: "Systèmes de Façade FEAL", es: "Sistemas de Fachada FEAL", it: "Sistemi di Facciata FEAL", pl: "Systemy Fasadowe FEAL" },
+    "facades.schuco.subtitle": { en: "Schüco Facade Systems", nl: "Schüco Gevelsystemen", de: "Schüco Fassadensysteme", fr: "Systèmes de Façade Schüco", es: "Sistemas de Fachada Schüco", it: "Sistemi di Facciata Schüco", pl: "Systemy Fasadowe Schüco" },
+
+    // ============ DOORS, FACADES, SHUTTERS (corrected) ============
+    "doors.hero.subtitle": { en: "PVC & ALU", nl: "PVC & ALU", de: "PVC & ALU", fr: "PVC & ALU", es: "PVC y ALU", it: "PVC & ALU", pl: "PVC i ALU" },
+    "doors.hero.titleAccent": { en: "Systems", nl: "Systemen", de: "Systeme", fr: "Systèmes", es: "Sistemas", it: "Sistemi", pl: "Systemy" },
+    "doors.gallery.subtitle": { en: "Designer Collection", nl: "Designer Collectie", de: "Designer-Kollektion", fr: "Collection Design", es: "Colección de Diseño", it: "Collezione Designer", pl: "Kolekcja Projektantów" },
+    "facades.hero.subtitle": { en: "FEAL & Schüco", nl: "FEAL & Schüco", de: "FEAL & Schüco", fr: "FEAL & Schüco", es: "FEAL y Schüco", it: "FEAL & Schüco", pl: "FEAL i Schüco" },
+    "facades.hero.title": { en: "Glass Facade", nl: "Glazen Gevel", de: "Glasfassaden", fr: "Façade Vitrée", es: "Fachada de Vidrio", it: "Facciata in Vetro", pl: "Fasada Szklana" },
+    "facades.hero.titleAccent": { en: "Systems", nl: "Systemen", de: "Systeme", fr: "Systèmes", es: "Sistemas", it: "Sistemi", pl: "Systemy" },
+    "facades.curtain.subtitle": { en: "Curtain Walls", nl: "Vliesgevels", de: "Vorhangfassaden", fr: "Murs-Rideaux", es: "Muros Cortina", it: "Facciate Continue", pl: "Fasady Kurtynowe" },
+    "facades.feal.subtitle": { en: "FEAL Systems", nl: "FEAL Systemen", de: "FEAL Systeme", fr: "Systèmes FEAL", es: "Sistemas FEAL", it: "Sistemi FEAL", pl: "Systemy FEAL" },
+    "facades.schuco.subtitle": { en: "Schüco Systems", nl: "Schüco Systemen", de: "Schüco Systeme", fr: "Systèmes Schüco", es: "Sistemas Schüco", it: "Sistemi Schüco", pl: "Systemy Schüco" },
+    "shutters.hero.subtitle": { en: "Sun Protection & Privacy", nl: "Zonwering & Privacy", de: "Sonnenschutz & Privatsphäre", fr: "Protection Solaire & Confidentialité", es: "Protección Solar y Privacidad", it: "Protezione Solare e Privacy", pl: "Ochrona Słoneczna i Prywatność" },
 
 };
 
