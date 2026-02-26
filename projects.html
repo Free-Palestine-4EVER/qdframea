@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" type="image/png" href="images/qd-icon.png">
+  <title>QD Frames — Our Projects</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <div class="nav-overlay"></div>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;"></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="windows.html" data-i18n="nav.windows">Windows</a>
+        <a href="alu-systems.html" data-i18n="nav.alu">ALU Systems</a>
+        <a href="doors.html" data-i18n="nav.doors">Doors</a>
+        <a href="glass-facades.html" data-i18n="nav.facades">Facades</a>
+        <a href="roller-shutters.html" data-i18n="nav.shutters">Shutters & Blinds</a>
+        <a href="projects.html" class="active" data-i18n="nav.projects">Projects</a>
+        <a href="about.html" data-i18n="nav.about">About</a>
+        <a href="contact.html" data-i18n="nav.quote">Get a Quote</a>
+      </div>
+      <a href="contact.html" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.quote">Get a Quote</a>
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg></button>
+        <div class="lang-dropdown" id="langDropdown">
+          <button class="lang-option active" data-lang="en">🇬🇧 English</button>
+          <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
+          <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
+          <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
+          <button class="lang-option" data-lang="es">🇪🇸 Español</button>
+          <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
+          <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
+        </div>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content reveal">
+        <div class="subtitle">Portfolio</div>
+        <h1><span>Our</span> <span class="text-gradient">Projects</span></h1>
+        <p>From iconic commercial landmarks to private residences — a selection of completed projects across Europe, the Middle East, and beyond.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Grid -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter tabs -->
+      <div class="text-center" style="margin-bottom: var(--space-3xl);">
+        <div style="display: inline-flex; gap: var(--space-xs); flex-wrap: wrap; background: var(--bg-secondary); padding: var(--space-xs); border-radius: var(--radius-lg);">
+          <button class="btn btn-primary btn-sm project-filter active" data-filter="all">All Projects</button>
+          <button class="btn btn-secondary btn-sm project-filter" data-filter="commercial">Commercial</button>
+          <button class="btn btn-secondary btn-sm project-filter" data-filter="residential">Residential</button>
+          <button class="btn btn-secondary btn-sm project-filter" data-filter="hospitality">Hospitality</button>
+        </div>
+      </div>
+
+      <div class="projects-masonry">
+
+        <!-- Commercial Projects -->
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/BOSMAL-CITY-CENTER-Sarajevo.webp" alt="Bosmal City Center" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Bosmal City Center</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Commercial / Mixed-Use</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/POSLOVNI-OBJEKAT-SIMPHONY-SARAJEVO.webp" alt="Symphony Business Center" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Symphony Business Center</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Commercial Office</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/Space-Sarajevo.webp" alt="Space Sarajevo" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Space</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Commercial</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/AVAZ-CENTAR-TUZLA.webp" alt="Avaz Center Tuzla" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Avaz Center</h3>
+            <p class="project-location">📍 Tuzla, Bosnia & Herzegovina</p>
+            <p class="project-type">Commercial</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/SHOPING-CENTAR-VEMA-VISOKO.webp" alt="Shopping Center VEMA" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Shopping Center VEMA</h3>
+            <p class="project-location">📍 Visoko, Bosnia & Herzegovina</p>
+            <p class="project-type">Retail / Commercial</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/STAMBENO-POSLOVNI-OBJEKAT-Sarajevo.webp" alt="Mixed-Use Building Sarajevo" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Mixed-Use Building</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Mixed-Use</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/Pan-royal-ZOO-Belgija.webp" alt="Pan Royal Zoo Belgium" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Pan Royal Zoo</h3>
+            <p class="project-location">📍 Belgium</p>
+            <p class="project-type">Public / Commercial</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/Overseas-Belgija.webp" alt="Overseas Belgium" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Overseas</h3>
+            <p class="project-location">📍 Belgium</p>
+            <p class="project-type">Commercial</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="commercial">
+          <div class="project-item-img">
+            <img src="images/projects/Ouland-Belgija.webp" alt="Ouland Belgium" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Ouland</h3>
+            <p class="project-location">📍 Belgium</p>
+            <p class="project-type">Commercial</p>
+          </div>
+        </div>
+
+        <!-- Hospitality -->
+        <div class="project-item reveal" data-category="hospitality">
+          <div class="project-item-img">
+            <img src="images/projects/HOTEL-NOMAD-BJELASNICA-1.webp" alt="Hotel Nomad" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Hotel Nomad</h3>
+            <p class="project-location">📍 Bjelašnica, Bosnia & Herzegovina</p>
+            <p class="project-type">Hospitality</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="hospitality">
+          <div class="project-item-img">
+            <img src="images/projects/HOTEL-AUSTRIJA-SARAJEVO.webp" alt="Hotel Austria" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Hotel Austria</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Hospitality</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="hospitality">
+          <div class="project-item-img">
+            <img src="images/projects/Pejton-Ilidza.webp" alt="Pejton Ilidža" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Pejton Apartments</h3>
+            <p class="project-location">📍 Ilidža, Bosnia & Herzegovina</p>
+            <p class="project-type">Hospitality / Residential</p>
+          </div>
+        </div>
+
+        <!-- Residential — Germany -->
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Karsfeld-Munchen-NJEMACKA.webp" alt="Karlsfeld Munich" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Residential Complex</h3>
+            <p class="project-location">📍 Karlsfeld, Munich, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Spandau-Berlin-NJEMACKA.webp" alt="Spandau Berlin" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Residential Building</h3>
+            <p class="project-location">📍 Spandau, Berlin, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Oberhausen-Berlin-NJEMACKA.webp" alt="Oberhausen Berlin" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Residential Building</h3>
+            <p class="project-location">📍 Oberhausen, Berlin, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Pankower-Garten-Berlin-NJEMACKA.webp" alt="Pankower Garten Berlin" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Pankower Garten</h3>
+            <p class="project-location">📍 Pankow, Berlin, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Ginsheim-Gustavsburg-NJEMACKA.webp" alt="Ginsheim-Gustavsburg" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Residential Project</h3>
+            <p class="project-location">📍 Ginsheim-Gustavsburg, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Sand-strasse-Berlin-NJEMACKA.webp" alt="Sandstraße Berlin" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Sandstraße</h3>
+            <p class="project-location">📍 Berlin, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Mertensstrasse-Berlin-Njemacka.webp" alt="Mertensstraße Berlin" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Mertensstraße</h3>
+            <p class="project-location">📍 Berlin, Germany</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <!-- Residential — Other -->
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/APARTMANI-MIMIZAN-FRANCUSKA.webp" alt="Mimizan France" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Apartments</h3>
+            <p class="project-location">📍 Mimizan, France</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/Poljine-Hils-Sarajevo.webp" alt="Poljine Hills" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Poljine Hills</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/OTOKA-MEANDAR-SARAJEVO.webp" alt="Otoka Meandar" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Otoka Meandar</h3>
+            <p class="project-location">📍 Sarajevo, Bosnia & Herzegovina</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+        <div class="project-item reveal" data-category="residential">
+          <div class="project-item-img">
+            <img src="images/projects/STAMBENA-ZGRADA-TUZLA.webp" alt="Residential Building Tuzla" loading="lazy">
+          </div>
+          <div class="project-item-info">
+            <h3>Residential Building</h3>
+            <p class="project-location">📍 Tuzla, Bosnia & Herzegovina</p>
+            <p class="project-type">Residential</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section section-with-bg" style="background-image: url('images/factory-production-line.png');">
+    <div class="container reveal">
+      <div class="subtitle">Your Project Next</div>
+      <h2>Let's Build Something Exceptional Together</h2>
+      <p>Whether it's a residential home, commercial building, or hospitality project — we deliver premium quality at competitive prices.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary btn-lg">Start Your Project</a>
+        <a href="https://wa.me/31640837919" class="btn btn-secondary btn-lg">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);"><img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;"></a>
+          <p>Premium PVC & ALU windows, doors, facades and more — delivered across Europe.</p>
+        </div>
+        <div>
+          <h5>Products</h5>
+          <div class="footer-links">
+            <a href="windows.html">PVC Windows</a>
+            <a href="alu-systems.html">ALU Systems</a>
+            <a href="doors.html">Doors</a>
+            <a href="glass-facades.html">Facades</a>
+            <a href="roller-shutters.html">Shutters & Blinds</a>
+            <a href="garage-doors.html">Garage Doors</a>
+          </div>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <div class="footer-links">
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Projects</a>
+            <a href="process.html">How It Works</a>
+            <a href="delivery.html">Delivery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <div class="footer-links">
+            <a href="mailto:info@qdframes.com">info@qdframes.com</a>
+            <a href="tel:+31640837919">+31 6 40837919</a>
+            <a href="https://wa.me/31640837919">WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 QD Frames. All rights reserved.</span>
+        <span>Premium European Window & Door Systems</span>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/31640837919" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+  </button>
+  <script src="js/translations.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Project filter functionality
+    document.querySelectorAll('.project-filter').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.project-filter').forEach(b => { b.classList.remove('active'); b.classList.replace('btn-primary','btn-secondary'); });
+        btn.classList.add('active');
+        btn.classList.replace('btn-secondary','btn-primary');
+        const filter = btn.dataset.filter;
+        document.querySelectorAll('.project-item').forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.style.display = '';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

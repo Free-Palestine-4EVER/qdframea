@@ -1,364 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" type="image/png" href="images/qd-icon.png">
-  <title data-i18n="facades.pageTitle">Glass Facades | Curtain Walls, Structural Glazing & Shopfronts | QD Frames
-    </title>
-    <meta name="description" data-i18n="facades.metaDesc"
-        content="Commercial glass facade systems — curtain walls, structural glazing, and shopfronts. Engineered for performance and aesthetics. Fast delivery across Europe.">
+  <link rel="icon" type="image/png" href="images/qd-icon.png">
+  <title>QD Frames — Glass Facade Systems | FEAL & Schüco Curtain Walls</title>
+  <meta name="description" content="FEAL & Schüco glass facade systems. Structural and continuous curtain walls. U-values from 0.70 W/m²K. 30-40% lower prices with Europe-wide delivery.">
   <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/animations.css">
 </head>
-
 <body>
+  <div class="nav-overlay"></div>
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo"><img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;"></a>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a><a href="windows.html">Windows</a><a href="alu-systems.html">ALU Systems</a>
+        <a href="doors.html">Doors</a><a href="glass-facades.html" class="active">Facades</a>
+        <a href="roller-shutters.html">Shutters & Blinds</a><a href="projects.html">Projects</a>
+        <a href="about.html">About</a><a href="contact.html">Get a Quote</a>
+      </div>
+      <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Get a Quote</a>
+      <div class="lang-switcher" id="langSwitcher"><button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6" /></svg></button><div class="lang-dropdown" id="langDropdown"><button class="lang-option active" data-lang="en">🇬🇧 English</button><button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button><button class="lang-option" data-lang="de">🇩🇪 Deutsch</button><button class="lang-option" data-lang="fr">🇫🇷 Français</button><button class="lang-option" data-lang="es">🇪🇸 Español</button><button class="lang-option" data-lang="it">🇮🇹 Italiano</button><button class="lang-option" data-lang="pl">🇵🇱 Polski</button></div></div>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
 
-    <div class="nav-overlay"></div>
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content reveal">
+        <div class="subtitle">FEAL & Schüco</div>
+        <h1><span>Glass Facade</span> <span class="text-gradient">Systems</span></h1>
+        <p>Structural and continuous curtain wall systems for commercial buildings, office complexes, and premium residential projects. Engineered for performance and aesthetics.</p>
+      </div>
+    </div>
+  </section>
 
-    <nav class="navbar" id="navbar">
-        <div class="container nav-inner">
-            <a href="index.html" class="nav-logo">
-                <img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;">
-            </a>
-            <div class="nav-links" id="navLinks">
-                <a href="index.html" data-i18n="nav.home">Home</a>
-                <a href="windows.html" data-i18n="nav.windows">Windows</a>
-                <a href="doors.html" data-i18n="nav.doors">Doors</a>
-                <a href="glass-facades.html" class="active" data-i18n="nav.facades">Facades</a>
-                <a href="process.html" data-i18n="nav.process">How It Works</a>
-                <a href="about.html" data-i18n="nav.about">About</a>
-                <a href="delivery.html" data-i18n="nav.delivery">Delivery</a>
-            </div>
-            <a href="contact.html" class="btn btn-primary btn-sm nav-cta" data-i18n="nav.quote">Get a Quote</a>
-            <div class="lang-switcher" id="langSwitcher">
-                <button class="lang-current" id="langCurrent">🇬🇧 EN <svg width="10" height="10" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M6 9l6 6 6-6" />
-                    </svg></button>
-                <div class="lang-dropdown" id="langDropdown">
-                    <button class="lang-option active" data-lang="en">🇬🇧 English</button>
-                    <button class="lang-option" data-lang="nl">🇳🇱 Nederlands</button>
-                    <button class="lang-option" data-lang="de">🇩🇪 Deutsch</button>
-                    <button class="lang-option" data-lang="fr">🇫🇷 Français</button>
-                    <button class="lang-option" data-lang="es">🇪🇸 Español</button>
-                    <button class="lang-option" data-lang="it">🇮🇹 Italiano</button>
-                    <button class="lang-option" data-lang="pl">🇵🇱 Polski</button>
-                </div>
-            </div>
-            <button class="nav-toggle" id="navToggle"
-                aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+  <!-- Intro -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid-2" style="gap: var(--space-4xl); align-items: center;">
+        <div class="reveal-left">
+          <img src="images/ugarak/Ugarak-Staklene-fasade.webp" alt="Glass Facade Systems" style="border-radius: var(--radius-xl); box-shadow: var(--shadow-lg); width: 100%;" loading="lazy">
         </div>
-    </nav>
-
-    <section class="page-hero">
-        <div class="hero-bg">
-            <img src="images/facade-office-curtain-wall.png" alt="Glass facades">
+        <div class="reveal-right">
+          <div class="subtitle">Curtain Walls</div>
+          <h2><span>Architectural</span> <span class="text-gradient">Excellence</span></h2>
+          <p style="margin-top: var(--space-md); color: var(--text-secondary);">Our glass facade systems combine thermally insulated aluminium profiles with cutting-edge engineering. From fully glazed structural facades to self-supporting curtain walls, we deliver solutions that meet the highest architectural and energy standards.</p>
+          <div style="margin-top: var(--space-xl);">
+            <div style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;"><span style="color: var(--accent-1);">✓</span><span style="color: var(--text-secondary);">U-values from 0.70 W/m²K</span></div>
+            <div style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;"><span style="color: var(--accent-1);">✓</span><span style="color: var(--text-secondary);">Sound protection up to 43 dB</span></div>
+            <div style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;"><span style="color: var(--accent-1);">✓</span><span style="color: var(--text-secondary);">Glass weights up to 1,080 kg supported</span></div>
+            <div style="display: flex; align-items: center; gap: var(--space-md); padding: var(--space-sm) 0;"><span style="color: var(--accent-1);">✓</span><span style="color: var(--text-secondary);">Wind resistance up to 3.0 kN/m²</span></div>
+          </div>
         </div>
-        <div class="container">
-            <nav class="breadcrumb"><a href="index.html" data-i18n="nav.home">Home</a><span>/</span><span
-                    data-i18n="facades.hero.breadcrumb">Glass Facades</span></nav>
-            <div class="subtitle" data-i18n="facades.hero.subtitle">Facade Systems</div>
-            <h1><span data-i18n="facades.hero.title">Glass Facades &</span> <span class="text-gradient"
-                    data-i18n="facades.hero.titleAccent">Curtain Walls</span></h1>
-            <p data-i18n="facades.hero.desc">Complete glass facade solutions for commercial, retail, and premium
-                residential projects — from
-                engineering to delivery.</p>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Facade Systems -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header text-center reveal">
-                <div class="subtitle" data-i18n="facades.systems.subtitle">Our Systems</div>
-                <h2><span data-i18n="facades.systems.title">Facade Systems for</span> <span class="text-gradient"
-                        data-i18n="facades.systems.titleAccent">Every Application</span></h2>
+  <!-- FEAL Facades -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <div class="subtitle">FEAL Systems</div>
+        <h2><span>FEAL Facade</span> <span class="text-gradient">Profiles</span></h2>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-card reveal">
+          <div class="profile-card-img"><img src="images/ugarak/Ugarak-Feal-50FK-300x300.webp" alt="FEAL Fasada 50 FK" loading="lazy"></div>
+          <div class="profile-card-body">
+            <h3>Fasada 50 FK</h3>
+            <p>High-quality system for continuous, structural, and self-supporting fully glazed facades. Thermally insulated aluminium profiles deliver excellent energy efficiency.</p>
+            <div class="profile-specs">
+              <div class="spec-item"><span class="spec-label">Visible Width</span><span class="spec-value">50 mm</span></div>
+              <div class="spec-item"><span class="spec-label">U-Value</span><span class="spec-value">≥ 0.72 W/m²K</span></div>
+              <div class="spec-item"><span class="spec-label">Sound</span><span class="spec-value">Up to 43 dB</span></div>
+              <div class="spec-item"><span class="spec-label">Glazing</span><span class="spec-value">4–56 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Mullion</span><span class="spec-value">90–270 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Type</span><span class="spec-value">Structural</span></div>
             </div>
-            <div class="grid grid-3">
-                <div class="card card-shine reveal stagger-1">
-                    <img src="images/facade-curtain-wall-closeup.png"
-                        alt="Curtain wall system on office building"
-                        style="border-radius: var(--radius-md); height: 200px; width: 100%; object-fit: cover; margin-bottom: var(--space-lg);">
-                    <h3 data-i18n="facades.card1.title">Curtain Walls</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="facades.card1.desc">
-                        Non-structural exterior cladding
-                        systems that hang from the building structure. Stick systems and unitized panels available for
-                        any scale of project.</p>
-                    <div style="margin-top: var(--space-lg); display: flex; flex-wrap: wrap; gap: var(--space-sm);">
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.stickSystem">Stick System</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.unitized">Unitized</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.thermalBreak">Thermal Break</span>
-                    </div>
-                </div>
-                <div class="card card-shine reveal stagger-2">
-                    <img src="images/facade-corner-urban-intersection.png"
-                        alt="Structural glazing facade"
-                        style="border-radius: var(--radius-md); height: 200px; width: 100%; object-fit: cover; margin-bottom: var(--space-lg);">
-                    <h3 data-i18n="facades.card2.title">Structural Glazing</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="facades.card2.desc">
-                        Frameless exterior appearance with
-                        glass bonded directly to the structure using structural silicone. Creates sleek, modern
-                        aesthetics with minimal visible framing.</p>
-                    <div style="margin-top: var(--space-lg); display: flex; flex-wrap: wrap; gap: var(--space-sm);">
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.frameless">Frameless Look</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.siliconeBonded">Silicone Bonded</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.premium">Premium</span>
-                    </div>
-                </div>
-                <div class="card card-shine reveal stagger-3">
-                    <img src="images/facade-sliding-glass-hills.png"
-                        alt="Glass shopfront"
-                        style="border-radius: var(--radius-md); height: 200px; width: 100%; object-fit: cover; margin-bottom: var(--space-lg);">
-                    <h3 data-i18n="facades.card3.title">Shopfronts</h3>
-                    <p style="font-size: 0.9375rem; margin-top: var(--space-sm);" data-i18n="facades.card3.desc">
-                        Commercial ground-floor glass systems
-                        with integrated entrance doors. Designed for retail, restaurants, and showrooms with maximum
-                        display area.</p>
-                    <div style="margin-top: var(--space-lg); display: flex; flex-wrap: wrap; gap: var(--space-sm);">
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.retail">Retail</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.maxDisplay">Max Display</span>
-                        <span
-                            style="padding: 0.25rem 0.75rem; background: var(--bg-secondary); border-radius: var(--radius-full); font-size: 0.75rem; color: var(--text-muted);"
-                            data-i18n="tag.integratedDoors">Integrated Doors</span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Applications Gallery -->
-    <section class="section" style="background: var(--bg-secondary);">
-        <div class="container">
-            <div class="section-header text-center reveal">
-                <div class="subtitle" data-i18n="facades.apps.subtitle">Applications</div>
-                <h2><span data-i18n="facades.apps.title">Designed for</span> <span class="text-gradient"
-                        data-i18n="facades.apps.titleAccent">Any Project</span></h2>
+        <div class="profile-card reveal">
+          <div class="profile-card-img"><img src="images/ugarak/Ugarak-Feal-60S-300x300.webp" alt="FEAL Fasada 60 K" loading="lazy"></div>
+          <div class="profile-card-body">
+            <h3>Fasada 60 K</h3>
+            <p>Modern system for self-supporting facade constructions. Excellent energy efficiency, durability, and aesthetic adaptability for contemporary architecture.</p>
+            <div class="profile-specs">
+              <div class="spec-item"><span class="spec-label">Visible Width</span><span class="spec-value">60 mm</span></div>
+              <div class="spec-item"><span class="spec-label">U-Value</span><span class="spec-value">≥ 0.70 W/m²K</span></div>
+              <div class="spec-item"><span class="spec-label">Sound</span><span class="spec-value">Up to 42 dB</span></div>
+              <div class="spec-item"><span class="spec-label">Glazing</span><span class="spec-value">4–56 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Mullion</span><span class="spec-value">41–270 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Type</span><span class="spec-value">Self-Supporting</span></div>
             </div>
-            <div class="gallery-grid reveal">
-                <div class="gallery-item"><img
-                        src="images/facade-corner-urban-intersection.png"
-                        alt="Office building facade" loading="lazy"></div>
-                <div class="gallery-item"><img
-                        src="images/facade-stone-wall-glass-sunset.png"
-                        alt="Commercial glass building" loading="lazy"></div>
-                <div class="gallery-item"><img
-                        src="images/facade-curtain-wall-pastoral.png"
-                        alt="Modern residential glass" loading="lazy"></div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Performance -->
-    <section class="section">
-        <div class="container">
-            <div class="grid grid-2" style="gap: var(--space-4xl); align-items: center;">
-                <div class="reveal-left">
-                    <div class="subtitle" data-i18n="facades.perf.subtitle">Performance</div>
-                    <h2><span data-i18n="facades.perf.title">Engineered for</span> <span class="text-gradient"
-                            data-i18n="facades.perf.titleAccent">Excellence</span></h2>
-                    <p style="margin-top: var(--space-md);" data-i18n="facades.perf.desc">Our facade systems are
-                        designed to meet the most demanding
-                        performance requirements — from thermal efficiency to structural integrity and weather
-                        resistance.</p>
-                    <div style="margin-top: var(--space-xl);">
-                        <div
-                            style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
-                            <span style="color: var(--accent-1);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 14.76V3.5a2.5 2.5 0 0 0-5 0v11.26a4.5 4.5 0 1 0 5 0z"></path></svg></span>
-                            <div><strong data-i18n="facades.perf.feat1.title">Thermal Performance</strong>
-                                <p style="font-size: 0.875rem; margin-top: 2px;" data-i18n="facades.perf.feat1.desc">
-                                    U-values from 0.8 W/m²K with
-                                    high-performance glazing and thermal break profiles.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
-                            <span style="color: var(--accent-1); font-size: 1.25rem;">💨</span>
-                            <div><strong data-i18n="facades.perf.feat2.title">Wind Load Resistance</strong>
-                                <p style="font-size: 0.875rem; margin-top: 2px;" data-i18n="facades.perf.feat2.desc">
-                                    Tested and certified to withstand wind
-                                    loads up to 3.0 kPa for high-rise applications.</p>
-                            </div>
-                        </div>
-                        <div
-                            style="display: flex; align-items: flex-start; gap: var(--space-md); margin-bottom: var(--space-lg);">
-                            <span style="color: var(--accent-1); font-size: 1.25rem;">🌧️</span>
-                            <div><strong data-i18n="facades.perf.feat3.title">Water Tightness</strong>
-                                <p style="font-size: 0.875rem; margin-top: 2px;" data-i18n="facades.perf.feat3.desc">
-                                    Class E1200 water tightness with EPDM
-                                    gaskets and pressure-equalized drainage.</p>
-                            </div>
-                        </div>
-                        <div style="display: flex; align-items: flex-start; gap: var(--space-md);">
-                            <span style="color: var(--accent-1);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line></svg></span>
-                            <div><strong data-i18n="facades.perf.feat4.title">Solar Control</strong>
-                                <p style="font-size: 0.875rem; margin-top: 2px;" data-i18n="facades.perf.feat4.desc">
-                                    Solar control coatings reduce heat gain
-                                    while maintaining natural light transmission.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="reveal-right">
-                    <img src="images/facade-double-height-corner-glass.png"
-                        alt="Modern glass facade detail"
-                        style="border-radius: var(--radius-xl); box-shadow: var(--shadow-lg);" loading="lazy">
-                </div>
+  <!-- Schüco Facades -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <div class="subtitle">Schüco Systems</div>
+        <h2><span>Schüco FWS</span> <span class="text-gradient">Facade Systems</span></h2>
+      </div>
+      <div class="profile-grid">
+        <div class="profile-card reveal">
+          <div class="profile-card-img"><img src="images/ugarak/Ugarak-Schuco-FWS50-1-300x300.webp" alt="Schüco FWS 50" loading="lazy"></div>
+          <div class="profile-card-body">
+            <h3>Schüco FWS 50</h3>
+            <p>Flexible facade system for facades and roof skylights. Attractive design options with optimized fabrication and installation processes. Wide range of elements.</p>
+            <div class="profile-specs">
+              <div class="spec-item"><span class="spec-label">Visible Width</span><span class="spec-value">50 mm</span></div>
+              <div class="spec-item"><span class="spec-label">U-Value (Uf)</span><span class="spec-value">≥ 1.5 W/m²K</span></div>
+              <div class="spec-item"><span class="spec-label">Mullion</span><span class="spec-value">50–250 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Max Glass</span><span class="spec-value">1,080 kg</span></div>
+              <div class="spec-item"><span class="spec-label">Wind</span><span class="spec-value">3.0 kN/m²</span></div>
+              <div class="spec-item"><span class="spec-label">Water</span><span class="spec-value">RE 1200</span></div>
             </div>
+          </div>
         </div>
-    </section>
-
-    <!-- Glass Options -->
-    <section class="section" style="background: var(--bg-secondary);">
-        <div class="container">
-            <div class="section-header text-center reveal">
-                <div class="subtitle" data-i18n="facades.glass.subtitle">Glass Options</div>
-                <h2><span data-i18n="facades.glass.title">Advanced</span> <span class="text-gradient"
-                        data-i18n="facades.glass.titleAccent">Glazing Solutions</span></h2>
+        <div class="profile-card reveal">
+          <div class="profile-card-img"><img src="images/ugarak/Ugarak-Schuco-FWS60-1-300x300.webp" alt="Schüco FWS 60" loading="lazy"></div>
+          <div class="profile-card-body">
+            <h3>Schüco FWS 60</h3>
+            <p>60mm visible width with high design flexibility. Wide choice of pressure plates and covers, fully compatible with Schüco window, door, and sliding systems.</p>
+            <div class="profile-specs">
+              <div class="spec-item"><span class="spec-label">Visible Width</span><span class="spec-value">60 mm</span></div>
+              <div class="spec-item"><span class="spec-label">U-Value (Uf)</span><span class="spec-value">≥ 1.3 W/m²K</span></div>
+              <div class="spec-item"><span class="spec-label">Mullion</span><span class="spec-value">50–250 mm</span></div>
+              <div class="spec-item"><span class="spec-label">Max Glass</span><span class="spec-value">1,080 kg</span></div>
+              <div class="spec-item"><span class="spec-label">Wind</span><span class="spec-value">3.0 kN/m²</span></div>
+              <div class="spec-item"><span class="spec-label">Water</span><span class="spec-value">RE 1200</span></div>
             </div>
-            <div class="grid grid-4">
-                <div class="card reveal stagger-1" style="text-align: center;">
-                    <div class="cert-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </div>
-                    <h5 data-i18n="facades.glass.card1.title">Solar Control</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
-                        data-i18n="facades.glass.card1.desc">Reduces heat
-                        gain while maintaining light and views.</p>
-                </div>
-                <div class="card reveal stagger-2" style="text-align: center;">
-                    <div class="cert-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                            <line x1="23" y1="9" x2="17" y2="15"></line>
-                            <line x1="17" y1="9" x2="23" y2="15"></line>
-                        </svg>
-                    </div>
-                    <h5 data-i18n="facades.glass.card2.title">Acoustic</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
-                        data-i18n="facades.glass.card2.desc">Laminated
-                        glass up to 50 dB sound reduction.</p>
-                </div>
-                <div class="card reveal stagger-3" style="text-align: center;">
-                    <div class="cert-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                        </svg>
-                    </div>
-                    <h5 data-i18n="facades.glass.card3.title">Safety</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
-                        data-i18n="facades.glass.card3.desc">Toughened
-                        and laminated safety glass to EN 12600.</p>
-                </div>
-                <div class="card reveal stagger-4" style="text-align: center;">
-                    <div class="cert-icon">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M23 12a11.05 11.05 0 0 0-22 0zm-5 7a3 3 0 0 1-6 0v-7"></path>
-                        </svg>
-                    </div>
-                    <h5 data-i18n="facades.glass.card4.title">Self-Cleaning</h5>
-                    <p style="font-size: 0.8125rem; color: var(--text-muted); margin-top: var(--space-xs);"
-                        data-i18n="facades.glass.card4.desc">
-                        Photocatalytic coatings break down dirt with UV light.</p>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- CTA -->
-    <section class="cta-section" style="background: var(--bg-primary);">
-        <div class="container reveal">
-            <div class="subtitle" data-i18n="facades.cta.subtitle">Commercial Projects</div>
-            <h2 data-i18n="facades.cta.title">Let's Discuss Your Facade Project</h2>
-            <p data-i18n="facades.cta.desc">Our specialist engineering team is ready to provide technical consultation
-                and competitive pricing for
-                projects of any scale.</p>
-            <div class="cta-buttons">
-                <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="facades.cta.btn1">Request Facade
-                    Quote</a>
-                <a href="process.html" class="btn btn-secondary btn-lg" data-i18n="doors.cta.btn2">See Our Process</a>
-            </div>
+  <!-- Facade Types -->
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header text-center reveal">
+        <div class="subtitle">Types</div>
+        <h2><span>Facade</span> <span class="text-gradient">Configurations</span></h2>
+      </div>
+      <div class="grid grid-2" style="gap: var(--space-xl);">
+        <div class="product-card reveal">
+          <div class="product-card-img"><img src="images/ugarak/Stukturane-fasade-300x201.webp" alt="Structural Facades" loading="lazy"></div>
+          <div class="product-card-body">
+            <h3>Structural Facades</h3>
+            <p>Fully glazed facades with hidden profiles for a seamless glass appearance. Maximum transparency and modern aesthetics.</p>
+          </div>
         </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);">
-                        <img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;">
-                    </a>
-                    <p data-i18n="footer.desc">Premium Salamander windows, doors, and glass facades delivered across
-                        Europe.</p>
-                </div>
-                <div>
-                    <h5 data-i18n="footer.products">Products</h5>
-                    <div class="footer-links"><a href="windows.html" data-i18n="nav.windows">Windows</a><a
-                            href="doors.html" data-i18n="nav.doors">Doors</a><a href="glass-facades.html"
-                            data-i18n="nav.facades">Glass Facades</a></div>
-                </div>
-                <div>
-                    <h5 data-i18n="footer.company">Company</h5>
-                    <div class="footer-links"><a href="about.html" data-i18n="nav.about">About Us</a><a
-                            href="process.html" data-i18n="nav.process">How It Works</a><a href="delivery.html"
-                            data-i18n="nav.delivery">Delivery & Guarantee</a><a href="contact.html"
-                            data-i18n="nav.contact">Contact</a></div>
-                </div>
-                <div>
-                    <h5 data-i18n="footer.contact">Contact</h5>
-                    <div class="footer-links"><a href="mailto:info@qdframes.nl">info@qdframes.nl</a><a
-                            href="tel:+31640837919">+31 6 40837919</a></div>
-                </div>
-            </div>
-            <div class="footer-bottom"><span data-i18n="footer.rights">© 2026 QD Frames. All rights
-                    reserved.</span><span data-i18n="footer.tagline">Premium Salamander
-                    Windows & Doors</span></div>
+        <div class="product-card reveal">
+          <div class="product-card-img"><img src="images/ugarak/Kontinuirane-fasade-300x201.webp" alt="Continuous Facades" loading="lazy"></div>
+          <div class="product-card-body">
+            <h3>Continuous Facades</h3>
+            <p>Mullion-transom curtain walls with visible aluminium profiles. Versatile configuration for any building geometry.</p>
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </section>
 
-    <a href="https://wa.me/31640837919" class="floating-whatsapp" target="_blank" title="Chat on WhatsApp">
-        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-    </svg>
-    </a>
-    <div class="cookie-notice" id="cookieNotice">
-    <p data-i18n="cookie.text">We use cookies to improve your experience. By continuing to browse, you agree to our use of cookies.</p>
-    <button class="btn btn-primary" id="cookieAccept" data-i18n="cookie.accept">Accept</button>
-  </div>
-  <button class="back-to-top" id="backToTop" aria-label="Back to top">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
-  </button>
+  <!-- CTA -->
+  <section class="cta-section section-with-bg" style="background-image: url('images/factory-production-line.png');">
+    <div class="container reveal">
+      <div class="subtitle">Get Started</div>
+      <h2>Glass Facades Engineered for Your Project</h2>
+      <p>Send us your architectural drawings and we'll provide a complete facade solution with pricing within 48 hours.</p>
+      <div class="cta-buttons">
+        <a href="contact.html" class="btn btn-primary btn-lg">Request a Free Quote</a>
+        <a href="https://wa.me/31640837919" class="btn btn-secondary btn-lg">WhatsApp Us</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand"><a href="index.html" class="nav-logo" style="margin-bottom: var(--space-xs);"><img src="images/qd-logo-full.png" alt="QD Frames" style="height:40px;"></a><p>Premium PVC & ALU windows, doors, facades and more — delivered across Europe.</p></div>
+        <div><h5>Products</h5><div class="footer-links"><a href="windows.html">PVC Windows</a><a href="alu-systems.html">ALU Systems</a><a href="doors.html">Doors</a><a href="glass-facades.html">Facades</a><a href="roller-shutters.html">Shutters & Blinds</a><a href="garage-doors.html">Garage Doors</a></div></div>
+        <div><h5>Company</h5><div class="footer-links"><a href="about.html">About Us</a><a href="projects.html">Projects</a><a href="process.html">How It Works</a><a href="delivery.html">Delivery</a><a href="contact.html">Contact</a></div></div>
+        <div><h5>Contact</h5><div class="footer-links"><a href="mailto:info@qdframes.com">info@qdframes.com</a><a href="tel:+31640837919">+31 6 40837919</a><a href="https://wa.me/31640837919">WhatsApp</a></div></div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 QD Frames. All rights reserved.</span><span>Premium European Window & Door Systems</span></div>
+    </div>
+  </footer>
+  <a href="https://wa.me/31640837919" class="floating-whatsapp" target="_blank" title="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg></button>
   <script src="js/translations.js"></script>
-    <script src="js/main.js"></script>
+  <script src="js/main.js"></script>
 </body>
-
 </html>
