@@ -10,11 +10,20 @@ const translations = {
     "nav.windows": {
         en: "Windows", nl: "Ramen", de: "Fenster", fr: "Fenêtres", es: "Ventanas", it: "Finestre", pl: "Okna"
     },
+    "nav.alu": {
+        en: "ALU Systems", nl: "ALU Systemen", de: "ALU Systeme", fr: "Systèmes ALU", es: "Sistemas ALU", it: "Sistemi ALU", pl: "Systemy ALU"
+    },
     "nav.doors": {
         en: "Doors", nl: "Deuren", de: "Türen", fr: "Portes", es: "Puertas", it: "Porte", pl: "Drzwi"
     },
     "nav.facades": {
         en: "Facades", nl: "Gevels", de: "Fassaden", fr: "Façades", es: "Fachadas", it: "Facciate", pl: "Fasady"
+    },
+    "nav.shutters": {
+        en: "Shutters & Blinds", nl: "Rolluiken & Screens", de: "Rollläden & Jalousien", fr: "Volets & Stores", es: "Persianas & Estores", it: "Tapparelle & Tende", pl: "Rolety & Żaluzje"
+    },
+    "nav.projects": {
+        en: "Projects", nl: "Projecten", de: "Projekte", fr: "Projets", es: "Proyectos", it: "Progetti", pl: "Projekty"
     },
     "nav.process": {
         en: "How It Works", nl: "Werkwijze", de: "So funktioniert's", fr: "Comment ça marche", es: "Cómo funciona", it: "Come funziona", pl: "Jak to działa"
@@ -31,22 +40,22 @@ const translations = {
 
     // --- Homepage Hero ---
     "hero.badge": {
-        en: "✦ Official Salamander Profile Partner",
-        nl: "✦ Officiële Salamander Profiel Partner",
-        de: "✦ Offizieller Salamander Profilpartner",
-        fr: "✦ Partenaire officiel Salamander",
-        es: "✦ Socio oficial de perfiles Salamander",
-        it: "✦ Partner ufficiale profili Salamander",
-        pl: "✦ Oficjalny Partner Salamander"
+        en: "✦ REHAU • Schüco • FEAL — Certified European Systems",
+        nl: "✦ REHAU • Schüco • FEAL — Gecertificeerde Europese Systemen",
+        de: "✦ REHAU • Schüco • FEAL — Zertifizierte europäische Systeme",
+        fr: "✦ REHAU • Schüco • FEAL — Systèmes européens certifiés",
+        es: "✦ REHAU • Schüco • FEAL — Sistemas europeos certificados",
+        it: "✦ REHAU • Schüco • FEAL — Sistemi europei certificati",
+        pl: "✦ REHAU • Schüco • FEAL — Certyfikowane systemy europejskie"
     },
     "hero.title": {
-        en: "Premium Windows & Doors",
-        nl: "Premium Ramen & Deuren",
-        de: "Premium Fenster & Türen",
-        fr: "Fenêtres & Portes Premium",
-        es: "Ventanas & Puertas Premium",
-        it: "Finestre & Porte Premium",
-        pl: "Okna i Drzwi Premium"
+        en: "Premium Windows, Doors & Facades",
+        nl: "Premium Ramen, Deuren & Gevels",
+        de: "Premium Fenster, Türen & Fassaden",
+        fr: "Fenêtres, Portes & Façades Premium",
+        es: "Ventanas, Puertas & Fachadas Premium",
+        it: "Finestre, Porte & Facciate Premium",
+        pl: "Okna, Drzwi & Fasady Premium"
     },
     "hero.titleAccent": {
         en: "for All of Europe",
@@ -58,9 +67,9 @@ const translations = {
         pl: "dla całej Europy"
     },
     "hero.description": {
-        en: "Same Salamander quality as top European brands — at 30–40% lower prices. Fast delivery anywhere in Europe. Quality craftsmanship backed by 15+ years of experience.",
+        en: "Same premium quality as top European brands — at 30–40% lower prices. Fast delivery anywhere in Europe. Quality craftsmanship backed by 15+ years of experience.",
         nl: "Dezelfde Salamander kwaliteit als topmerken — voor 30–40% lagere prijzen. Snelle levering in heel Europa. Kwaliteitswerk ondersteund door 15+ jaar ervaring.",
-        de: "Gleiche Salamander-Qualität wie Top-Marken — zu 30–40% günstigeren Preisen. Schnelle Lieferung in ganz Europa. Qualitätshandwerk mit über 15 Jahren Erfahrung.",
+        de: "Gleiche europäische Qualität wie Top-Marken — zu 30–40% günstigeren Preisen. Schnelle Lieferung in ganz Europa. Qualitätshandwerk mit über 15 Jahren Erfahrung.",
         fr: "Même qualité Salamander que les grandes marques — à des prix 30–40% inférieurs. Livraison rapide partout en Europe. Un savoir-faire de qualité soutenu par 15+ ans d'expérience.",
         es: "Misma calidad Salamander que las mejores marcas — a precios 30–40% más bajos. Entrega rápida en toda Europa. Artesanía de calidad respaldada por más de 15 años de experiencia.",
         it: "Stessa qualità Salamander dei migliori marchi — a prezzi inferiori del 30–40%. Consegna rapida in tutta Europa. Artigianato di qualità supportato da oltre 15 anni di esperienza.",
@@ -105,9 +114,9 @@ const translations = {
         en: "Different", nl: "Anders maakt", de: "Unterscheidet", fr: "Différents", es: "Diferentes", it: "Diversi", pl: "Wyróżnia"
     },
     "usp.desc": {
-        en: "We combined premium Salamander quality with direct-from-manufacturer pricing and the fastest delivery in the industry.",
+        en: "We combined premium European quality with direct-from-manufacturer pricing and the fastest delivery in the industry.",
         nl: "We combineren premium Salamander kwaliteit met prijzen direct van de fabrikant en de snelste levering in de sector.",
-        de: "Wir kombinieren erstklassige Salamander-Qualität mit Preisen direkt vom Hersteller und der schnellsten Lieferung der Branche.",
+        de: "Wir kombinieren erstklassige europäische Qualität mit Preisen direkt vom Hersteller und der schnellsten Lieferung der Branche.",
         fr: "Nous avons combiné la qualité premium Salamander avec des prix direct fabricant et la livraison la plus rapide du secteur.",
         es: "Combinamos la calidad premium de Salamander con precios directos de fábrica y la entrega más rápida del sector.",
         it: "Abbiamo combinato la qualità premium Salamander con prezzi diretti dal produttore e la consegna più veloce del settore.",
@@ -123,7 +132,7 @@ const translations = {
         pl: "Ceny Niższe o 30–40%"
     },
     "usp.card1.desc": {
-        en: "Same Salamander profiles, same hardware, same quality — without the retail markup. We manufacture directly and pass the savings to you.",
+        en: "Same REHAU, Schüco & FEAL profiles, same hardware, same quality — without the retail markup. We manufacture directly and pass the savings to you.",
         nl: "Dezelfde Salamander profielen, hetzelfde beslag, dezelfde kwaliteit — zonder de retailopslag. Wij produceren direct en geven het voordeel aan u door.",
         de: "Gleiche Salamander-Profile, gleiche Beschläge, gleiche Qualität — ohne Einzelhandelsaufschlag. Wir produzieren direkt und geben die Ersparnis an Sie weiter.",
         fr: "Mêmes profilés Salamander, même quincaillerie, même qualité — sans la marge distributeur. Nous fabriquons en direct et vous en faisons profiter.",
@@ -173,7 +182,7 @@ const translations = {
     "products.title": { en: "Complete Building", nl: "Complete Bouw", de: "Komplette Bau", fr: "Solutions de", es: "Soluciones de", it: "Soluzioni per", pl: "Kompletne Rozwiązania" },
     "products.titleAccent": { en: "Solutions", nl: "Oplossingen", de: "Lösungen", fr: "Construction", es: "Construcción", it: "Edilizia", pl: "Budowlane" },
     "products.desc": {
-        en: "From residential windows to commercial glass facades — everything manufactured with premium Salamander profiles.",
+        en: "From residential windows to commercial glass facades — everything manufactured with premium REHAU, Schüco & FEAL profiles.",
         nl: "Van ramen voor woningen tot glazen gevels voor bedrijven — alles vervaardigd met premium Salamander profielen.",
         de: "Von Wohnungsfenstern bis zu gewerblichen Glasfassaden — alles gefertigt mit erstklassigen Salamander-Profilen.",
         fr: "Des fenêtres résidentielles aux façades vitrées commerciales — tout est fabriqué avec des profilés Salamander premium.",
@@ -183,7 +192,7 @@ const translations = {
     },
     "products.card1.title": { en: "Windows", nl: "Ramen", de: "Fenster", fr: "Fenêtres", es: "Ventanas", it: "Finestre", pl: "Okna" },
     "products.card1.desc": {
-        en: "Tilt-and-turn, casement, fixed, and sliding systems in 76mm, 82mm, and 88mm Salamander profiles.",
+        en: "Tilt-and-turn, casement, fixed, and sliding systems in 76mm, 82mm, and 88mm REHAU, Schüco & FEAL profiles.",
         nl: "Draai-kiep, uitzet, vast en schuifsystemen in 76mm, 82mm en 88mm Salamander profielen.",
         de: "Dreh-Kipp-, Flügel-, Fest- und Schiebesysteme in 76mm, 82mm und 88mm Salamander-Profilen.",
         fr: "Oscillo-battants, battants, fixes et coulissants en profilés QD Essential 76, 82mm et 88mm.",
@@ -264,7 +273,7 @@ const translations = {
     "salamander.title": { en: "Powered by", nl: "Aangedreven door", de: "Powered by", fr: "Propulsé par", es: "Impulsado por", it: "Powered by", pl: "Wspierane przez" },
     "salamander.titleAccent": { en: "Salamander", nl: "Salamander", de: "Salamander", fr: "Salamander", es: "Salamander", it: "Salamander", pl: "Salamander" },
     "salamander.desc": {
-        en: "We exclusively use Salamander profiles — the same PVC system trusted by Europe's premium window brands. Multi-chamber design, steel reinforcement, and EPDM gaskets deliver exceptional thermal and acoustic performance.",
+        en: "We exclusively use REHAU, Schüco & FEAL profiles — the same PVC system trusted by Europe's premium window brands. Multi-chamber design, steel reinforcement, and EPDM gaskets deliver exceptional thermal and acoustic performance.",
         nl: "We gebruiken uitsluitend Salamander profielen. Meerkamerontwerp, staalversterking en EPDM-afdichtingen zorgen voor uitzonderlijke thermische en akoestische prestaties.",
         de: "Wir verwenden ausschließlich Salamander-Profile. Mehrkammerdesign, Stahlverstärkung und EPDM-Dichtungen sorgen für hervorragende Wärme- und Schalldämmung.",
         fr: "Nous utilisons exclusivement des profilés Salamander. Conception multi-chambres, renfort acier et joints EPDM offrent des performances thermiques et acoustiques exceptionnelles.",
@@ -298,7 +307,7 @@ const translations = {
     "testimonials.subtitle": { en: "Customer Reviews", nl: "Klantbeoordelingen", de: "Kundenbewertungen", fr: "Avis Clients", es: "Opiniones de Clientes", it: "Recensioni Clienti", pl: "Opinie Klientów" },
     "testimonials.title": { en: "Trusted by Homeowners", nl: "Vertrouwd door Huiseigenaren", de: "Vertrauen von Hausbesitzern", fr: "La Confiance des Propriétaires", es: "Confianza de Propietarios", it: "La Fiducia dei Proprietari", pl: "Zaufanie Właścicieli Domów" },
     "testimonials.titleAccent": { en: "Across Europe", nl: "In Heel Europa", de: "In Ganz Europa", fr: "Dans Toute l'Europe", es: "En Toda Europa", it: "In Tutta Europa", pl: "W Całej Europie" },
-    "testimonials.review1": { en: "\"We saved over €4,000 compared to local quotes — and the quality is identical. The Salamander profiles are excellent. Delivery to the Netherlands was smooth and on time.\"", nl: "\"We hebben meer dan €4.000 bespaard ten opzichte van lokale offertes — en de kwaliteit is identiek. De Salamander profielen zijn uitstekend. Levering in Nederland was soepel en op tijd.\"", de: "\"Wir haben über 4.000 € im Vergleich zu lokalen Angeboten gespart — und die Qualität ist identisch. Die Salamander-Profile sind ausgezeichnet.\"", fr: "\"Nous avons économisé plus de 4 000 € par rapport aux devis locaux — et la qualité est identique. Les profilés Salamander sont excellents.\"", es: "\"Ahorramos más de 4.000 € en comparación con los presupuestos locales — y la calidad es idéntica. Los perfiles Salamander son excelentes.\"", it: "\"Abbiamo risparmiato oltre 4.000 € rispetto ai preventivi locali — e la qualità è identica. I profili Salamander sono eccellenti.\"", pl: "\"Zaoszczędziliśmy ponad 4000 € w porównaniu z lokalnymi ofertami — a jakość jest identyczna. Profile Salamander są doskonałe.\"" },
+    "testimonials.review1": { en: "\"We saved over €4,000 compared to local quotes — and the quality is identical. The REHAU, Schüco & FEAL profiles are excellent. Delivery to the Netherlands was smooth and on time.\"", nl: "\"We hebben meer dan €4.000 bespaard ten opzichte van lokale offertes — en de kwaliteit is identiek. De Salamander profielen zijn uitstekend. Levering in Nederland was soepel en op tijd.\"", de: "\"Wir haben über 4.000 € im Vergleich zu lokalen Angeboten gespart — und die Qualität ist identisch. Die Salamander-Profile sind ausgezeichnet.\"", fr: "\"Nous avons économisé plus de 4 000 € par rapport aux devis locaux — et la qualité est identique. Les profilés Salamander sont excellents.\"", es: "\"Ahorramos más de 4.000 € en comparación con los presupuestos locales — y la calidad es idéntica. Los perfiles Salamander son excelentes.\"", it: "\"Abbiamo risparmiato oltre 4.000 € rispetto ai preventivi locali — e la qualità è identica. I profili Salamander sono eccellenti.\"", pl: "\"Zaoszczędziliśmy ponad 4000 € w porównaniu z lokalnymi ofertami — a jakość jest identyczna. Profile Salamander są doskonałe.\"" },
     "testimonials.name1": { en: "Thomas van den Berg", nl: "Thomas van den Berg", de: "Thomas van den Berg", fr: "Thomas van den Berg", es: "Thomas van den Berg", it: "Thomas van den Berg", pl: "Thomas van den Berg" },
     "testimonials.loc1": { en: "Amsterdam, Netherlands", nl: "Amsterdam, Nederland", de: "Amsterdam, Niederlande", fr: "Amsterdam, Pays-Bas", es: "Ámsterdam, Países Bajos", it: "Amsterdam, Paesi Bassi", pl: "Amsterdam, Holandia" },
     "testimonials.review2": { en: "\"Professional from start to finish. The engineering team helped us choose the right profiles for our renovation. 15 windows and 3 doors — all perfect.\"", nl: "\"Professioneel van begin tot eind. Het technische team hielp ons de juiste profielen te kiezen voor onze renovatie. 15 ramen en 3 deuren — allemaal perfect.\"", de: "\"Professionell von Anfang bis Ende. Das Ingenieurteam half uns, die richtigen Profile für unsere Renovierung zu wählen. 15 Fenster und 3 Türen — alle perfekt.\"", fr: "\"Professionnel du début à la fin. L'équipe d'ingénierie nous a aidés à choisir les bons profilés pour notre rénovation.\"", es: "\"Profesional de principio a fin. El equipo de ingeniería nos ayudó a elegir los perfiles adecuados para nuestra renovación.\"", it: "\"Professionale dall'inizio alla fine. Il team di ingegneria ci ha aiutato a scegliere i profili giusti per la nostra ristrutturazione.\"", pl: "\"Profesjonalnie od początku do końca. Zespół inżynierski pomógł nam wybrać odpowiednie profile do naszej renowacji.\"" },
@@ -319,7 +328,7 @@ const translations = {
     "footer.desc": {
         en: "Premium Salamander windows, doors, and glass facades delivered free across Europe.",
         nl: "Premium Salamander ramen, deuren en gevels gratis geleverd in heel Europa.",
-        de: "Premium Salamander Fenster, Türen und Fassaden, kostenlos europaweit geliefert.",
+        de: "Premium Europäische Fenster, Türen und Fassaden, kostenlos europaweit geliefert.",
         fr: "Fenêtres, portes et façades Salamander premium livrées gratuitement en Europe.",
         es: "Ventanas, puertas y fachadas Salamander premium entregadas gratis en Europa.",
         it: "Finestre, porte e facciate Salamander premium consegnate gratuitamente in Europa.",
@@ -327,9 +336,9 @@ const translations = {
     },
     "footer.rights": { en: "All rights reserved.", nl: "Alle rechten voorbehouden.", de: "Alle Rechte vorbehalten.", fr: "Tous droits réservés.", es: "Todos los derechos reservados.", it: "Tutti i diritti riservati.", pl: "Wszelkie prawa zastrzeżone." },
     "footer.tagline": {
-        en: "Premium Salamander Windows & Doors",
-        nl: "Premium Salamander Ramen & Deuren",
-        de: "Premium Salamander Fenster & Türen",
+        en: "Premium European Window & Door Systems",
+        nl: "Premium Europese Ramen & Deuren",
+        de: "Premium Europäische Fenster & Türen",
         fr: "Fenêtres & Portes Salamander Premium",
         es: "Ventanas y Puertas Premium Salamander",
         it: "Finestre & Porte Premium Salamander",
@@ -340,8 +349,8 @@ const translations = {
     // --- Windows Page ---
     "windows.pageTitle": {
         en: "Premium Salamander Windows | Tilt-Turn, Casement, Sliding | QD Frames",
-        nl: "Premium Salamander Ramen | Draai-Kiep, Uitzet, Schuif | QD Frames",
-        de: "Premium Salamander Fenster | Dreh-Kipp, Flügel, Schiebe | QD Frames",
+        nl: "Premium Europese Ramen | Draai-Kiep, Uitzet, Schuif | QD Frames",
+        de: "Premium Europäische Fenster | Dreh-Kipp, Flügel, Schiebe | QD Frames",
         fr: "Fenêtres Salamander Premium | Oscillo-battant, Battant, Coulissant | QD Frames",
         es: "Ventanas Salamander Premium | Oscilobatiente, Practicable, Corredera | QD Frames",
         it: "Finestre Salamander Premium | Ribalta, Battente, Scorrevole | QD Frames",
@@ -576,7 +585,7 @@ const translations = {
     "doors.range.titleAccent": { en: "Every Project", nl: "Elk Project", de: "Jedes Projekt", fr: "Chaque Projet", es: "Cada Proyecto", it: "Ogni Progetto", pl: "Każdego Projektu" },
     "doors.card1.title": { en: "Entry Doors", nl: "Voordeuren", de: "Haustüren", fr: "Portes d'Entrée", es: "Puertas de Entrada", it: "Porte d'Ingresso", pl: "Drzwi Wejściowe" },
     "doors.card1.desc": {
-        en: "Reinforced Salamander profiles with multi-point locking systems. Available in RC2 and RC3 security ratings with decorative glass panels and modern hardware.",
+        en: "Reinforced REHAU, Schüco & FEAL profiles with multi-point locking systems. Available in RC2 and RC3 security ratings with decorative glass panels and modern hardware.",
         nl: "Versterkte Salamander profielen met meerpuntsvergrendeling. Beschikbaar in RC2 en RC3 veiligheidsklassen met decoratieve glaspanelen en modern beslag.",
         de: "Verstärkte Salamander-Profile mit Mehrfachverriegelung. Erhältlich in RC2- und RC3-Sicherheitsklassen mit dekorativen Glasfüllungen und modernen Beschlägen.",
         fr: "Profilés Salamander renforcés avec systèmes de verrouillage multipoint. Disponibles en classes de sécurité RC2 et RC3 avec panneaux de verre décoratifs et quincaillerie moderne.",
@@ -821,14 +830,14 @@ const translations = {
     "about.story.title": { en: "From Local Workshop to", nl: "Van Lokale Werkplaats tot", de: "Von der Lokalen Werkstatt zum", fr: "De l'Atelier Local au", es: "De Taller Local a", it: "Da Officina Locale a", pl: "Od Lokalnego Warsztatu do" },
     "about.story.titleAccent": { en: "European Manufacturer", nl: "Europese Fabrikant", de: "Europäischen Hersteller", fr: "Fabricant Européen", es: "Fabricante Europeo", it: "Produttore Europeo", pl: "Producenta Europejskiego" },
     "about.story.p1": { en: "QD Frames started as a small workshop with a simple idea: premium European windows shouldn't cost a fortune. Over 15 years, we've grown into a modern manufacturing facility serving clients across 28 countries — but we've never lost that original mission.", nl: "QD Frames begon als een kleine werkplaats met een eenvoudig idee: premium Europese ramen zouden geen fortuin moeten kosten. In 15 jaar zijn we uitgegroeid tot een moderne productiefaciliteit die klanten in 28 landen bedient — maar we zijn die oorspronkelijke missie nooit verloren.", de: "QD Frames begann als kleine Werkstatt mit einer einfachen Idee: Premium-Fenster aus Europa sollten kein Vermögen kosten. In über 15 Jahren sind wir zu einer modernen Produktionsstätte gewachsen, die Kunden in 28 Ländern bedient — aber wir haben diese ursprüngliche Mission nie verloren.", fr: "QD Frames a commencé comme un petit atelier avec une idée simple : les fenêtres européennes haut de gamme ne devraient pas coûter une fortune. En 15 ans, nous sommes devenus une usine de fabrication moderne servant des clients dans 28 pays — mais nous n'avons jamais perdu cette mission originale.", es: "QD Frames comenzó como un pequeño taller con una idea simple: las ventanas europeas premium no deberían costar una fortuna. En 15 años, hemos crecido hasta convertirnos en una moderna instalación de fabricación que sirve a clientes en 28 países — pero nunca hemos perdido esa misión original.", it: "QD Frames è iniziata come una piccola officina con un'idea semplice: le finestre europee premium non dovrebbero costare una fortuna. In 15 anni, siamo cresciuti fino a diventare un moderno stabilimento di produzione che serve clienti in 28 paesi — ma non abbiamo mai perso quella missione originale.", pl: "QD Frames zaczynało jako mały warsztat z prostym pomysłem: okna premium nie powinny kosztować fortuny. Przez 15 lat urośliśmy do nowoczesnego zakładu produkcyjnego obsługującego klientów w 28 krajach — ale nigdy nie straciliśmy tej pierwotnej misji." },
-    "about.story.p2": { en: "Today, we use the same Salamander profiles as the biggest brands in Europe, but our direct-to-customer model eliminates the middlemen that inflate prices by 30–40%. The result? You get identical quality at significantly lower cost, with fast delivery to your door.", nl: "Vandaag gebruiken we dezelfde Salamander-profielen als de grootste merken in Europa, maar ons direct-to-customer model elimineert de tussenpersonen die de prijzen met 30–40% opdrijven. Het resultaat? U krijgt identieke kwaliteit tegen aanzienlijk lagere kosten, met snelle levering aan de deur.", de: "Heute verwenden wir die gleichen Salamander-Profile wie die größten Marken in Europa, aber unser Direkt-zum-Kunden-Modell eliminiert die Zwischenhändler, die die Preise um 30–40% in die Höhe treiben. Das Ergebnis? Sie erhalten identische Qualität zu deutlich niedrigeren Kosten, mit kostenloser Lieferung.", fr: "Aujourd'hui, nous utilisons les mêmes profils Salamander que les plus grandes marques d'Europe, mais notre modèle direct au client élimine les intermédiaires qui gonflent les prix de 30 à 40 %. Le résultat ? Vous obtenez une qualité identique à un coût nettement inférieur, avec livraison rapide.", es: "Hoy, utilizamos los mismos perfiles Salamander que las marcas más grandes de Europa, pero nuestro modelo directo al cliente elimina a los intermediarios que inflan los precios en un 30–40%. ¿El resultado? Obtiene una calidad idéntica a un costo significativamente menor, con entrega rápida.", it: "Oggi utilizziamo gli stessi profili Salamander dei più grandi marchi in Europa, ma il nostro modello diretto al cliente elimina gli intermediari che gonfiano i prezzi del 30–40%. Il risultato? Ottieni una qualità identica a un costo significativamente inferiore, con consegna rapida.", pl: "Dziś używamy tych samych profili Salamander co największe marki w Europie, ale nasz model bezpośredni eliminuje pośredników, którzy zawyżają ceny o 30–40%. Wynik? Otrzymujesz identyczną jakość za znacznie niższą cenę, z szybką dostawą." },
+    "about.story.p2": { en: "Today, we use the same REHAU, Schüco & FEAL profiles as the biggest brands in Europe, but our direct-to-customer model eliminates the middlemen that inflate prices by 30–40%. The result? You get identical quality at significantly lower cost, with fast delivery to your door.", nl: "Vandaag gebruiken we dezelfde Salamander-profielen als de grootste merken in Europa, maar ons direct-to-customer model elimineert de tussenpersonen die de prijzen met 30–40% opdrijven. Het resultaat? U krijgt identieke kwaliteit tegen aanzienlijk lagere kosten, met snelle levering aan de deur.", de: "Heute verwenden wir die gleichen Salamander-Profile wie die größten Marken in Europa, aber unser Direkt-zum-Kunden-Modell eliminiert die Zwischenhändler, die die Preise um 30–40% in die Höhe treiben. Das Ergebnis? Sie erhalten identische Qualität zu deutlich niedrigeren Kosten, mit kostenloser Lieferung.", fr: "Aujourd'hui, nous utilisons les mêmes profils Salamander que les plus grandes marques d'Europe, mais notre modèle direct au client élimine les intermédiaires qui gonflent les prix de 30 à 40 %. Le résultat ? Vous obtenez une qualité identique à un coût nettement inférieur, avec livraison rapide.", es: "Hoy, utilizamos los mismos perfiles Salamander que las marcas más grandes de Europa, pero nuestro modelo directo al cliente elimina a los intermediarios que inflan los precios en un 30–40%. ¿El resultado? Obtiene una calidad idéntica a un costo significativamente menor, con entrega rápida.", it: "Oggi utilizziamo gli stessi profili Salamander dei più grandi marchi in Europa, ma il nostro modello diretto al cliente elimina gli intermediari che gonfiano i prezzi del 30–40%. Il risultato? Ottieni una qualità identica a un costo significativamente inferiore, con consegna rapida.", pl: "Dziś używamy tych samych profili Salamander co największe marki w Europie, ale nasz model bezpośredni eliminuje pośredników, którzy zawyżają ceny o 30–40%. Wynik? Otrzymujesz identyczną jakość za znacznie niższą cenę, z szybką dostawą." },
 
     // Values
     "about.values.subtitle": { en: "Our Values", nl: "Onze Waarden", de: "Unsere Werte", fr: "Nos Valeurs", es: "Nuestros Valores", it: "I Nostri Valori", pl: "Nasze Wartości" },
     "about.values.title": { en: "What Drives", nl: "Wat Drijft", de: "Was Uns Antreibt:", fr: "Ce Qui Motive", es: "Lo Que Impulsa", it: "Cosa Guida", pl: "Co Napędza" },
     "about.values.titleAccent": { en: "Our Work", nl: "Ons Werk", de: "Unsere Arbeit", fr: "Notre Travail", es: "Nuestro Trabajo", it: "Il Nostro Lavoro", pl: "Naszą Pracę" },
     "about.val1.title": { en: "Quality First", nl: "Kwaliteit Eerst", de: "Qualität Zuerst", fr: "Qualité d'Abord", es: "Calidad Primero", it: "Qualità Prima di Tutto", pl: "Jakość Przede Wszystkim" },
-    "about.val1.desc": { en: "Every product passes multi-stage quality control. We use only genuine Salamander profiles, premium hardware, and certified glazing units.", nl: "Elk product doorstaat een meertraps kwaliteitscontrole. We gebruiken alleen echte Salamander-profielen, premium beslag en gecertificeerde beglazing.", de: "Jedes Produkt durchläuft eine mehrstufige Qualitätskontrolle. Wir verwenden nur echte Salamander-Profile, Premium-Beschläge und zertifizierte Verglasungseinheiten.", fr: "Chaque produit passe un contrôle qualité en plusieurs étapes. Nous n'utilisons que des profils Salamander authentiques, de la quincaillerie premium et des vitrages certifiés.", es: "Cada producto pasa un control de calidad de múltiples etapas. Solo utilizamos perfiles Salamander genuinos, herrajes premium y unidades de acristalamiento certificadas.", it: "Ogni prodotto supera un controllo di qualità a più fasi. Utilizziamo solo profili Salamander originali, ferramenta premium e unità di vetratura certificate.", pl: "Każdy produkt przechodzi wieloetapową kontrolę jakości. Używamy tylko oryginalnych profili Salamander, okuć premium i certyfikowanych pakietów szybowych." },
+    "about.val1.desc": { en: "Every product passes multi-stage quality control. We use only genuine REHAU, Schüco & FEAL profiles, premium hardware, and certified glazing units.", nl: "Elk product doorstaat een meertraps kwaliteitscontrole. We gebruiken alleen echte Salamander-profielen, premium beslag en gecertificeerde beglazing.", de: "Jedes Produkt durchläuft eine mehrstufige Qualitätskontrolle. Wir verwenden nur echte Salamander-Profile, Premium-Beschläge und zertifizierte Verglasungseinheiten.", fr: "Chaque produit passe un contrôle qualité en plusieurs étapes. Nous n'utilisons que des profils Salamander authentiques, de la quincaillerie premium et des vitrages certifiés.", es: "Cada producto pasa un control de calidad de múltiples etapas. Solo utilizamos perfiles Salamander genuinos, herrajes premium y unidades de acristalamiento certificadas.", it: "Ogni prodotto supera un controllo di qualità a più fasi. Utilizziamo solo profili Salamander originali, ferramenta premium e unità di vetratura certificate.", pl: "Każdy produkt przechodzi wieloetapową kontrolę jakości. Używamy tylko oryginalnych profili Salamander, okuć premium i certyfikowanych pakietów szybowych." },
     "about.val2.title": { en: "Transparency", nl: "Transparantie", de: "Transparenz", fr: "Transparence", es: "Transparencia", it: "Trasparenza", pl: "Przejrzystość" },
     "about.val2.desc": { en: "Clear, itemized pricing with no hidden fees. Detailed technical drawings before production. Full tracking on every delivery.", nl: "Duidelijke, gespecificeerde prijzen zonder verborgen kosten. Gedetailleerde technische tekeningen voor productie. Volledige tracking op elke levering.", de: "Klare, detaillierte Preise ohne versteckte Gebühren. Detaillierte technische Zeichnungen vor der Produktion. Volle Sendungsverfolgung bei jeder Lieferung.", fr: "Tarification claire et détaillée sans frais cachés. Dessins techniques détaillés avant la production. Suivi complet sur chaque livraison.", es: "Precios claros y detallados sin tarifas ocultas. Dibujos técnicos detallados antes de la producción. Seguimiento completo en cada entrega.", it: "Prezzi chiari e dettagliati senza costi nascosti. Disegni tecnici dettagliati prima della produzione. Tracciamento completo su ogni consegna.", pl: "Jasne, wyszczególnione ceny bez ukrytych opłat. Szczegółowe rysunki techniczne przed produkcją. Pełne śledzenie każdej dostawy." },
     "about.val3.title": { en: "Reliability", nl: "Betrouwbaarheid", de: "Zuverlässigkeit", fr: "Fiabilité", es: "Fiabilidad", it: "Affidabilità", pl: "Niezawodność" },
@@ -854,7 +863,7 @@ const translations = {
     "about.compare.subtitle": { en: "Price Comparison", nl: "Prijsvergelijking", de: "Preisvergleich", fr: "Comparaison de Prix", es: "Comparación de Precios", it: "Confronto Prezzi", pl: "Porównanie Cen" },
     "about.compare.title": { en: "Same Quality,", nl: "Dezelfde Kwaliteit,", de: "Gleiche Qualität,", fr: "Même Qualité,", es: "Misma Calidad,", it: "Stessa Qualità,", pl: "Ta Sama Jakość," },
     "about.compare.titleAccent": { en: "Better Price", nl: "Betere Prijs", de: "Besserer Preis", fr: "Meilleur Prix", es: "Mejor Precio", it: "Prezzo Migliore", pl: "Lepsza Cena" },
-    "about.compare.desc": { en: "See how QD Frames compares to retail window companies using the same Salamander profiles.", nl: "Bekijk hoe QD Frames zich verhoudt tot detailhandelaren die dezelfde Salamander profielen gebruiken.", de: "Sehen Sie, wie QD Frames im Vergleich zu Einzelhändlern mit denselben Salamander-Profilen abschneidet.", fr: "Découvrez comment QD Frames se compare aux revendeurs utilisant les mêmes profilés Salamander.", es: "Vea cómo QD Frames se compara con los minoristas que utilizan los mismos perfiles Salamander.", it: "Scopri come QD Frames si confronta con i rivenditori che utilizzano gli stessi profili Salamander.", pl: "Zobacz, jak QD Frames wypada w porównaniu z detalistami używającymi tych samych profili Salamander." },
+    "about.compare.desc": { en: "See how QD Frames compares to retail window companies using the same REHAU, Schüco & FEAL profiles.", nl: "Bekijk hoe QD Frames zich verhoudt tot detailhandelaren die dezelfde Salamander profielen gebruiken.", de: "Sehen Sie, wie QD Frames im Vergleich zu Einzelhändlern mit denselben Salamander-Profilen abschneidet.", fr: "Découvrez comment QD Frames se compare aux revendeurs utilisant les mêmes profilés Salamander.", es: "Vea cómo QD Frames se compara con los minoristas que utilizan los mismos perfiles Salamander.", it: "Scopri come QD Frames si confronta con i rivenditori che utilizzano gli stessi profili Salamander.", pl: "Zobacz, jak QD Frames wypada w porównaniu z detalistami używającymi tych samych profili Salamander." },
     "about.compare.row1": { en: "Standard tilt-and-turn window (82mm)", nl: "Standaard draai-kiepraam (82mm)", de: "Standard Dreh-Kipp-Fenster (82mm)", fr: "Fenêtre oscillo-battante standard (82mm)", es: "Ventana oscilobatiente estándar (82mm)", it: "Finestra standard vasistas (82mm)", pl: "Standardowe okno uchylno-rozwierne (82mm)" },
     "about.compare.row2": { en: "Lift & slide door system", nl: "Hefschuifdeur systeem", de: "Hebeschiebetür System", fr: "Porte levante-coulissante", es: "Sistema de puerta elevable", it: "Sistema porta alzante scorrevole", pl: "System drzwi podnoszono-przesuwnych" },
     "about.compare.row3": { en: "Full house (15 windows + 2 doors)", nl: "Volledig huis (15 ramen + 2 deuren)", de: "Ganzes Haus (15 Fenster + 2 Türen)", fr: "Maison complète (15 fenêtres + 2 portes)", es: "Casa completa (15 ventanas + 2 puertas)", it: "Casa completa (15 finestre + 2 porte)", pl: "Cały dom (15 okien + 2 drzwi)" },
