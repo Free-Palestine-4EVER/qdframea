@@ -1495,6 +1495,83 @@ select.form-control {
   }
 }
 
+/* --- Global image overflow fix --- */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- Mobile image & layout fixes --- */
+@media (max-width: 768px) {
+  .product-card-img img,
+  .profile-card-img img,
+  .project-gallery-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .product-card-img {
+    max-height: 220px;
+    overflow: hidden;
+  }
+
+  .project-gallery {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-gallery-item {
+    aspect-ratio: 16/9;
+  }
+
+  .delivery-grid {
+    grid-template-columns: 1fr !important;
+    gap: var(--space-xl) !important;
+  }
+
+  .delivery-stats {
+    grid-template-columns: 1fr !important;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    max-width: 320px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .partner-card {
+    padding: 1.5rem;
+  }
+
+  .profile-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .hero-bg img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  .reveal-left,
+  .reveal-right {
+    width: 100%;
+  }
+
+  .reveal-left img,
+  .reveal-right img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+}
+
 /* --- Mobile Nav Overlay --- */
 .nav-overlay {
   position: fixed;
