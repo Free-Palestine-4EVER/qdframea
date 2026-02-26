@@ -4,9 +4,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  // --- Sticky Navbar ---
+  // --- Sticky Navbar + Scroll Progress ---
   const navbar = document.querySelector('.navbar');
   const backToTop = document.getElementById('backToTop');
+  const scrollProgress = document.getElementById('scrollProgress');
   const handleScroll = () => {
     if (window.scrollY > 50) {
       navbar.classList.add('scrolled');
@@ -20,6 +21,12 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         backToTop.classList.remove('visible');
       }
+    }
+    // Scroll progress bar
+    if (scrollProgress) {
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = docHeight > 0 ? (window.scrollY / docHeight) * 100 : 0;
+      scrollProgress.style.width = scrollPercent + '%';
     }
   };
   window.addEventListener('scroll', handleScroll, { passive: true });

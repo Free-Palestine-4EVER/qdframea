@@ -1170,36 +1170,65 @@ select.form-control {
 /* --- CTA Section --- */
 .cta-section {
   text-align: center;
-  padding: var(--space-5xl) 0;
+  padding: 6rem 0;
   position: relative;
   overflow: hidden;
-  background: var(--bg-secondary);
+  background: linear-gradient(135deg, #0a1628 0%, #0d2847 40%, #0d6b61 100%);
 }
 
 .cta-section::before {
   content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(15, 118, 110, 0.05) 0%, transparent 70%);
+  inset: 0;
+  background:
+    radial-gradient(ellipse 600px 400px at 20% 50%, rgba(13, 107, 97, 0.3), transparent),
+    radial-gradient(ellipse 500px 300px at 80% 30%, rgba(184, 134, 11, 0.15), transparent);
   pointer-events: none;
+}
+
+.cta-section::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg at 50% 50%, transparent 0deg, rgba(255,255,255,0.02) 60deg, transparent 120deg);
+  animation: cta-rotate 20s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes cta-rotate {
+  to { transform: rotate(360deg); }
 }
 
 .cta-section .subtitle {
   position: relative;
+  z-index: 2;
+  color: #d4a017 !important;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 .cta-section h2 {
   margin-bottom: var(--space-md);
   position: relative;
+  z-index: 2;
+  color: #fff !important;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 800;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
 }
 
 .cta-section p {
   margin: 0 auto var(--space-2xl);
   position: relative;
+  z-index: 2;
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 1.1rem;
+  max-width: 600px;
 }
 
 .cta-buttons {
@@ -2050,8 +2079,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(10, 22, 40, 0.85);
-  /* Dark overlay */
+  background: linear-gradient(135deg, rgba(10, 22, 40, 0.92) 0%, rgba(13, 107, 97, 0.85) 100%);
   z-index: 1;
 }
 
@@ -2064,11 +2092,61 @@ body {
 .section-with-bg p,
 .section-with-bg .subtitle {
   color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .section-with-bg .subtitle {
   color: #d4a017;
+}
+
+/* CTA Button overrides inside dark sections */
+.cta-section .btn-primary,
+.section-with-bg .btn-primary {
+  background: linear-gradient(135deg, #d4a017 0%, #e8b828 100%);
+  color: #0a1628;
+  border: none;
+  font-weight: 700;
+  padding: 1rem 2.5rem;
+  font-size: 1.05rem;
+  box-shadow: 0 4px 20px rgba(212, 160, 23, 0.4);
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-section .btn-primary:hover,
+.section-with-bg .btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(212, 160, 23, 0.5);
+  background: linear-gradient(135deg, #e8b828 0%, #f0c640 100%);
+}
+
+.cta-section .btn-secondary,
+.section-with-bg .btn-secondary {
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 2px solid rgba(255,255,255,0.4);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-weight: 600;
+  padding: 1rem 2.5rem;
+  font-size: 1.05rem;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-section .btn-secondary:hover,
+.section-with-bg .btn-secondary:hover {
+  background: rgba(255,255,255,0.22);
+  border-color: rgba(255,255,255,0.7);
+  transform: translateY(-2px);
+}
+
+.cta-section .cta-buttons,
+.section-with-bg .cta-buttons {
+  position: relative;
+  z-index: 2;
 }
 
 /* --- Delivery Banner (Redesigned) --- */
