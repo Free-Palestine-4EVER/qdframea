@@ -446,3 +446,229 @@ body {
     left: -30px;
     animation: float 6s ease-in-out infinite reverse;
 }
+
+/* ============ MOUSE-TRACKING GRADIENT ON CARDS ============ */
+.product-card .product-card-img::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgba(13, 107, 97, 0.15), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.product-card:hover .product-card-img::after {
+    opacity: 1;
+}
+
+/* ============ HERO TEXT GLOW ============ */
+@keyframes text-glow-pulse {
+    0%, 100% { filter: drop-shadow(0 0 8px rgba(13, 107, 97, 0.3)); }
+    50% { filter: drop-shadow(0 0 20px rgba(13, 107, 97, 0.5)); }
+}
+
+.hero-title .text-gradient {
+    animation: text-glow-pulse 4s ease-in-out infinite;
+}
+
+/* ============ STAT SECTION REDESIGN ============ */
+.stats-section {
+    background: linear-gradient(135deg, #0a1628 0%, #0d2847 50%, #0d6b61 100%) !important;
+    padding: 5rem 0 !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.stats-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(ellipse 400px 200px at 15% 50%, rgba(13, 107, 97, 0.25), transparent),
+        radial-gradient(ellipse 300px 200px at 85% 50%, rgba(184, 134, 11, 0.15), transparent);
+    pointer-events: none;
+}
+
+.stats-section .stat-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.stats-section .stat-number {
+    color: #fff !important;
+    font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
+    font-weight: 900 !important;
+    font-family: var(--font-heading) !important;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #fff 30%, #d4a017 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.stats-section .stat-label {
+    color: rgba(255,255,255,0.7) !important;
+    font-size: 0.95rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+
+/* ============ TYPING CURSOR FOR HERO ============ */
+@keyframes blink-cursor {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.typing-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 1em;
+    background: var(--accent-1);
+    margin-left: 4px;
+    animation: blink-cursor 1s step-end infinite;
+    vertical-align: text-bottom;
+}
+
+/* ============ ANIMATED BORDER GRADIENT FOR USP CARDS ============ */
+.usp-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.usp-card::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #0d6b61, #d4a017);
+    transition: width 0.5s ease;
+    border-radius: 0 3px 0 0;
+}
+
+.usp-card:hover::before {
+    width: 100%;
+}
+
+/* ============ SECTION DIVIDER ANIMATION ============ */
+.section-divider {
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #0d6b61, #d4a017);
+    margin: 1rem auto 0;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-divider::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+/* ============ HERO BADGE PILL STYLE ============ */
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1.4rem;
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 100px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: rgba(255,255,255,0.9);
+    letter-spacing: 0.02em;
+}
+
+/* ============ TESTIMONIAL QUOTE MARK ============ */
+.testimonial-card::before {
+    content: '"';
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 5rem;
+    line-height: 1;
+    color: rgba(13, 107, 97, 0.08);
+    font-family: Georgia, serif;
+    pointer-events: none;
+}
+
+/* ============ SMOOTH LINK UNDERLINE ============ */
+.product-card-link {
+    position: relative;
+    display: inline-block;
+}
+
+.product-card-link::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--accent-1);
+    transition: width 0.3s ease;
+}
+
+.product-card:hover .product-card-link::after {
+    width: 100%;
+}
+
+/* ============ DELIVERY BANNER UPGRADE ============ */
+.delivery-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.delivery-banner::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(10, 22, 40, 0.93) 0%, rgba(13, 107, 97, 0.88) 100%) !important;
+    z-index: 1;
+}
+
+.delivery-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.delivery-banner .delivery-heading,
+.delivery-banner .delivery-desc,
+.delivery-banner .delivery-label {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+/* ============ PROJECT GALLERY GRADIENT OVERLAY ============ */
+.project-gallery-overlay {
+    background: linear-gradient(0deg, rgba(10, 22, 40, 0.85) 0%, transparent 60%) !important;
+}
+
+.project-gallery-item::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2px solid transparent;
+    border-radius: inherit;
+    transition: border-color 0.4s ease;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.project-gallery-item:hover::after {
+    border-color: rgba(212, 160, 23, 0.5);
+}

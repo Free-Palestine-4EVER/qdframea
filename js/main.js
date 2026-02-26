@@ -203,6 +203,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }, { passive: true });
   }
 
+  // --- Mouse-tracking gradient on product cards ---
+  document.querySelectorAll('.product-card').forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      const img = card.querySelector('.product-card-img');
+      if (img) {
+        img.style.setProperty('--mx', x + '%');
+        img.style.setProperty('--my', y + '%');
+      }
+    });
+  });
+
+  // --- Smooth number formatting for hero stats ---
+  document.querySelectorAll('.hero-stat-value').forEach(el => {
+    el.style.fontVariantNumeric = 'tabular-nums';
+  });
+
   // --- Floating Particles ---
   createParticles();
 
