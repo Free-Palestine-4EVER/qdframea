@@ -12,7 +12,7 @@
    3. Get your Conversion ID (looks like: AW-123456789)
    4. Get each Conversion Label (looks like: AbCdEfGhIjKl)
    5. Replace the placeholders below:
-      - AW-CONVERSION_ID → your actual Conversion ID
+      - AW-17986130993 → your actual Conversion ID
       - QUOTE_FORM_LABEL → label for quote form conversion
       - WHATSAPP_LABEL → label for WhatsApp click conversion
       - PHONE_LABEL → label for phone click conversion
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Google Ads conversion
             if (typeof gtag === 'function') {
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-CONVERSION_ID/WHATSAPP_LABEL',
+                    'send_to': 'AW-17986130993/WHATSAPP_LABEL',
                     'event_callback': () => {}
                 });
             }
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
         el.addEventListener('click', () => {
             if (typeof gtag === 'function') {
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-CONVERSION_ID/PHONE_LABEL',
+                    'send_to': 'AW-17986130993/PHONE_LABEL',
                     'event_callback': () => {}
                 });
                 gtag('event', 'phone_click', {
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
         el.addEventListener('click', () => {
             if (typeof gtag === 'function') {
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-CONVERSION_ID/EMAIL_LABEL',
+                    'send_to': 'AW-17986130993/EMAIL_LABEL',
                     'event_callback': () => {}
                 });
                 gtag('event', 'email_click', {
