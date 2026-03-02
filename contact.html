@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+<!-- Google Ads Conversion Tracking -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-CONVERSION_ID"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("js", new Date());
+  gtag("config", "AW-CONVERSION_ID");
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,11 +81,12 @@
             <div class="grid grid-2" style="gap: var(--space-4xl);">
                 <!-- Form -->
                 <div class="reveal-left">
-                    <form id="quoteForm" action="https://api.web3forms.com/submit" method="POST">
-                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
-                        <input type="hidden" name="subject" value="New Quote Request — QD Frames">
-                        <input type="hidden" name="from_name" value="QD Frames Website">
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                    <form id="quoteForm" action="https://formsubmit.co/info@qdframes.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Quote Request — QD Frames">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="https://qdframes.nl/contact.html?submitted=true">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display: none;">
                         <h3 style="margin-bottom: var(--space-xl);" data-i18n="contact.form.title">Project Details</h3>
 
                         <div class="grid grid-2">
@@ -387,6 +396,7 @@
   </button>
   <script src="js/translations.js"></script>
     <script src="js/form.js"></script>
+<script src="js/tracking.js"></script>
 </body>
 
 </html>
