@@ -84,138 +84,53 @@
                 <!-- Form -->
                 <div class="reveal-left">
                     <form id="quoteForm" action="https://formsubmit.co/qdframess@gmail.com" method="POST">
-                        <input type="hidden" name="_subject" value="New Quote Request — QD Frames">
+                        <input type="hidden" name="_subject" value="New Inquiry — QD Frames">
                         <input type="hidden" name="_captcha" value="false">
                         <input type="hidden" name="_next" value="https://qdframes.nl/contact.html?submitted=true">
                         <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_cc" value="info@qdframes.com">
                         <input type="text" name="_honey" style="display: none;">
-                        <h3 style="margin-bottom: var(--space-xl);" data-i18n="contact.form.title">Project Details</h3>
+                        <h3 style="margin-bottom: var(--space-xl);" data-i18n="contact.form.title">Contact Us</h3>
 
-                        <div class="grid grid-2">
-                            <div class="form-group">
-                                <label class="form-label" for="firstName" data-i18n="contact.form.firstName">First Name
-                                    *</label>
-                                <input type="text" class="form-control" id="firstName" name="firstName"
-                                    placeholder="John" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="lastName" data-i18n="contact.form.lastName">Last Name
-                                    *</label>
-                                <input type="text" class="form-control" id="lastName" name="lastName"
-                                    placeholder="Smith" required>
-                            </div>
-                        </div>
-
-                        <div class="grid grid-2">
-                            <div class="form-group">
-                                <label class="form-label" for="email" data-i18n="contact.form.email">Email *</label>
-                                <input type="email" class="form-control" id="email" name="email"
-                                    placeholder="john@example.com" required>
-                            </div>
-                            <div class="form-group">
-                                <label class="form-label" for="phone" data-i18n="contact.form.phone">Phone</label>
-                                <input type="tel" class="form-control" id="phone" name="phone"
-                                    placeholder="+49 123 456 7890">
-                            </div>
+                        <div class="form-group">
+                            <label class="form-label" for="name" data-i18n="contact.form.name">Name *</label>
+                            <input type="text" class="form-control" id="name" name="name"
+                                placeholder="Your full name" required>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="country" data-i18n="contact.form.country">Country *</label>
-                            <select class="form-control" id="country" name="country" required>
-                                <option value="" data-i18n="contact.form.ph.country">Select your country</option>
-                                <option value="AT">Austria</option>
-                                <option value="BE">Belgium</option>
-                                <option value="HR">Croatia</option>
-                                <option value="CZ">Czech Republic</option>
-                                <option value="DK">Denmark</option>
-                                <option value="FI">Finland</option>
-                                <option value="FR">France</option>
-                                <option value="DE">Germany</option>
-                                <option value="HU">Hungary</option>
-                                <option value="IE">Ireland</option>
-                                <option value="IT">Italy</option>
-                                <option value="NL">Netherlands</option>
-                                <option value="NO">Norway</option>
-                                <option value="PL">Poland</option>
-                                <option value="PT">Portugal</option>
-                                <option value="RO">Romania</option>
-                                <option value="SK">Slovakia</option>
-                                <option value="SI">Slovenia</option>
-                                <option value="ES">Spain</option>
-                                <option value="SE">Sweden</option>
-                                <option value="CH">Switzerland</option>
-                                <option value="GB">United Kingdom</option>
-                                <option value="other">Other</option>
-                            </select>
+                            <label class="form-label" for="email" data-i18n="contact.form.email">Email *</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="your@email.com" required>
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="productType" data-i18n="contact.form.productType">Product
-                                Type *</label>
-                            <select class="form-control" id="productType" name="productType" required>
-                                <option value="" data-i18n="contact.form.ph.productType">What do you need?</option>
-                                <option value="windows" data-i18n="contact.form.opt.prod.windows">Windows</option>
-                                <option value="doors" data-i18n="contact.form.opt.prod.doors">Doors</option>
-                                <option value="facades" data-i18n="contact.form.opt.prod.facades">Glass Facades</option>
-                                <option value="windows-doors" data-i18n="contact.form.opt.prod.windowsDoors">Windows &
-                                    Doors</option>
-                                <option value="complete" data-i18n="contact.form.opt.prod.complete">Complete Package
-                                    (Windows, Doors & Facades)</option>
-                            </select>
+                            <label class="form-label" for="phone" data-i18n="contact.form.phone">Phone</label>
+                            <input type="tel" class="form-control" id="phone" name="phone"
+                                placeholder="+49 123 456 7890">
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="projectType" data-i18n="contact.form.projectType">Project
-                                Type</label>
-                            <select class="form-control" id="projectType" name="projectType">
-                                <option value="" data-i18n="contact.form.ph.projectType">Select project type</option>
-                                <option value="new-build" data-i18n="contact.form.opt.proj.newBuild">New Construction
-                                </option>
-                                <option value="renovation" data-i18n="contact.form.opt.proj.renovation">Renovation /
-                                    Replacement</option>
-                                <option value="commercial" data-i18n="contact.form.opt.proj.commercial">Commercial
-                                    Project</option>
-                                <option value="multi-unit" data-i18n="contact.form.opt.proj.multiUnit">Multi-Unit
-                                    Residential</option>
-                            </select>
+                            <label class="form-label" for="country" data-i18n="contact.form.country">Country</label>
+                            <input type="text" class="form-control" id="country" name="country"
+                                placeholder="Your country">
                         </div>
 
                         <div class="form-group">
-                            <label class="form-label" for="quantity" data-i18n="contact.form.quantity">Estimated
-                                Quantity</label>
-                            <input type="text" class="form-control" id="quantity" name="quantity"
-                                placeholder="e.g. 12 windows, 3 doors" data-i18n="contact.form.ph.quantity">
-                        </div>
-
-                        <div class="form-group">
-                            <label class="form-label" for="message" data-i18n="contact.form.message">Project Details
-                                *</label>
+                            <label class="form-label" for="message" data-i18n="contact.form.message">Inquiry *</label>
                             <textarea class="form-control" id="message" name="message"
-                                placeholder="Tell us about your project — dimensions, requirements, timeline, or any specific questions..."
-                                required data-i18n="contact.form.ph.message"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <label
-                                style="display: flex; align-items: flex-start; gap: var(--space-sm); cursor: pointer; font-size: 0.8125rem; color: var(--text-muted);">
-                                <input type="checkbox" name="consent" required style="margin-top: 3px;">
-                                <span data-i18n="contact.form.consent">I agree to QD Frames processing my data to handle
-                                    this inquiry. I can withdraw my
-                                    consent at any time.</span>
-                            </label>
+                                placeholder="How can we help you?"
+                                required></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-lg"
-                            style="width: 100%; justify-content: center;" data-i18n="contact.form.submit">Submit Quote
-                            Request</button>
+                            style="width: 100%; justify-content: center;" data-i18n="contact.form.submit">Send Message</button>
 
                         <div id="formSuccess"
                             style="display: none; margin-top: var(--space-xl); padding: var(--space-lg); background: rgba(5, 150, 105, 0.08); border: 1px solid rgba(5, 150, 105, 0.2); border-radius: var(--radius-md); text-align: center;">
-                            <strong style="color: var(--success);" data-i18n="contact.form.success.title">✓ Quote
-                                request submitted!</strong>
+                            <strong style="color: var(--success);" data-i18n="contact.form.success.title">✓ Message sent!</strong>
                             <p style="font-size: 0.875rem; margin-top: var(--space-xs);"
-                                data-i18n="contact.form.success.desc">Our engineering team will
-                                respond within 24 hours.</p>
+                                data-i18n="contact.form.success.desc">We'll get back to you within 24 hours.</p>
                         </div>
                     </form>
                 </div>
